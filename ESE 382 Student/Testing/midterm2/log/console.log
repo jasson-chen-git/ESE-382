@@ -1,0 +1,431 @@
+# Design: Design midterm2 already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1.vhd
+# Compile Entity "nand_4_z"
+# Compile Architecture "behavioral" of Entity "nand_4_z"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => nand_4_z
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1.vhd
+# Compile Architecture "behavioral" of Entity "nand_4_z"
+# Error: COMP96_0077: 2018_q1.vhd : (19, 12): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1.vhd
+# Compile Entity "nand_4_z"
+# Compile Architecture "behavioral" of Entity "nand_4_z"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+nand_4_z nand_4_z behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5396 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Testing\midterm2\src\wave.asdb
+#  1:04 PM, Thursday, April 13, 2023
+#  Simulation has been initialized
+# VSIM: 3 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/wave.asdb'.
+run @320ns
+# KERNEL: stopped at time: 320 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+nand_4_z nand_4_z behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1.vhd
+# Compile Entity "nand_4_z"
+# Compile Architecture "behavioral" of Entity "nand_4_z"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5396 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Testing\midterm2\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  1:05 PM, Thursday, April 13, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run @320ns
+# KERNEL: stopped at time: 320 ns
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1.vhd
+# Compile Entity "nand_4_z"
+# Compile Architecture "behavioral" of Entity "nand_4_z"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1_tb.vhd
+# Compile Entity "q1_2018_tb"
+# Compile Architecture "tb" of Entity "q1_2018_tb"
+# Error: COMP96_0019: 2018_q1_tb.vhd : (18, 3): Keyword 'begin' expected.
+# Error: COMP96_0019: 2018_q1_tb.vhd : (22, 5): Keyword 'end' expected.
+# Error: COMP96_0016: 2018_q1_tb.vhd : (22, 10): Design unit declaration expected.
+# Error: COMP96_0018: 2018_q1_tb.vhd : (29, 17): Identifier expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1_tb.vhd
+# Compile Entity "q1_2018_tb"
+# Compile Architecture "tb" of Entity "q1_2018_tb"
+# Error: COMP96_0015: 2018_q1_tb.vhd : (23, 10): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1_tb.vhd
+# Compile Entity "q1_2018_tb"
+# Compile Architecture "tb" of Entity "q1_2018_tb"
+# Error: COMP96_0078: 2018_q1_tb.vhd : (21, 12): Unknown identifier "to_unsigned".
+# Error: COMP96_0133: 2018_q1_tb.vhd : (21, 12): Cannot find object declaration.
+# Error: COMP96_0289: 2018_q1_tb.vhd : (21, 12): Prefix of index must be an array.
+# Error: COMP96_0077: 2018_q1_tb.vhd : (21, 12): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0142: 2018_q1_tb.vhd : (22, 11): Improper use of qualified expression value.
+# Error: COMP96_0077: 2018_q1_tb.vhd : (22, 11): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0753: 2018_q1_tb.vhd : (24, 31): Cannot find the "nand" operator with operands denoted with the "[BOOLEAN, STD_ULOGIC]" signature.
+# Error: COMP96_0077: 2018_q1_tb.vhd : (24, 12): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1_tb.vhd
+# Compile Entity "q1_2018_tb"
+# Compile Architecture "tb" of Entity "q1_2018_tb"
+# Error: COMP96_0617: 2018_q1_tb.vhd : (22, 12): Assignment target incompatible with right side. Cannot convert 'UNSIGNED' to 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0142: 2018_q1_tb.vhd : (23, 11): Improper use of qualified expression value.
+# Error: COMP96_0077: 2018_q1_tb.vhd : (23, 11): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0753: 2018_q1_tb.vhd : (25, 31): Cannot find the "nand" operator with operands denoted with the "[BOOLEAN, STD_ULOGIC]" signature.
+# Error: COMP96_0077: 2018_q1_tb.vhd : (25, 12): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1_tb.vhd
+# Compile Entity "q1_2018_tb"
+# Compile Architecture "tb" of Entity "q1_2018_tb"
+# Error: COMP96_0149: 2018_q1_tb.vhd : (23, 21): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0753: 2018_q1_tb.vhd : (25, 31): Cannot find the "nand" operator with operands denoted with the "[BOOLEAN, STD_ULOGIC]" signature.
+# Error: COMP96_0077: 2018_q1_tb.vhd : (25, 12): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1_tb.vhd
+# Compile Entity "q1_2018_tb"
+# Compile Architecture "tb" of Entity "q1_2018_tb"
+# Error: COMP96_0149: 2018_q1_tb.vhd : (23, 30): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0149: 2018_q1_tb.vhd : (23, 21): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0753: 2018_q1_tb.vhd : (25, 31): Cannot find the "nand" operator with operands denoted with the "[BOOLEAN, STD_ULOGIC]" signature.
+# Error: COMP96_0077: 2018_q1_tb.vhd : (25, 12): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1_tb.vhd
+# Compile Entity "q1_2018_tb"
+# Compile Architecture "tb" of Entity "q1_2018_tb"
+# Error: COMP96_0149: 2018_q1_tb.vhd : (23, 21): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0753: 2018_q1_tb.vhd : (25, 31): Cannot find the "nand" operator with operands denoted with the "[BOOLEAN, STD_ULOGIC]" signature.
+# Error: COMP96_0077: 2018_q1_tb.vhd : (25, 12): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1_tb.vhd
+# Compile Entity "q1_2018_tb"
+# Compile Architecture "tb" of Entity "q1_2018_tb"
+# Error: COMP96_0617: 2018_q1_tb.vhd : (23, 11): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_ULOGIC'.
+# Error: COMP96_0753: 2018_q1_tb.vhd : (25, 31): Cannot find the "nand" operator with operands denoted with the "[BOOLEAN, STD_ULOGIC]" signature.
+# Error: COMP96_0077: 2018_q1_tb.vhd : (25, 12): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1_tb.vhd
+# Compile Entity "q1_2018_tb"
+# Compile Architecture "tb" of Entity "q1_2018_tb"
+# Error: COMP96_0149: 2018_q1_tb.vhd : (23, 20): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0617: 2018_q1_tb.vhd : (23, 11): Assignment target incompatible with right side. Cannot convert 'UNSIGNED' to 'STD_ULOGIC'.
+# Error: COMP96_0753: 2018_q1_tb.vhd : (25, 31): Cannot find the "nand" operator with operands denoted with the "[BOOLEAN, STD_ULOGIC]" signature.
+# Error: COMP96_0077: 2018_q1_tb.vhd : (25, 12): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1_tb.vhd
+# Compile Entity "q1_2018_tb"
+# Compile Architecture "tb" of Entity "q1_2018_tb"
+# Error: COMP96_0142: 2018_q1_tb.vhd : (23, 22): Improper use of qualified expression value.
+# Error: COMP96_0077: 2018_q1_tb.vhd : (23, 11): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0753: 2018_q1_tb.vhd : (25, 31): Cannot find the "nand" operator with operands denoted with the "[BOOLEAN, STD_ULOGIC]" signature.
+# Error: COMP96_0077: 2018_q1_tb.vhd : (25, 12): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1_tb.vhd
+# Compile Entity "q1_2018_tb"
+# Compile Architecture "tb" of Entity "q1_2018_tb"
+# Error: COMP96_0142: 2018_q1_tb.vhd : (23, 12): Improper use of qualified expression value.
+# Error: COMP96_0077: 2018_q1_tb.vhd : (23, 11): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0753: 2018_q1_tb.vhd : (25, 31): Cannot find the "nand" operator with operands denoted with the "[BOOLEAN, STD_ULOGIC]" signature.
+# Error: COMP96_0077: 2018_q1_tb.vhd : (25, 12): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1_tb.vhd
+# Compile Entity "q1_2018_tb"
+# Compile Architecture "tb" of Entity "q1_2018_tb"
+# Error: COMP96_0269: 2018_q1_tb.vhd : (23, 12): For each formal parameter of a subprogram, a subprogram call must specify exactly one corresponding actual.
+# Error: COMP96_0617: 2018_q1_tb.vhd : (23, 11): Assignment target incompatible with right side. Cannot convert 'UNSIGNED' to 'STD_ULOGIC'.
+# Error: COMP96_0753: 2018_q1_tb.vhd : (25, 31): Cannot find the "nand" operator with operands denoted with the "[BOOLEAN, STD_ULOGIC]" signature.
+# Error: COMP96_0077: 2018_q1_tb.vhd : (25, 12): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1_tb.vhd
+# Compile Entity "q1_2018_tb"
+# Compile Architecture "tb" of Entity "q1_2018_tb"
+# Error: COMP96_0617: 2018_q1_tb.vhd : (23, 11): Assignment target incompatible with right side. Cannot convert 'UNSIGNED' to 'STD_ULOGIC'.
+# Error: COMP96_0753: 2018_q1_tb.vhd : (25, 31): Cannot find the "nand" operator with operands denoted with the "[BOOLEAN, STD_ULOGIC]" signature.
+# Error: COMP96_0077: 2018_q1_tb.vhd : (25, 12): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1_tb.vhd
+# Compile Entity "q1_2018_tb"
+# Compile Architecture "tb" of Entity "q1_2018_tb"
+# Error: COMP96_0015: 2018_q1_tb.vhd : (23, 39): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1_tb.vhd
+# Compile Entity "q1_2018_tb"
+# Compile Architecture "tb" of Entity "q1_2018_tb"
+# Error: COMP96_0617: 2018_q1_tb.vhd : (21, 9): Assignment target incompatible with right side. Cannot convert 'STD_LOGIC_VECTOR' to 'STD_ULOGIC'.
+# Error: COMP96_0753: 2018_q1_tb.vhd : (23, 30): Cannot find the "nand" operator with operands denoted with the "[BOOLEAN, STD_ULOGIC]" signature.
+# Error: COMP96_0077: 2018_q1_tb.vhd : (23, 11): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1_tb.vhd
+# Compile Entity "q1_2018_tb"
+# Compile Architecture "tb" of Entity "q1_2018_tb"
+# Error: COMP96_0753: 2018_q1_tb.vhd : (23, 30): Cannot find the "nand" operator with operands denoted with the "[BOOLEAN, STD_ULOGIC]" signature.
+# Error: COMP96_0077: 2018_q1_tb.vhd : (23, 11): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1_tb.vhd
+# Compile Entity "q1_2018_tb"
+# Compile Architecture "tb" of Entity "q1_2018_tb"
+# Error: COMP96_0275: 2018_q1_tb.vhd : (23, 19): Expression with a sequence of nand or nor operators is not allowed.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1_tb.vhd
+# Compile Entity "q1_2018_tb"
+# Compile Architecture "tb" of Entity "q1_2018_tb"
+# Error: COMP96_0753: 2018_q1_tb.vhd : (23, 30): Cannot find the "nand" operator with operands denoted with the "[BOOLEAN, STD_ULOGIC]" signature.
+# Error: COMP96_0077: 2018_q1_tb.vhd : (23, 11): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1_tb.vhd
+# Compile Entity "q1_2018_tb"
+# Compile Architecture "tb" of Entity "q1_2018_tb"
+# Error: COMP96_0275: 2018_q1_tb.vhd : (23, 19): Expression with a sequence of nand or nor operators is not allowed.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1_tb.vhd
+# Compile Entity "q1_2018_tb"
+# Compile Architecture "tb" of Entity "q1_2018_tb"
+# Error: COMP96_0015: 2018_q1_tb.vhd : (23, 26): ')' expected.
+# Error: COMP96_0015: 2018_q1_tb.vhd : (23, 41): ')' expected.
+# Error: COMP96_0015: 2018_q1_tb.vhd : (23, 56): ';' expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1_tb.vhd
+# Compile Entity "q1_2018_tb"
+# Compile Architecture "tb" of Entity "q1_2018_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+asim -O5 +access +r +m+nand_4_z nand_4_z behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5396 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Testing\midterm2\src\wave.asdb
+# Stimuli: Warning: The stimuli set "2018_q1" has been made inactive.
+#  1:20 PM, Thursday, April 13, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+q1_2018_tb q1_2018_tb tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5439 kB (elbread=427 elab2=4873 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Testing\midterm2\src\wave.asdb
+#  1:21 PM, Thursday, April 13, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /nand_4_z/inp not found in c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /nand_4_z/en not found in c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /nand_4_z/opt not found in c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/wave.asdb.
+# VSIM: 3 object(s) traced.
+run
+# RUNTIME: Info: RUNTIME_0142 2018_q1_tb.vhd (25): finish called.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /q1_2018_tb,  Process: line__25.
+# KERNEL: stopped at time: 0 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+q1_2018_tb q1_2018_tb tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5439 kB (elbread=427 elab2=4873 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Testing\midterm2\src\wave.asdb
+#  1:22 PM, Thursday, April 13, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0142 2018_q1_tb.vhd (25): finish called.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /q1_2018_tb,  Process: line__25.
+# KERNEL: stopped at time: 0 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1_tb.vhd
+# Compile Entity "q1_2018_tb"
+# Compile Architecture "tb" of Entity "q1_2018_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+q1_2018_tb q1_2018_tb tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5439 kB (elbread=427 elab2=4873 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Testing\midterm2\src\wave.asdb
+#  1:23 PM, Thursday, April 13, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0142 2018_q1_tb.vhd (24): finish called.
+# KERNEL: Time: 320 ns,  Iteration: 0,  Instance: /q1_2018_tb,  Process: p0.
+# KERNEL: stopped at time: 320 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work midterm2 -2002  $dsn/src/2018_q1_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1_tb.vhd
+# Compile Entity "q1_2018_tb"
+# Compile Architecture "tb" of Entity "q1_2018_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]

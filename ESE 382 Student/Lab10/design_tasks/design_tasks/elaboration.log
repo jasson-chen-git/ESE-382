@@ -1,0 +1,36 @@
+Active-HDL 13.0.376.8320 2023-05-05 11:06:00
+
+Elaboration top modules:
+Architecture                  tb_architecture(dds_w_freq_select_tb)
+
+
+----------------------------------------------------------------------------------------------------------------
+Entity                | Architecture    | Library      | Info | Compiler Version          | Compilation Options
+----------------------------------------------------------------------------------------------------------------
+dds_w_freq_select_tb  | tb_architecture | design_tasks |      | 13.0.376.8320 (Windows64) | -dbg -2008
+dds_w_freq_select     | structure       | design_tasks |      | 13.0.376.8320 (Windows64) | -dbg -2008
+edge_det              | moore_fsm       | design_tasks |      | 13.0.376.8320 (Windows64) | -dbg -2008
+frequency_reg         | behavioral      | design_tasks |      | 13.0.376.8320 (Windows64) | -dbg -2008
+phase_accumulator     | behavioral      | design_tasks |      | 13.0.376.8320 (Windows64) | -dbg -2008
+phase_accumulator_fsm | moore_fsm       | design_tasks |      | 13.0.376.8320 (Windows64) | -dbg -2008
+sine_table            | behavioral      | design_tasks |      | 13.0.376.8320 (Windows64) | -dbg -2008
+adder_subtractor      | behavioral      | design_tasks |      | 13.0.376.8320 (Windows64) | -dbg -2008
+----------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------
+VHDL Package                            | Library      | Info | Compiler Version          | Compilation Options
+----------------------------------------------------------------------------------------------------------------
+standard                                | std          |      |                           | <unavailable>
+TEXTIO                                  | std          |      | 13.0.376.8320 (Windows64) |  -2019
+std_logic_1164                          | ieee         |      | 13.0.376.8320 (Windows64) |  -2008
+ENV                                     | std          |      | 13.0.376.8320 (Windows64) |  -2019
+NUMERIC_STD                             | ieee         |      | 13.0.376.8320 (Windows64) |  -2008
+----------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------
+Library                                 | Comment
+----------------------------------------------------------------------------------------------------------------
+design_tasks                            | None
+ieee                                    | Standard IEEE packages library
+std                                     | Standard VHDL library
+----------------------------------------------------------------------------------------------------------------

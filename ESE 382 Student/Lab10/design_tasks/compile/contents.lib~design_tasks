@@ -1,0 +1,25 @@
+173
+~E 1 "../src/adder_subtractor.vhd" 20 adder_subtractor
+~A 1 "../src/adder_subtractor.vhd" 28 behavioral
+~E 1 "../src/dds_w_freq_select.vhd" 28 dds_w_freq_select
+~A 1 "../src/dds_w_freq_select.vhd" 41 structure
+~E 1 "../src/dds_w_freq_select_TB.vhd" 9 dds_w_freq_select_tb
+~A 1 "../src/dds_w_freq_select_TB.vhd" 16 tb_architecture
+~E 1 "../src/edge_detector.vhd" 20 edge_det
+~A 1 "../src/edge_detector.vhd" 27 moore_fsm
+~E 1 "../src/edge_detector_tb.vhd" 21 edge_det_tb
+~A 1 "../src/edge_detector_tb.vhd" 24 tb
+~E 1 "../src/frequency_register.vhd" 19 frequency_reg
+~A 1 "../src/frequency_register.vhd" 28 behavioral
+~E 1 "../src/frequency_reg_tb.vhd" 22 frequency_reg_tb
+~A 1 "../src/frequency_reg_tb.vhd" 26 tb
+~E 1 "../src/phase_accumulator.vhd" 20 phase_accumulator
+~A 1 "../src/phase_accumulator.vhd" 33 behavioral
+~E 1 "../src/phase_accumulator_fsm.vhd" 19 phase_accumulator_fsm
+~A 1 "../src/phase_accumulator_fsm.vhd" 26 moore_fsm
+~E 1 "../src/phase_accumulator_fsm_tb.vhd" 22 phase_accumulator_fsm_tb
+~A 1 "../src/phase_accumulator_fsm_tb.vhd" 25 tb
+~E 1 "../src/phase_accumulator_tb.vhd" 22 phase_accumulator_tb
+~A 1 "../src/phase_accumulator_tb.vhd" 29 tb
+~E 1 "../src/sine_table.vhd" 20 sine_table
+~A 1 "../src/sine_table.vhd" 27 behavioral

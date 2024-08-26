@@ -1,0 +1,11 @@
+43
+~E 1 "../src/design3.vhd" 21 adder_subtractor
+~A 1 "../src/design3.vhd" 29 behavioral
+~E 1 "../src/design1.vhd" 26 quad_address_counter
+~A 1 "../src/design1.vhd" 34 behavioral
+~E 1 "../src/design4.vhd" 21 simple_dds
+~A 1 "../src/design4.vhd" 28 structural
+~E 1 "../src/testbench.vhd" 5 simple_dds_tb
+~A 1 "../src/testbench.vhd" 8 tb_architecture
+~E 1 "../src/sine_table.vhd" 21 sine_table
+~A 1 "../src/design2.vhd" 28 behavioral

@@ -1,0 +1,28 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=midterm2
+[Library]
+midterm2=.\midterm2\midterm2.lib
+[$LibMap$]
+midterm2=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/2018_q1.vhd=-1
+/2018_q1_tb.vhd=-1
+[Files.Data]
+.\src\2018_q1.vhd=VHDL Source Code
+.\src\2018_q1_tb.vhd=VHDL Source Code
+[HierarchyViewer]
+HierarchyInformation=nand_4_z|behavioral|0 q1_2018_tb|tb|0
+ShowHide=ShowTopLevel
+Selected=

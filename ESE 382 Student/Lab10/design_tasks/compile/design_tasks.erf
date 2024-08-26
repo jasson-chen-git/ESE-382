@@ -1,0 +1,4 @@
+MESSAGE "File: C:/Users/Jason/Documents/VHDL/Lab10/design_tasks/src/dds_w_freq_select_TB.vhd" 
+MESSAGE "Compile Entity "dds_w_freq_select_tb"" 
+MESSAGE "Compile Architecture "tb_architecture" of Entity "dds_w_freq_select_tb"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]" 

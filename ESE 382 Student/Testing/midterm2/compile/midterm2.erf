@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: c:/Users/Jason/Documents/VHDL/Testing/midterm2/src/2018_q1_tb.vhd" 
+MESSAGE "Compile Entity "q1_2018_tb"" 
+MESSAGE "Compile Architecture "tb" of Entity "q1_2018_tb"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

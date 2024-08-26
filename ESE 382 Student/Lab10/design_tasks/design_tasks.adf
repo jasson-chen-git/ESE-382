@@ -1,0 +1,68 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=design_tasks
+[Library]
+design_tasks=.\design_tasks\design_tasks.lib
+[$LibMap$]
+design_tasks=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=C:\Users\Jason\Documents\VHDL\Lab10\design_tasks\src
+[Files]
+/edge_detector.vhd=-1
+/frequency_register.vhd=-1
+/edge_detector_tb.vhd=-1
+/frequency_reg_tb.vhd=-1
+/phase_accumulator.vhd=-1
+/phase_accumulator_tb.vhd=-1
+/phase_accumulator_fsm.vhd=-1
+/phase_accumulator_fsm_tb.vhd=-1
+/sine_table.vhd=-1
+/adder_subtractor.vhd=-1
+/dds_w_freq_select.vhd=-1
+/dds_w_freq_select_TB.vhd=-1
+/waveform.asdb=-1
+/waveform.awc=-1
+[Files.Data]
+.\src\edge_detector.vhd=VHDL Source Code
+.\src\frequency_register.vhd=VHDL Source Code
+.\src\edge_detector_tb.vhd=VHDL Source Code
+.\src\frequency_reg_tb.vhd=VHDL Source Code
+.\src\phase_accumulator.vhd=VHDL Source Code
+.\src\phase_accumulator_tb.vhd=VHDL Source Code
+.\src\phase_accumulator_fsm.vhd=VHDL Source Code
+.\src\phase_accumulator_fsm_tb.vhd=VHDL Source Code
+.\src\sine_table.vhd=VHDL Source Code
+.\src\adder_subtractor.vhd=VHDL Source Code
+.\src\dds_w_freq_select.vhd=VHDL Source Code
+.\src\dds_w_freq_select_TB.vhd=VHDL Source Code
+.\src\waveform.asdb=Accelerated Waveform File
+.\src\waveform.awc=Accelerated Waveform Configuration
+[LocalVhdlSets]
+NetlistCompilation=1
+EnableVHDL93Key=0
+EnableVHDL2002Key=0
+EnableVHDL2008Key=1
+EnableVHDL2019Key=0
+DisableVHDL87Key=0
+Syntax RelaxLRM=0
+MaxErrorsKey=100
+CompileWithDebug=1
+OptimizationLevel=3
+DisableRangeChecks=0
+ProtectLevel=0
+IncrementalCompilation=0
+AdditionalOptions=
+[HierarchyViewer]
+HierarchyInformation=dds_w_freq_select_tb|tb_architecture|0 phase_accumulator|behavioral|0
+ShowHide=ShowTopLevel
+Selected=

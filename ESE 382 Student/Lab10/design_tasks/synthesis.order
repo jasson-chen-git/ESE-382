@@ -1,0 +1,12 @@
+i<>.\src\edge_detector.vhd
+i<>.\src\frequency_register.vhd
+i<>.\src\edge_detector_tb.vhd
+i<>.\src\frequency_reg_tb.vhd
+i<>.\src\phase_accumulator.vhd
+i<>.\src\phase_accumulator_tb.vhd
+i<>.\src\phase_accumulator_fsm.vhd
+i<>.\src\phase_accumulator_fsm_tb.vhd
+i<>.\src\sine_table.vhd
+i<>.\src\adder_subtractor.vhd
+i<>.\src\dds_w_freq_select.vhd
+i<>.\src\dds_w_freq_select_TB.vhd

@@ -1,0 +1,53 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=design_tasks
+[Library]
+design_tasks=.\design_tasks\design_tasks.lib
+[$LibMap$]
+design_tasks=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/design1.vhd=-1
+/design2.vhd=-1
+/design3.vhd=-1
+/design4.vhd=-1
+/testbench.vhd=-1
+/task4_waveform.asdb=-1
+/task4_waveform.awc=-1
+[Files.Data]
+.\src\design1.vhd=VHDL Source Code
+.\src\design2.vhd=VHDL Source Code
+.\src\design3.vhd=VHDL Source Code
+.\src\design4.vhd=VHDL Source Code
+.\src\testbench.vhd=VHDL Source Code
+.\src\task4_waveform.asdb=Accelerated Waveform File
+.\src\task4_waveform.awc=Accelerated Waveform Configuration
+[LocalVhdlSets]
+NetlistCompilation=1
+EnableVHDL93Key=0
+EnableVHDL2002Key=0
+EnableVHDL2008Key=1
+EnableVHDL2019Key=0
+DisableVHDL87Key=0
+Syntax RelaxLRM=0
+MaxErrorsKey=100
+CompileWithDebug=1
+OptimizationLevel=3
+DisableRangeChecks=0
+ProtectLevel=0
+IncrementalCompilation=0
+AdditionalOptions=
+[HierarchyViewer]
+HierarchyInformation=adder_subtractor|behavioral|0 quad_address_counter|behavioral|0 simple_dds_tb|tb_architecture|0 sine_table|behavioral|0
+ShowHide=ShowTopLevel
+Selected=

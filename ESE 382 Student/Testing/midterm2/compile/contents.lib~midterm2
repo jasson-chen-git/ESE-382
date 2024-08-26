@@ -1,0 +1,5 @@
+9
+~E 1 "../src/2018_q1.vhd" 4 nand_4_z
+~A 1 "../src/2018_q1.vhd" 12 behavioral
+~E 1 "../src/2018_q1_tb.vhd" 6 q1_2018_tb
+~A 1 "../src/2018_q1_tb.vhd" 9 tb
