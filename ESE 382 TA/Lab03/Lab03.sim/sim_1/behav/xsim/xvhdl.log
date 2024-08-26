@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Jason/Documents/Vivado/ESE382/Lab03/Lab03.srcs/sources_1/new/conditional.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'conditional'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Jason/Documents/Vivado/ESE382/Lab03/Lab03.srcs/sources_1/new/converter_xs3_bcd_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'converter_xs3_bcd_tb'
