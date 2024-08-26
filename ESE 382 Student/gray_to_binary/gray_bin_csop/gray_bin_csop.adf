@@ -1,0 +1,31 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=gray_bin_csop
+[Library]
+gray_bin_csop=.\gray_bin_csop\gray_bin_csop.lib
+[$LibMap$]
+gray_bin_csop=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=C:\Users\Jason\Downloads
+[Files]
+/csop.vhd=-1
+/gray_bin_TB1.vhd=-1
+/cpos.vhd=-1
+[Files.Data]
+.\src\csop.vhd=VHDL Source Code
+.\src\gray_bin_TB1.vhd=VHDL Source Code
+.\src\cpos.vhd=VHDL Source Code
+[HierarchyViewer]
+HierarchyInformation=gray_bin_tb|non_self_checking|0
+ShowHide=ShowTopLevel
+Selected=

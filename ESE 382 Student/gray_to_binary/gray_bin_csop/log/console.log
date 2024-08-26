@@ -1,0 +1,530 @@
+# Design: Design gray_bin_csop already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -O3 -e 100 -work gray_bin_csop -2002  $dsn/src/3.vhd $dsn/src/gray_bin_TB1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/3.vhd
+# Compile Entity "gray_bin"
+# Compile Architecture "csop" of Entity "gray_bin"
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/gray_bin_TB1.vhd
+# Compile Entity "gray_bin_tb"
+# Compile Architecture "non_self_checking" of Entity "gray_bin_tb"
+# Top-level unit(s) detected:
+# Entity => gray_bin_tb
+# Error: COMP96_0111: 3.vhd : (87, 5): Labels do not match.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -O3 -e 100 -work gray_bin_csop -2002  $dsn/src/3.vhd $dsn/src/gray_bin_TB1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/3.vhd
+# Compile Entity "gray_bin"
+# Compile Architecture "csop" of Entity "gray_bin"
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/gray_bin_TB1.vhd
+# Compile Entity "gray_bin_tb"
+# Compile Architecture "non_self_checking" of Entity "gray_bin_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -e 100 -work gray_bin_csop -2002  $dsn/src/csop.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/csop.vhd
+# Compile Entity "gray_bin"
+# Compile Architecture "csop" of Entity "gray_bin"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+gray_bin_tb gray_bin_tb non_self_checking
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6467 kB (elbread=427 elab2=5901 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\grat_to_binary\gray_bin_csop\src\wave.asdb
+#  6:01 PM, Wednesday, February 15, 2023
+#  Simulation has been initialized
+# add wave -noreg {/gray_bin_tb/g3_tb}
+# add wave -noreg {/gray_bin_tb/g2_tb}
+# add wave -noreg {/gray_bin_tb/g1_tb}
+# add wave -noreg {/gray_bin_tb/g0_tb}
+# add wave -noreg {/gray_bin_tb/b3_tb}
+# add wave -noreg {/gray_bin_tb/b2_tb}
+# add wave -noreg {/gray_bin_tb/b1_tb}
+# add wave -noreg {/gray_bin_tb/b0_tb}
+# VSIM: 8 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0142 gray_bin_TB1.vhd (43): finish called.
+# KERNEL: Time: 320 ns,  Iteration: 0,  Instance: /gray_bin_tb,  Process: stimulus.
+# KERNEL: stopped at time: 320 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work gray_bin_csop -2002  $dsn/src/csop.vhd $dsn/src/gray_bin_TB1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/csop.vhd
+# Compile Entity "gray_bin"
+# Compile Architecture "csop" of Entity "gray_bin"
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/gray_bin_TB1.vhd
+# Compile Entity "gray_bin_tb"
+# Compile Architecture "non_self_checking" of Entity "gray_bin_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+gray_bin_tb gray_bin_tb non_self_checking
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6467 kB (elbread=427 elab2=5901 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\grat_to_binary\gray_bin_csop\src\wave.asdb
+#  6:04 PM, Wednesday, February 15, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0142 gray_bin_TB1.vhd (43): finish called.
+# KERNEL: Time: 320 ns,  Iteration: 0,  Instance: /gray_bin_tb,  Process: stimulus.
+# KERNEL: stopped at time: 320 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work gray_bin_csop -2002  $dsn/src/csop.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/csop.vhd
+# Compile Entity "gray_bin"
+# Compile Architecture "csop" of Entity "gray_bin"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+asim -O5 +access +r +m+gray_bin_tb gray_bin_tb non_self_checking
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6467 kB (elbread=427 elab2=5901 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\grat_to_binary\gray_bin_csop\src\wave.asdb
+#  6:06 PM, Wednesday, February 15, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0142 gray_bin_TB1.vhd (43): finish called.
+# KERNEL: Time: 320 ns,  Iteration: 0,  Instance: /gray_bin_tb,  Process: stimulus.
+# KERNEL: stopped at time: 320 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work gray_bin_csop -2002  $dsn/src/csop.vhd $dsn/src/gray_bin_TB1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/csop.vhd
+# Compile Entity "gray_bin"
+# Compile Architecture "csop" of Entity "gray_bin"
+# Error: COMP96_0111: csop.vhd : (87, 5): Labels do not match.
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/gray_bin_TB1.vhd
+# Compile Entity "gray_bin_tb"
+# Compile Architecture "non_self_checking" of Entity "gray_bin_tb"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  78.0 [ms]
+asim -O5 +access +r +m+gray_bin_tb gray_bin_tb non_self_checking
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6467 kB (elbread=427 elab2=5901 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\grat_to_binary\gray_bin_csop\src\wave.asdb
+#  6:08 PM, Wednesday, February 15, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0142 gray_bin_TB1.vhd (43): finish called.
+# KERNEL: Time: 320 ns,  Iteration: 0,  Instance: /gray_bin_tb,  Process: stimulus.
+# KERNEL: stopped at time: 320 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+gray_bin_tb gray_bin_tb non_self_checking
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6467 kB (elbread=427 elab2=5901 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\grat_to_binary\gray_bin_csop\src\wave.asdb
+#  6:09 PM, Wednesday, February 15, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0142 gray_bin_TB1.vhd (43): finish called.
+# KERNEL: Time: 320 ns,  Iteration: 0,  Instance: /gray_bin_tb,  Process: stimulus.
+# KERNEL: stopped at time: 320 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work gray_bin_csop -2002  $dsn/src/csop.vhd $dsn/src/gray_bin_TB1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/csop.vhd
+# Compile Entity "gray_bin"
+# Compile Architecture "csop" of Entity "gray_bin"
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/gray_bin_TB1.vhd
+# Compile Entity "gray_bin_tb"
+# Compile Architecture "non_self_checking" of Entity "gray_bin_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+asim -O5 +access +r +m+gray_bin_tb gray_bin_tb non_self_checking
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6467 kB (elbread=427 elab2=5901 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\grat_to_binary\gray_bin_csop\src\wave.asdb
+#  6:09 PM, Wednesday, February 15, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0142 gray_bin_TB1.vhd (43): finish called.
+# KERNEL: Time: 320 ns,  Iteration: 0,  Instance: /gray_bin_tb,  Process: stimulus.
+# KERNEL: stopped at time: 320 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work gray_bin_csop -2002  $dsn/src/csop.vhd $dsn/src/gray_bin_TB1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/csop.vhd
+# Compile Entity "gray_bin"
+# Compile Architecture "csop" of Entity "gray_bin"
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/gray_bin_TB1.vhd
+# Compile Entity "gray_bin_tb"
+# Compile Architecture "non_self_checking" of Entity "gray_bin_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+gray_bin_tb gray_bin_tb non_self_checking
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6467 kB (elbread=427 elab2=5901 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\grat_to_binary\gray_bin_csop\src\wave.asdb
+#  6:11 PM, Wednesday, February 15, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0142 gray_bin_TB1.vhd (43): finish called.
+# KERNEL: Time: 320 ns,  Iteration: 0,  Instance: /gray_bin_tb,  Process: stimulus.
+# KERNEL: stopped at time: 320 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work gray_bin_csop -2002  $dsn/src/csop.vhd $dsn/src/gray_bin_TB1.vhd $dsn/src/cpos.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/csop.vhd
+# Compile Entity "gray_bin1"
+# Error: COMP96_0111: csop.vhd : (39, 5): Labels do not match.
+# Compile Architecture "csop" of Entity "gray_bin1"
+# Error: COMP96_0056: csop.vhd : (43, 1): Cannot find referenced entity declaration "gray_bin1".
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/gray_bin_TB1.vhd
+# Compile Entity "gray_bin_tb"
+# Compile Architecture "non_self_checking" of Entity "gray_bin_tb"
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/cpos.vhd
+# Compile Entity "cpos"
+# Compile Architecture "cpos" of Entity "cpos"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work gray_bin_csop -2002  $dsn/src/csop.vhd $dsn/src/gray_bin_TB1.vhd $dsn/src/cpos.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/csop.vhd
+# Compile Entity "gray_bin1"
+# Compile Architecture "csop" of Entity "gray_bin1"
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/gray_bin_TB1.vhd
+# Compile Entity "gray_bin_tb"
+# Compile Architecture "non_self_checking" of Entity "gray_bin_tb"
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/cpos.vhd
+# Compile Entity "cpos"
+# Compile Architecture "cpos" of Entity "cpos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work gray_bin_csop -2002  $dsn/src/csop.vhd $dsn/src/gray_bin_TB1.vhd $dsn/src/cpos.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/csop.vhd
+# Compile Entity "gray_bin1"
+# Error: COMP96_0019: csop.vhd : (42, 1): Keyword 'end' expected.
+# Error: COMP96_0015: csop.vhd : (42, 1): ';' expected.
+# Error: COMP96_0016: csop.vhd : (42, 14): Design unit declaration expected.
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/gray_bin_TB1.vhd
+# Compile Entity "gray_bin_tb"
+# Compile Architecture "non_self_checking" of Entity "gray_bin_tb"
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/cpos.vhd
+# Compile Entity "gray_bin"
+# Compile Architecture "cpos" of Entity "gray_bin"
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work gray_bin_csop -2002  $dsn/src/csop.vhd $dsn/src/gray_bin_TB1.vhd $dsn/src/cpos.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/csop.vhd
+# Compile Entity "gray_bin1"
+# Compile Architecture "csop" of Entity "gray_bin1"
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/gray_bin_TB1.vhd
+# Compile Entity "gray_bin_tb"
+# Compile Architecture "non_self_checking" of Entity "gray_bin_tb"
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/cpos.vhd
+# Compile Entity "gray_bin"
+# Compile Architecture "cpos" of Entity "gray_bin"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+gray_bin_tb gray_bin_tb non_self_checking
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6467 kB (elbread=427 elab2=5901 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\grat_to_binary\gray_bin_csop\src\wave.asdb
+#  6:35 PM, Wednesday, February 15, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0142 gray_bin_TB1.vhd (43): finish called.
+# KERNEL: Time: 320 ns,  Iteration: 0,  Instance: /gray_bin_tb,  Process: stimulus.
+# KERNEL: stopped at time: 320 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work gray_bin_csop -2002  $dsn/src/csop.vhd $dsn/src/gray_bin_TB1.vhd $dsn/src/cpos.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/csop.vhd
+# Compile Entity "gray_bin1"
+# Compile Architecture "csop" of Entity "gray_bin1"
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/gray_bin_TB1.vhd
+# Compile Entity "gray_bin_tb"
+# Compile Architecture "non_self_checking" of Entity "gray_bin_tb"
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/cpos.vhd
+# Compile Entity "gray_bin"
+# Compile Architecture "cpos" of Entity "gray_bin"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+gray_bin_tb gray_bin_tb non_self_checking
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6467 kB (elbread=427 elab2=5901 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\grat_to_binary\gray_bin_csop\src\wave.asdb
+#  6:37 PM, Wednesday, February 15, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0142 gray_bin_TB1.vhd (43): finish called.
+# KERNEL: Time: 320 ns,  Iteration: 0,  Instance: /gray_bin_tb,  Process: stimulus.
+# KERNEL: stopped at time: 320 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work gray_bin_csop -2002  $dsn/src/csop.vhd $dsn/src/gray_bin_TB1.vhd $dsn/src/cpos.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/csop.vhd
+# Compile Entity "gray_bin1"
+# Compile Architecture "csop" of Entity "gray_bin1"
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/gray_bin_TB1.vhd
+# Compile Entity "gray_bin_tb"
+# Compile Architecture "non_self_checking" of Entity "gray_bin_tb"
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/cpos.vhd
+# Compile Entity "gray_bin"
+# Compile Architecture "cpos" of Entity "gray_bin"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+gray_bin_tb gray_bin_tb non_self_checking
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6467 kB (elbread=427 elab2=5901 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\grat_to_binary\gray_bin_csop\src\wave.asdb
+#  6:39 PM, Wednesday, February 15, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0142 gray_bin_TB1.vhd (43): finish called.
+# KERNEL: Time: 320 ns,  Iteration: 0,  Instance: /gray_bin_tb,  Process: stimulus.
+# KERNEL: stopped at time: 320 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+gray_bin_tb gray_bin_tb non_self_checking
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work gray_bin_csop -2002  $dsn/src/csop.vhd $dsn/src/gray_bin_TB1.vhd $dsn/src/cpos.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/csop.vhd
+# Compile Entity "gray_bin"
+# Compile Architecture "csop" of Entity "gray_bin"
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/gray_bin_TB1.vhd
+# Compile Entity "gray_bin_tb"
+# Compile Architecture "non_self_checking" of Entity "gray_bin_tb"
+# File: c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/cpos.vhd
+# Warning: COMP96_0003: Source file "c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/cpos.vhd" is empty.
+# Compile success 0 Errors 1 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+gray_bin_tb gray_bin_tb non_self_checking
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6467 kB (elbread=427 elab2=5901 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\grat_to_binary\gray_bin_csop\src\wave.asdb
+#  6:41 PM, Wednesday, February 15, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/grat_to_binary/gray_bin_csop/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0142 gray_bin_TB1.vhd (43): finish called.
+# KERNEL: Time: 320 ns,  Iteration: 0,  Instance: /gray_bin_tb,  Process: stimulus.
+# KERNEL: stopped at time: 320 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.

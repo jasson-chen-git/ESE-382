@@ -1,0 +1,48 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Lab01_half_adder
+[Library]
+Lab01_half_adder=.\Lab01_half_adder\Lab01_half_adder.lib
+[$LibMap$]
+Lab01_half_adder=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=C:\Users\Jason\Documents\VHDL\Lab01_half_adder
+[Files]
+/half_adder.vhd=-1
+/half_adder_tb.vhd=-1
+/half_sub.vhd=-1
+/half_sub_tb.vhd=-1
+[Files.Data]
+.\src\half_adder.vhd=VHDL Source Code
+.\src\half_adder_tb.vhd=VHDL Source Code
+.\src\half_sub.vhd=VHDL Source Code
+.\src\half_sub_tb.vhd=VHDL Source Code
+[LocalVhdlSets]
+NetlistCompilation=1
+EnableVHDL93Key=0
+EnableVHDL2002Key=1
+EnableVHDL2008Key=0
+EnableVHDL2019Key=0
+DisableVHDL87Key=0
+Syntax RelaxLRM=0
+MaxErrorsKey=100
+CompileWithDebug=1
+OptimizationLevel=3
+DisableRangeChecks=0
+ProtectLevel=0
+IncrementalCompilation=0
+AdditionalOptions=
+[HierarchyViewer]
+HierarchyInformation=testbench|behavior|0
+ShowHide=ShowTopLevel
+Selected=

@@ -1,0 +1,4 @@
+i<>.\src\half_adder.vhd
+i<>.\src\half_adder_tb.vhd
+i<>.\src\half_sub.vhd
+i<>.\src\half_sub_tb.vhd

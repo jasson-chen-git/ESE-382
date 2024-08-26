@@ -1,0 +1,36 @@
+Active-HDL 13.0.376.8320 2023-02-15 18:40:59
+
+Elaboration top modules:
+Architecture                  non_self_checking(gray_bin_tb)
+
+
+---------------------------------------------------------------------------------------------------------
+Entity      | Architecture      | Library       | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------------------
+gray_bin_tb | non_self_checking | gray_bin_csop |      | 13.0.376.8320 (Windows64) | -O3
+gray_bin    | csop              | gray_bin_csop |      | 13.0.376.8320 (Windows64) | -O3
+---------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------
+VHDL Package                    | Library       | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------------------
+standard                        | std           |      |                           | <unavailable>
+TEXTIO                          | std           |      | 13.0.376.8320 (Windows64) |  -2019
+std_logic_1164                  | ieee          |      | 13.0.376.8320 (Windows64) |  -2008
+ENV                             | std           |      | 13.0.376.8320 (Windows64) |  -2019
+NUMERIC_STD                     | ieee          |      | 13.0.376.8320 (Windows64) |  -2008
+---------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------
+Library                         | Comment
+---------------------------------------------------------------------------------------------------------
+gray_bin_csop                   | None
+ieee                            | Standard IEEE packages library
+std                             | Standard VHDL library
+---------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+gray_bin_tb gray_bin_tb non_self_checking
+
+
+The performance of simulation is reduced. Version Student Edition

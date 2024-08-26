@@ -1,0 +1,10 @@
+15
+~E 1 "../src/cpos.vhd" 28 cpos
+~A 1 "../src/cpos.vhd" 43 cpos
+~E 1 "../src/3.vhd" 28 gray_bin
+~A 1 "../src/cpos.vhd" 43 cpos
+~A 1 "../src/csop.vhd" 43 csop
+~E 1 "../src/csop.vhd" 28 gray_bin1
+~A 1 "../src/csop.vhd" 43 csop
+~E 1 "../src/gray_bin_TB1.vhd" 8 gray_bin_tb
+~A 1 "../src/gray_bin_TB1.vhd" 11 non_self_checking

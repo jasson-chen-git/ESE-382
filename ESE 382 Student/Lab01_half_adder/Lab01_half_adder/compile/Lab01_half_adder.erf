@@ -1,0 +1,4 @@
+MESSAGE "File: C:/Users/Jason/Documents/VHDL/Lab01_half_adder/Lab01_half_adder/src/half_sub_tb.vhd" 
+MESSAGE "Compile Entity "testbench"" 
+MESSAGE "Compile Architecture "behavior" of Entity "testbench"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]" 
