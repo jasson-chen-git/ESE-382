@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Jason/Documents/Vivado/ESE382/JC_Lab_01/JC_Lab_01.srcs/sources_1/new/half_subtractor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'half_subtractor'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Jason/Documents/Vivado/ESE382/JC_Lab_01/JC_Lab_01.srcs/sources_1/new/half_sub_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'half_sub_tb'

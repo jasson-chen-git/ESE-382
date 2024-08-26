@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../JC_Lab_01.srcs/sources_1/new/half_subtractor.vhd" \
+"../../../../JC_Lab_01.srcs/sources_1/new/half_sub_tb.vhd" \
+
+# Do not sort compile order
+nosort
