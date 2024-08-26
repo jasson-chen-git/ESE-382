@@ -1,0 +1,9 @@
+0.7
+2020.2
+May  7 2023
+15:24:31
+C:/Users/Jason/Documents/Vivado/ESE382/Lab10/Lab10.srcs/sources_1/new/edge_detector.vhd,1713980568,vhdl2008,C:/Users/Jason/Documents/Vivado/ESE382/Lab10/Lab10.srcs/sources_1/new/spi_digit_driver.vhd,,,edge_detector,,,,,,,,
+C:/Users/Jason/Documents/Vivado/ESE382/Lab10/Lab10.srcs/sources_1/new/hex_driver.vhd,1713980383,vhdl,C:/Users/Jason/Documents/Vivado/ESE382/Lab10/Lab10.srcs/sources_1/new/spi_digit_driver.vhd,,,hex_driver,,,,,,,,
+C:/Users/Jason/Documents/Vivado/ESE382/Lab10/Lab10.srcs/sources_1/new/slv_spi_rx_shifter.vhd,1713981370,vhdl2008,C:/Users/Jason/Documents/Vivado/ESE382/Lab10/Lab10.srcs/sources_1/new/spi_digit_driver.vhd,,,slv_spi_rx_shifter,,,,,,,,
+C:/Users/Jason/Documents/Vivado/ESE382/Lab10/Lab10.srcs/sources_1/new/spi_digit_driver.vhd,1713980766,vhdl2008,C:/Users/Jason/Documents/Vivado/ESE382/Lab10/Lab10.srcs/sources_1/new/spi_test_system_tb.vhd,,,spi_digit_driver,,,,,,,,
+C:/Users/Jason/Documents/Vivado/ESE382/Lab10/Lab10.srcs/sources_1/new/spi_test_system_tb.vhd,1713980256,vhdl2008,,,,slv_spi_test_system_i_tb,,,,,,,,

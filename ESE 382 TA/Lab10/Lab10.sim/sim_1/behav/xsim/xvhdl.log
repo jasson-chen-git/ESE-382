@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Jason/Documents/Vivado/ESE382/Lab10/Lab10.srcs/sources_1/new/slv_spi_rx_shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'slv_spi_rx_shifter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Jason/Documents/Vivado/ESE382/Lab10/Lab10.srcs/sources_1/new/spi_digit_driver.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'spi_digit_driver'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Jason/Documents/Vivado/ESE382/Lab10/Lab10.srcs/sources_1/new/spi_test_system_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'slv_spi_test_system_I_tb'
