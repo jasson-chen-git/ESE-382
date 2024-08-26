@@ -1,0 +1,11 @@
+25
+~E 1 "../src/design_1.vhd" 49 d_flip_flop
+~A 1 "../src/design_1.vhd" 57 behavioral
+~E 1 "../src/design_1.vhd" 24 d_latch
+~A 1 "../src/design_1.vhd" 31 behavioral
+~E 1 "../src/design_2.vhd" 24 dff_en
+~A 1 "../src/design_2.vhd" 31 behavioral
+~E 1 "../src/design_1.vhd" 75 latch_vs_flip_flop
+~A 1 "../src/design_1.vhd" 84 structure
+~E 1 "../src/design_3.vhd" 23 left_shift_register
+~A 1 "../src/design_3.vhd" 31 behavioral

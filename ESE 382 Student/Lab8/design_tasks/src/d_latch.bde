@@ -1,0 +1,192 @@
+SCHM0106
+
+HEADER
+{
+ FREEID 21
+ VARIABLES
+ {
+  #ARCHITECTURE="behavioral"
+  #BLOCKTABLE_FILE="#HDL2DIAGRAM.bde"
+  #ENTITY="d_latch"
+  #LANGUAGE="VHDL"
+  AUTHOR="Jason"
+  COMPANY="Stony Brook University"
+  CREATIONDATE="4/6/2023"
+  SOURCE="..\\src\\design_1.vhd"
+ }
+}
+
+PAGE ""
+{
+ PAGEHEADER
+ {
+  MARGINS (200,200,200,200)
+  RECT (0,0,0,0)
+ }
+ 
+ BODY
+ {
+  VHDLDESIGNUNITHDR  1, 0, 0
+  {
+   LABEL "Design Unit Header"
+   TEXT 
+"library ieee;\n"+
+"use ieee.std_logic_1164.all;"
+   RECT (220,260,620,439)
+   MARGINS (20,20)
+   MULTILINE
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+  }
+  PROCESS  2, 0, 0
+  {
+   LABEL "l1"
+   TEXT 
+"l1 : process (d,le_bar)\n"+
+"                       begin\n"+
+"                         if le_bar = '1' then\n"+
+"                            ql <= d;\n"+
+"                         end if;\n"+
+"                       end process;\n"+
+"                      "
+   RECT (960,240,1361,520)
+   MARGINS (20,20)
+   SYNTAXCOLORED
+   SHOWTEXT
+   CORNER 10
+   VTX (  12, 15, 18 )
+   VARIABLES
+   {
+    #UPDATE_SENS_LIST="0"
+   }
+   LIST (  15, 18 )
+  }
+  INSTANCE  3, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #LIBRARY="#terminals"
+    #REFERENCE="d"
+    #SYMBOL="Input"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   COORD (820,260)
+   VERTEXES ( (2,16) )
+  }
+  INSTANCE  4, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #LIBRARY="#terminals"
+    #REFERENCE="le_bar"
+    #SYMBOL="Input"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   COORD (820,300)
+   VERTEXES ( (2,19) )
+  }
+  INSTANCE  5, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Output"
+    #LIBRARY="#terminals"
+    #REFERENCE="ql"
+    #SYMBOL="Output"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   COORD (1460,260)
+   VERTEXES ( (2,13) )
+  }
+  TEXT  6, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (769,260,769,260)
+   ALIGN 6
+   PARENT 3
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (769,300,769,300)
+   ALIGN 6
+   PARENT 4
+  }
+  TEXT  8, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (1511,260,1511,260)
+   ALIGN 4
+   PARENT 5
+  }
+  NET WIRE  9, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="d"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+  }
+  NET WIRE  10, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="le_bar"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+  }
+  NET WIRE  11, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="ql"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+  }
+  VTX  12, 0, 0
+  {
+   COORD (1361,260)
+  }
+  VTX  13, 0, 0
+  {
+   COORD (1460,260)
+  }
+  WIRE  14, 0, 0
+  {
+   NET 11
+   VTX 12, 13
+  }
+  VTX  15, 0, 0
+  {
+   COORD (960,260)
+  }
+  VTX  16, 0, 0
+  {
+   COORD (820,260)
+  }
+  WIRE  17, 0, 0
+  {
+   NET 9
+   VTX 15, 16
+  }
+  VTX  18, 0, 0
+  {
+   COORD (960,300)
+  }
+  VTX  19, 0, 0
+  {
+   COORD (820,300)
+  }
+  WIRE  20, 0, 0
+  {
+   NET 10
+   VTX 18, 19
+  }
+ }
+ 
+}
+

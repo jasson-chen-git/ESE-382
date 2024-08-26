@@ -1,0 +1,1570 @@
+# Design: Design design_tasks already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -dbg -e 100 -work design_tasks -2008  $dsn/src/design_1.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_1.vhd
+# Compile Entity "d_latch"
+# Compile Architecture "behavioral" of Entity "d_latch"
+# Compile Entity "d_flip_flop"
+# Compile Architecture "behavioral" of Entity "d_flip_flop"
+# Compile Entity "latch_vs_flip_flop"
+# Compile Architecture "structure" of Entity "latch_vs_flip_flop"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => latch_vs_flip_flop
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_1.vhd
+# Compile Architecture "behavioral" of Entity "d_flip_flop"
+# Error: COMP96_0071: design_1.vhd : (46, 25): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: design_1.vhd : (46, 6): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -dbg -e 100 -work design_tasks -2008  $dsn/src/design_1.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_1.vhd
+# Compile Entity "d_latch"
+# Compile Architecture "behavioral" of Entity "d_latch"
+# Compile Entity "d_flip_flop"
+# Compile Architecture "behavioral" of Entity "d_flip_flop"
+# Compile Entity "latch_vs_flip_flop"
+# Compile Architecture "structure" of Entity "latch_vs_flip_flop"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+asim -O5 +access +r +m+latch_vs_flip_flop latch_vs_flip_flop structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6422 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+#  8:28 PM, Wednesday, April 5, 2023
+#  Simulation has been initialized
+# VSIM: 4 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 4658100 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+latch_vs_flip_flop latch_vs_flip_flop structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6422 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  8:30 PM, Wednesday, April 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+run @1.6us
+# KERNEL: stopped at time: 1600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+latch_vs_flip_flop latch_vs_flip_flop structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6422 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet2" has been made inactive.
+#  8:32 PM, Wednesday, April 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+run @1.6us
+# KERNEL: stopped at time: 1600 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+latch_vs_flip_flop latch_vs_flip_flop structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6422 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  8:34 PM, Wednesday, April 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+run @1.6us
+# KERNEL: stopped at time: 1600 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+latch_vs_flip_flop latch_vs_flip_flop structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6422 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet4" has been made inactive.
+#  8:36 PM, Wednesday, April 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+run @800ns
+# KERNEL: stopped at time: 800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+latch_vs_flip_flop latch_vs_flip_flop structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6422 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+#  8:36 PM, Wednesday, April 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+run @800ns
+# KERNEL: stopped at time: 800 ns
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/test_waveform.asdb'.
+# Adding file c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\test_waveform.asdb ... Done
+# Adding file c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\test_waveform.awc ... Done
+# Error: You do not have valid license to run Testbench generation
+# Contact Aldec for ordering information - sales@aldec.com
+endsim
+# VSIM: Simulation has finished.
+# Error: You do not have valid license to run Testbench generation
+# Contact Aldec for ordering information - sales@aldec.com
+acom -dbg -e 100 -work design_tasks -2008  $dsn/src/design_1.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_1.vhd
+# Compile Entity "d_latch"
+# Compile Architecture "behavioral" of Entity "d_latch"
+# Compile Entity "d_flip_flop"
+# Compile Architecture "behavioral" of Entity "d_flip_flop"
+# Compile Entity "latch_vs_flip_flop"
+# Compile Architecture "structure" of Entity "latch_vs_flip_flop"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -dbg -e 100 -work design_tasks -2008  $dsn/src/design_2.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_2.vhd
+# Compile Entity "dff_en"
+# Compile Architecture "behavioral" of Entity "dff_en"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+dff_en dff_en behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5398 kB (elbread=427 elab2=4831 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet5" has been made inactive.
+#  9:06 PM, Wednesday, April 5, 2023
+#  Simulation has been initialized
+# Warning: WAVEFORM: Object matching /dff_en/d not found in c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/test_waveform.asdb.
+# Warning: WAVEFORM: Object matching /dff_en/clk not found in c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/test_waveform.asdb.
+# Warning: WAVEFORM: Object matching /dff_en/en not found in c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/test_waveform.asdb.
+# Warning: WAVEFORM: Object matching /dff_en/rst_bar not found in c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/test_waveform.asdb.
+# Warning: WAVEFORM: Object matching /dff_en/q not found in c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/test_waveform.asdb.
+# VSIM: 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+run @800ns
+# KERNEL: stopped at time: 800 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+dff_en dff_en behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -dbg -e 100 -work design_tasks -2008  $dsn/src/design_2.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_2.vhd
+# Compile Entity "dff_en"
+# Compile Architecture "behavioral" of Entity "dff_en"
+# Error: COMP96_0077: design_2.vhd : (36, 9): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5398 kB (elbread=427 elab2=4831 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet6" has been made inactive.
+#  9:15 PM, Wednesday, April 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+run @800ns
+# KERNEL: stopped at time: 800 ns
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work design_tasks -2008  $dsn/src/design_2.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_2.vhd
+# Compile Entity "dff_en"
+# Compile Architecture "behavioral" of Entity "dff_en"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+asim -O5 +access +r +m+dff_en dff_en behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5398 kB (elbread=427 elab2=4831 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet7" has been made inactive.
+#  9:20 PM, Wednesday, April 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work design_tasks -2008  $dsn/src/design_2.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_2.vhd
+# Compile Entity "dff_en"
+# Compile Architecture "behavioral" of Entity "dff_en"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+dff_en dff_en behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5398 kB (elbread=427 elab2=4831 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+#  9:20 PM, Wednesday, April 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+run @1.2us
+# KERNEL: stopped at time: 1200 ns
+run @1.6us
+# KERNEL: stopped at time: 1600 ns
+run @2us
+# KERNEL: stopped at time: 2 us
+run @3.2us
+# KERNEL: stopped at time: 3200 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+dff_en dff_en behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5398 kB (elbread=427 elab2=4831 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet8" has been made inactive.
+#  9:24 PM, Wednesday, April 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+run @1.6us
+# KERNEL: stopped at time: 1600 ns
+run @2.2us
+# KERNEL: stopped at time: 2200 ns
+endsim
+# VSIM: Simulation has finished.
+# Waveform file 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/task2_waveform.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/task2_waveform.asdb'.
+# Adding file c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\task2_waveform.asdb ... Done
+# Adding file c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\task2_waveform.awc ... Done
+acom -dbg -e 100 -work design_tasks -2008  $dsn/src/design_3.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_3.vhd
+# Compile Entity "left_shift_register"
+# Error: COMP96_0078: design_3.vhd : (21, 10): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: design_3.vhd : (21, 10): Unknown type.
+# Error: COMP96_0078: design_3.vhd : (22, 37): Unknown identifier "std_logic".
+# Error: COMP96_0064: design_3.vhd : (22, 37): Unknown type.
+# Error: COMP96_0078: design_3.vhd : (23, 20): Unknown identifier "std_logic".
+# Error: COMP96_0064: design_3.vhd : (23, 20): Unknown type.
+# Compile Architecture "behavioral" of Entity "left_shift_register"
+# Error: COMP96_0015: design_3.vhd : (33, 6): ';' expected.
+# Error: COMP96_0019: design_3.vhd : (33, 6): Keyword 'end' expected.
+# Error: COMP96_0019: design_3.vhd : (34, 3): Keyword 'end' expected.
+# Error: COMP96_0019: design_3.vhd : (37, 4): Keyword 'end' expected.
+# Error: COMP96_0016: design_3.vhd : (37, 10): Design unit declaration expected.
+# Compile failure 11 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -dbg -e 100 -work design_tasks -2008  $dsn/src/design_3.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_3.vhd
+# Compile Entity "left_shift_register"
+# Compile Architecture "behavioral" of Entity "left_shift_register"
+# Error: COMP96_0015: design_3.vhd : (37, 6): ';' expected.
+# Error: COMP96_0019: design_3.vhd : (37, 6): Keyword 'end' expected.
+# Error: COMP96_0019: design_3.vhd : (38, 3): Keyword 'end' expected.
+# Error: COMP96_0019: design_3.vhd : (41, 4): Keyword 'end' expected.
+# Error: COMP96_0016: design_3.vhd : (41, 10): Design unit declaration expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -dbg -e 100 -work design_tasks -2008  $dsn/src/design_3.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_3.vhd
+# Compile Entity "left_shift_register"
+# Compile Architecture "behavioral" of Entity "left_shift_register"
+# Error: COMP96_0029: design_3.vhd : (37, 9): Expression expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -dbg -e 100 -work design_tasks -2008  $dsn/src/design_3.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_3.vhd
+# Compile Entity "left_shift_register"
+# Compile Architecture "behavioral" of Entity "left_shift_register"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -dbg -e 100 -work design_tasks -2008  $dsn/src/design_2.vhd $dsn/src/design_3.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_2.vhd
+# Compile Entity "dff_en"
+# Compile Architecture "behavioral" of Entity "dff_en"
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_3.vhd
+# Compile Entity "left_shift_register"
+# Compile Architecture "behavioral" of Entity "left_shift_register"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# BDE: Error: You do not have valid license to use symbols conversion. Contact Aldec for ordering information sales@aldec.com.
+# BDE: Error: 
+# CODE2GRAPHICS: Checking success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+# CODE2GRAPHICS: Diagram file(s) generation completed in 0.7 seconds.
+# CODE2GRAPHICS: 3 units converted to Block Diagrams.
+# CODE2GRAPHICS: Double click on this line to view the generated log file.
+acom -dbg -e 100 -work design_tasks -2008  $dsn/src/design_2.vhd $dsn/src/design_3.vhd $dsn/src/d_flip_flop.bde $dsn/src/d_latch.bde $dsn/src/latch_vs_flip_flop.bde
+# DRC: Checking file "c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/d_flip_flop.bde".
+# DRC: d_flip_flop.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 2 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\compile\d_flip_flop.vhd from c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\d_flip_flop.bde ...
+# Generation successful
+# DRC: Checking file "c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/d_latch.bde".
+# DRC: d_latch.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\compile\d_latch.vhd from c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\d_latch.bde ...
+# Generation successful
+# DRC: Checking file "c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/latch_vs_flip_flop.bde".
+# DRC: latch_vs_flip_flop.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 2 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\compile\latch_vs_flip_flop.vhd from c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\latch_vs_flip_flop.bde ...
+# Generation successful
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_2.vhd
+# Compile Entity "dff_en"
+# Compile Architecture "behavioral" of Entity "dff_en"
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_3.vhd
+# Compile Entity "left_shift_register"
+# Compile Architecture "behavioral" of Entity "left_shift_register"
+# File: ./../compile/d_flip_flop.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "behavioral" of Entity "d_flip_flop"
+# File: ./../compile/d_latch.vhd
+# Compile Entity "d_latch"
+# Compile Architecture "behavioral" of Entity "d_latch"
+# File: ./../compile/latch_vs_flip_flop.vhd
+# Compile Entity "latch_vs_flip_flop"
+# Compile Architecture "structure" of Entity "latch_vs_flip_flop"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -dbg -e 100 -work design_tasks -2008  $dsn/src/design_2.vhd $dsn/src/design_3.vhd $dsn/src/d_flip_flop.bde $dsn/src/d_latch.bde $dsn/src/latch_vs_flip_flop.bde
+# DRC: Checking file "c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/latch_vs_flip_flop.bde".
+# DRC: latch_vs_flip_flop.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\compile\latch_vs_flip_flop.vhd from c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\latch_vs_flip_flop.bde ...
+# Generation successful
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_2.vhd
+# Compile Entity "dff_en"
+# Compile Architecture "behavioral" of Entity "dff_en"
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_3.vhd
+# Compile Entity "left_shift_register"
+# Compile Architecture "behavioral" of Entity "left_shift_register"
+# File: ./../compile/d_flip_flop.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "behavioral" of Entity "d_flip_flop"
+# File: ./../compile/d_latch.vhd
+# Compile Entity "d_latch"
+# Compile Architecture "behavioral" of Entity "d_latch"
+# File: ./../compile/latch_vs_flip_flop.vhd
+# Compile Entity "latch_vs_flip_flop"
+# Compile Architecture "structure" of Entity "latch_vs_flip_flop"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# CODE2GRAPHICS: Checking success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# CODE2GRAPHICS: Diagram file(s) generation completed in 0.1 seconds.
+# CODE2GRAPHICS: One unit converted to a Block Diagram.
+# CODE2GRAPHICS: Double click on this line to view the generated log file.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+left_shift_register left_shift_register behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet9" has been made inactive.
+#  5:10 PM, Thursday, April 6, 2023
+#  Simulation has been initialized
+# VSIM: 6 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+run @1.6us
+# KERNEL: stopped at time: 1600 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+left_shift_register left_shift_register behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -dbg -e 100 -work design_tasks -2008  $dsn/src/design_3.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_3.vhd
+# Compile Entity "left_shift_register"
+# Compile Architecture "behavioral" of Entity "left_shift_register"
+# Error: COMP96_0617: design_3.vhd : (45, 17): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC_VECTOR' to 'STD_ULOGIC'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  32.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  5:18 PM, Thursday, April 6, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run @1.6us
+# KERNEL: stopped at time: 1600 ns
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work design_tasks -2008  $dsn/src/design_3.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_3.vhd
+# Compile Entity "left_shift_register"
+# Compile Architecture "behavioral" of Entity "left_shift_register"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -dbg -e 100 -work design_tasks -2008  $dsn/src/design_2.vhd $dsn/src/design_3.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_2.vhd
+# Compile Entity "dff_en"
+# Compile Architecture "behavioral" of Entity "dff_en"
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_3.vhd
+# Compile Entity "left_shift_register"
+# Compile Architecture "behavioral" of Entity "left_shift_register"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+asim -O5 +access +r +m+left_shift_register left_shift_register behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  5:19 PM, Thursday, April 6, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+# Stimuli: Error: No active set.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run @1.6us
+# KERNEL: stopped at time: 1600 ns
+run @3.2us
+# KERNEL: stopped at time: 3200 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+left_shift_register left_shift_register behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  5:20 PM, Thursday, April 6, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+run @3.2us
+# KERNEL: stopped at time: 3200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+left_shift_register left_shift_register behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+#  5:22 PM, Thursday, April 6, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run @3.2us
+# KERNEL: stopped at time: 3200 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+left_shift_register left_shift_register behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  5:23 PM, Thursday, April 6, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run @3.2us
+# KERNEL: stopped at time: 3200 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+left_shift_register left_shift_register behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  5:24 PM, Thursday, April 6, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run @3.2us
+# KERNEL: stopped at time: 3200 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+left_shift_register left_shift_register behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  5:28 PM, Thursday, April 6, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run @3.2us
+# KERNEL: stopped at time: 3200 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+left_shift_register left_shift_register behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  5:28 PM, Thursday, April 6, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run @3.2us
+# KERNEL: stopped at time: 3200 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+left_shift_register left_shift_register behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  5:32 PM, Thursday, April 6, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run @3.2us
+# KERNEL: stopped at time: 3200 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+left_shift_register left_shift_register behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  5:38 PM, Thursday, April 6, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run @3.2us
+# KERNEL: stopped at time: 3200 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+left_shift_register left_shift_register behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  5:40 PM, Thursday, April 6, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run @3.2us
+# KERNEL: stopped at time: 3200 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+left_shift_register left_shift_register behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  5:41 PM, Thursday, April 6, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run @3.2us
+# KERNEL: stopped at time: 3200 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+left_shift_register left_shift_register behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -dbg -e 100 -work design_tasks -2008  $dsn/src/design_3.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_3.vhd
+# Compile Entity "left_shift_register"
+# Compile Architecture "behavioral" of Entity "left_shift_register"
+# Error: COMP96_0651: design_3.vhd : (40, 26): Operator "&" returning 'STD_LOGIC_VECTOR' is not defined for such operands.
+# Error: COMP96_0077: design_3.vhd : (40, 10): Undefined type of expression. Expected type 'STD_ULOGIC_VECTOR'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  5:48 PM, Thursday, April 6, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run @3.2us
+# KERNEL: stopped at time: 3200 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+left_shift_register left_shift_register behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -dbg -e 100 -work design_tasks -2008  $dsn/src/design_3.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_3.vhd
+# Compile Entity "left_shift_register"
+# Compile Architecture "behavioral" of Entity "left_shift_register"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  5:49 PM, Thursday, April 6, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run @3.2us
+# KERNEL: stopped at time: 3200 ns
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work design_tasks -2008  $dsn/src/design_2.vhd $dsn/src/design_3.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_2.vhd
+# Compile Entity "dff_en"
+# Compile Architecture "behavioral" of Entity "dff_en"
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_3.vhd
+# Compile Entity "left_shift_register"
+# Compile Architecture "behavioral" of Entity "left_shift_register"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+dff_en dff_en behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5398 kB (elbread=427 elab2=4831 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  6:33 PM, Thursday, April 6, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /left_shift_register/d not found in c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /left_shift_register/load not found in c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /left_shift_register/en_shift not found in c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /left_shift_register/clk not found in c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /left_shift_register/rst_bar not found in c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /left_shift_register/serial_out not found in c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb.
+# VSIM: 5 object(s) traced.
+run @3.2us
+# KERNEL: stopped at time: 3200 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+dff_en dff_en behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5398 kB (elbread=427 elab2=4831 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet2" has been made inactive.
+#  6:36 PM, Thursday, April 6, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet2" has been made active.
+run @3.2us
+# KERNEL: stopped at time: 3200 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5398 kB (elbread=427 elab2=4831 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet2" has been made inactive.
+#  6:41 PM, Thursday, April 6, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet2" has been made active.
+run @1.6us
+# KERNEL: stopped at time: 1600 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+dff_en dff_en behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5398 kB (elbread=427 elab2=4831 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet2" has been made inactive.
+#  6:42 PM, Thursday, April 6, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet2" has been made active.
+run @1.6us
+# KERNEL: stopped at time: 1600 ns
+# Waveform file 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design2_waveform.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design2_waveform.asdb'.
+# Adding file c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\design2_waveform.asdb ... Done
+# Adding file c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\design2_waveform.awc ... Done
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+dff_en dff_en behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5398 kB (elbread=427 elab2=4831 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet2" has been made inactive.
+#  6:47 PM, Thursday, April 6, 2023
+#  Simulation has been initialized
+# Stimuli: Info: The stimuli set "StimuliSet2" has been made active.
+run @1.8us
+# KERNEL: stopped at time: 1800 ns
+run @3.6us
+# KERNEL: stopped at time: 3600 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+dff_en dff_en behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5398 kB (elbread=427 elab2=4831 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet2" has been made inactive.
+#  6:47 PM, Thursday, April 6, 2023
+#  Simulation has been initialized
+# Stimuli: Info: The stimuli set "StimuliSet2" has been made active.
+run @1.8us
+# KERNEL: stopped at time: 1800 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+dff_en dff_en behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5398 kB (elbread=427 elab2=4831 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet2" has been made inactive.
+#  6:48 PM, Thursday, April 6, 2023
+#  Simulation has been initialized
+# VSIM: 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet2" has been made active.
+run @1.8us
+# KERNEL: stopped at time: 1800 ns
+# Waveform file 'C:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design2_waveform.awc' connected to 'C:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design2_waveform.asdb'.
+endsim
+# VSIM: Simulation has finished.
+# Adding file C:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\design2_waveform.awc ... Done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+left_shift_register left_shift_register behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet2" has been made inactive.
+#  6:52 PM, Thursday, April 6, 2023
+#  Simulation has been initialized
+# VSIM: 6 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run @1.6us
+# KERNEL: stopped at time: 1600 ns
+run @3.2us
+# KERNEL: stopped at time: 3200 ns
+acom -dbg -e 100 -work design_tasks -2008  $dsn/src/design_2.vhd $dsn/src/design_3.vhd $dsn/src/design_1.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_2.vhd
+# Compile Entity "dff_en"
+# Compile Architecture "behavioral" of Entity "dff_en"
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_3.vhd
+# Compile Entity "left_shift_register"
+# Compile Architecture "behavioral" of Entity "left_shift_register"
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_1.vhd
+# Compile Entity "d_latch"
+# Compile Architecture "behavioral" of Entity "d_latch"
+# Compile Entity "d_flip_flop"
+# Compile Architecture "behavioral" of Entity "d_flip_flop"
+# Compile Entity "latch_vs_flip_flop"
+# Compile Architecture "structure" of Entity "latch_vs_flip_flop"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Waveform file 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design3_waveform.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design3_waveform.asdb'.
+# Adding file c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\design3_waveform.asdb ... Done
+# Adding file c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\design3_waveform.awc ... Done
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+asim -O5 +access +r +m+latch_vs_flip_flop latch_vs_flip_flop structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6422 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  7:03 PM, Thursday, April 6, 2023
+#  Simulation has been initialized
+# VSIM: 4 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+run @1.6us
+# KERNEL: stopped at time: 1600 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+latch_vs_flip_flop latch_vs_flip_flop structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6422 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  8:31 AM, Friday, April 7, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet3" has been made active.
+run @1.6us
+# KERNEL: stopped at time: 1600 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+latch_vs_flip_flop latch_vs_flip_flop structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6422 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  8:33 AM, Friday, April 7, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+latch_vs_flip_flop latch_vs_flip_flop structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6422 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+#  8:33 AM, Friday, April 7, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet3" has been made active.
+run @1.6us
+# KERNEL: stopped at time: 1600 ns
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+dff_en dff_en behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5398 kB (elbread=427 elab2=4831 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  8:34 AM, Friday, April 7, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /latch_vs_flip_flop/d not found in c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /latch_vs_flip_flop/clk not found in c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /latch_vs_flip_flop/ql not found in c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /latch_vs_flip_flop/qff not found in c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb.
+# Stimuli: Info: The stimuli set "StimuliSet2" has been made active.
+# VSIM: 5 object(s) traced.
+run @1.6us
+# KERNEL: stopped at time: 1600 ns
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+left_shift_register left_shift_register behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet2" has been made inactive.
+#  8:35 AM, Friday, April 7, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /dff_en/d not found in c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /dff_en/clk not found in c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /dff_en/en not found in c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /dff_en/rst_bar not found in c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /dff_en/q not found in c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+# VSIM: 6 object(s) traced.
+run @3.2 us
+# KERNEL: stopped at time: 3200 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+left_shift_register left_shift_register behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab8\design_tasks\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  8:46 AM, Friday, April 7, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+acom -dbg -e 100 -work design_tasks -2008  $dsn/src/design_2.vhd $dsn/src/design_3.vhd $dsn/src/design_1.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_2.vhd
+# Compile Entity "dff_en"
+# Compile Architecture "behavioral" of Entity "dff_en"
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_3.vhd
+# Compile Entity "left_shift_register"
+# Compile Architecture "behavioral" of Entity "left_shift_register"
+# File: c:/Users/Jason/Documents/VHDL/Lab8/design_tasks/src/design_1.vhd
+# Compile Entity "d_latch"
+# Compile Architecture "behavioral" of Entity "d_latch"
+# Compile Entity "d_flip_flop"
+# Compile Architecture "behavioral" of Entity "d_flip_flop"
+# Compile Entity "latch_vs_flip_flop"
+# Compile Architecture "structure" of Entity "latch_vs_flip_flop"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+run @3.2us
+# KERNEL: stopped at time: 3200 ns

@@ -1,0 +1,33 @@
+Active-HDL 13.0.376.8320 2023-04-07 08:46:26
+
+Elaboration top modules:
+Architecture                  behavioral(left_shift_register)
+
+
+-----------------------------------------------------------------------------------------------------------
+Entity              | Architecture | Library      | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------------------
+left_shift_register | behavioral   | design_tasks |      | 13.0.376.8320 (Windows64) | -dbg -2008
+-----------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------
+VHDL Package                       | Library      | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------------------
+standard                           | std          |      |                           | <unavailable>
+TEXTIO                             | std          |      | 13.0.376.8320 (Windows64) |  -2019
+std_logic_1164                     | ieee         |      | 13.0.376.8320 (Windows64) |  -2008
+-----------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------
+Library                            | Comment
+-----------------------------------------------------------------------------------------------------------
+design_tasks                       | None
+ieee                               | Standard IEEE packages library
+std                                | Standard VHDL library
+-----------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+left_shift_register left_shift_register behavioral
+
+
+The performance of simulation is reduced. Version Student Edition

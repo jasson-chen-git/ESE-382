@@ -1,0 +1,276 @@
+SCHM0106
+
+HEADER
+{
+ FREEID 33
+ VARIABLES
+ {
+  #ARCHITECTURE="behavioral"
+  #BLOCKTABLE_FILE="#HDL2DIAGRAM.bde"
+  #ENTITY="dff_en"
+  #LANGUAGE="VHDL"
+  AUTHOR="Jason"
+  COMPANY="Stony Brook University"
+  CREATIONDATE="4/6/2023"
+  SOURCE="..\\src\\design_2.vhd"
+ }
+}
+
+PAGE ""
+{
+ PAGEHEADER
+ {
+  MARGINS (200,200,200,200)
+  RECT (0,0,0,0)
+ }
+ 
+ BODY
+ {
+  VHDLDESIGNUNITHDR  1, 0, 0
+  {
+   LABEL "Design Unit Header"
+   TEXT 
+"library ieee;\n"+
+"use ieee.std_logic_1164.all;"
+   RECT (220,260,620,439)
+   MARGINS (20,20)
+   MULTILINE
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+  }
+  PROCESS  2, 0, 0
+  {
+   LABEL "df"
+   TEXT 
+"df : process (clk,rst_bar)\n"+
+"                       begin\n"+
+"                         if rst_bar = '0' then\n"+
+"                            q <= '0';\n"+
+"                         elsif rising_edge(clk) and en = '1' then\n"+
+"                            q <= d;\n"+
+"                         end if;\n"+
+"                       end process;\n"+
+"                      "
+   RECT (960,240,1361,580)
+   MARGINS (20,20)
+   SYNTAXCOLORED
+   SHOWTEXT
+   CORNER 10
+   VTX (  18, 21, 25, 28, 30 )
+   VARIABLES
+   {
+    #UPDATE_SENS_LIST="0"
+   }
+   LIST (  21, 30 )
+  }
+  INSTANCE  3, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #LIBRARY="#terminals"
+    #REFERENCE="d"
+    #SYMBOL="Input"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   COORD (820,380)
+   VERTEXES ( (2,24) )
+  }
+  INSTANCE  4, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #LIBRARY="#terminals"
+    #REFERENCE="clk"
+    #SYMBOL="Input"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   COORD (820,260)
+   VERTEXES ( (2,22) )
+  }
+  INSTANCE  5, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #LIBRARY="#terminals"
+    #REFERENCE="en"
+    #SYMBOL="Input"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   COORD (820,340)
+   VERTEXES ( (2,27) )
+  }
+  INSTANCE  6, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #LIBRARY="#terminals"
+    #REFERENCE="rst_bar"
+    #SYMBOL="Input"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   COORD (820,300)
+   VERTEXES ( (2,31) )
+  }
+  INSTANCE  7, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Output"
+    #LIBRARY="#terminals"
+    #REFERENCE="q"
+    #SYMBOL="Output"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   COORD (1460,260)
+   VERTEXES ( (2,19) )
+  }
+  TEXT  8, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (769,380,769,380)
+   ALIGN 6
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (769,260,769,260)
+   ALIGN 6
+   PARENT 4
+  }
+  TEXT  10, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (769,340,769,340)
+   ALIGN 6
+   PARENT 5
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (769,300,769,300)
+   ALIGN 6
+   PARENT 6
+  }
+  TEXT  12, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (1511,260,1511,260)
+   ALIGN 4
+   PARENT 7
+  }
+  NET WIRE  13, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="clk"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+  }
+  NET WIRE  14, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="d"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+  }
+  NET WIRE  15, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="en"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+  }
+  NET WIRE  16, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="q"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+  }
+  NET WIRE  17, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="rst_bar"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+  }
+  VTX  18, 0, 0
+  {
+   COORD (1361,260)
+  }
+  VTX  19, 0, 0
+  {
+   COORD (1460,260)
+  }
+  WIRE  20, 0, 0
+  {
+   NET 16
+   VTX 18, 19
+  }
+  VTX  21, 0, 0
+  {
+   COORD (960,260)
+  }
+  VTX  22, 0, 0
+  {
+   COORD (820,260)
+  }
+  WIRE  23, 0, 0
+  {
+   NET 13
+   VTX 21, 22
+  }
+  VTX  24, 0, 0
+  {
+   COORD (820,380)
+  }
+  VTX  25, 0, 0
+  {
+   COORD (960,380)
+  }
+  WIRE  26, 0, 0
+  {
+   NET 14
+   VTX 24, 25
+  }
+  VTX  27, 0, 0
+  {
+   COORD (820,340)
+  }
+  VTX  28, 0, 0
+  {
+   COORD (960,340)
+  }
+  WIRE  29, 0, 0
+  {
+   NET 15
+   VTX 27, 28
+  }
+  VTX  30, 0, 0
+  {
+   COORD (960,300)
+  }
+  VTX  31, 0, 0
+  {
+   COORD (820,300)
+  }
+  WIRE  32, 0, 0
+  {
+   NET 17
+   VTX 30, 31
+  }
+ }
+ 
+}
+
