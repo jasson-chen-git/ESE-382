@@ -1,0 +1,198 @@
+#Build: Synplify Pro (R) S-2021.09-SP2, Build 244R, Jun  1 2022
+#install: C:\Synopsys\fpga_S-2021.09-SP2
+#OS: Windows 10 or later
+#Hostname: DSRPLB01
+
+# Tue Mar 26 14:51:23 2024
+
+#Implementation: rev_1
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09-SP2
+Install: C:\Synopsys\fpga_S-2021.09-SP2
+OS: Windows 10 or later
+Hostname: DSRPLB01
+
+Implementation : rev_1
+Synopsys HDL Compiler, Version comp202109syn, Build 243R, Built Jun  1 2022 05:18:42, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09-SP2
+Install: C:\Synopsys\fpga_S-2021.09-SP2
+OS: Windows 10 or later
+Hostname: DSRPLB01
+
+Implementation : rev_1
+Synopsys VHDL Compiler, Version comp202109syn, Build 243R, Built Jun  1 2022 05:18:42, @
+
+@N|Running in 64-bit mode
+@N:"D:\Lab8\Lab8\design4\src\linedecoder.vhd":6:7:6:17|Top entity is set to linedecoder.
+File D:\Lab8\Lab8\design4\src\linedecoder.vhd changed - recompiling
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'D:\Lab8\Lab8\design4\src\input_latches.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'D:\Lab8\Lab8\design4\src\decode3to8.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'D:\Lab8\Lab8\design4\src\linedecoder.vhd'.
+VHDL syntax check successful!
+File D:\Lab8\Lab8\design4\src\linedecoder.vhd changed - recompiling
+@N: CD630 :"D:\Lab8\Lab8\design4\src\linedecoder.vhd":6:7:6:17|Synthesizing work.linedecoder.structure.
+@N: CD630 :"D:\Lab8\Lab8\design4\src\decode3to8.vhd":5:7:5:16|Synthesizing work.decode3to8.behavior.
+Post processing for work.decode3to8.behavior
+Running optimization stage 1 on decode3to8 .......
+Finished optimization stage 1 on decode3to8 (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+@N: CD630 :"D:\Lab8\Lab8\design4\src\input_latches.vhd":5:7:5:19|Synthesizing work.input_latches.behavior.
+Post processing for work.input_latches.behavior
+Running optimization stage 1 on input_latches .......
+@W: CL117 :"D:\Lab8\Lab8\design4\src\input_latches.vhd":17:2:17:3|Latch generated from process for signal o(2 downto 0); possible missing assignment in an if or case statement.
+Finished optimization stage 1 on input_latches (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+Post processing for work.linedecoder.structure
+Running optimization stage 1 on linedecoder .......
+Finished optimization stage 1 on linedecoder (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+Running optimization stage 2 on input_latches .......
+Finished optimization stage 2 on input_latches (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+Running optimization stage 2 on decode3to8 .......
+Finished optimization stage 2 on decode3to8 (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+Running optimization stage 2 on linedecoder .......
+Finished optimization stage 2 on linedecoder (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\Lab8\syn\rev_1\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:00s; Memory used current: 89MB peak: 89MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Mar 26 14:51:31 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09-SP2
+Install: C:\Synopsys\fpga_S-2021.09-SP2
+OS: Windows 10 or later
+Hostname: DSRPLB01
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp202109syn, Build 243R, Built Jun  1 2022 05:18:42, @
+
+@N|Running in 64-bit mode
+File D:\Lab8\syn\rev_1\synwork\layer0.srs changed - recompiling
+@N: NF107 :"d:\lab8\lab8\design4\src\linedecoder.vhd":6:7:6:17|Selected library: work cell: linedecoder view structure as top level
+@N: NF107 :"d:\lab8\lab8\design4\src\linedecoder.vhd":6:7:6:17|Selected library: work cell: linedecoder view structure as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 90MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Mar 26 14:51:32 2024
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: D:\Lab8\syn\rev_1\synwork\latch_decode_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:00s; Memory used current: 23MB peak: 23MB)
+
+Process took 0h:00m:09s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Mar 26 14:51:34 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09-SP2
+Install: C:\Synopsys\fpga_S-2021.09-SP2
+OS: Windows 10 or later
+Hostname: DSRPLB01
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp202109syn, Build 243R, Built Jun  1 2022 05:18:42, @
+
+@N|Running in 64-bit mode
+File D:\Lab8\syn\rev_1\synwork\latch_decode_comp.srs changed - recompiling
+@N: NF107 :"d:\lab8\lab8\design4\src\linedecoder.vhd":6:7:6:17|Selected library: work cell: linedecoder view structure as top level
+@N: NF107 :"d:\lab8\lab8\design4\src\linedecoder.vhd":6:7:6:17|Selected library: work cell: linedecoder view structure as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 90MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Mar 26 14:51:37 2024
+
+###########################################################]
+# Tue Mar 26 14:51:40 2024
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09-SP2
+Install: C:\Synopsys\fpga_S-2021.09-SP2
+OS: Windows 10 or later
+Hostname: DSRPLB01
+
+Implementation : rev_1
+Synopsys CPLD Technology Mapper, Version map202109syn, Build 243R, Built Jun  1 2022 05:17:33, @
+
+@N: MF248 |Running in 64-bit mode.
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+@A: MF827 |No constraint file specified.
+---------------------------------------
+Resource Usage Report
+
+Simple gate primitives:
+IBUF            6 uses
+OBUF            8 uses
+keepbuf         1 use
+AND2            19 uses
+INV             5 uses
+DLAT            3 uses
+
+
+@N: FC100 |Timing Report not generated for this device, please use place and route tools for timing analysis.
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 44MB peak: 128MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Mar 26 14:51:42 2024
+
+###########################################################]

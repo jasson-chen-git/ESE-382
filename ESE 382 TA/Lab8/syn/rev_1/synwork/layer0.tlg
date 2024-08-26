@@ -1,0 +1,24 @@
+@N: CD630 :"D:\Lab8\Lab8\design4\src\linedecoder.vhd":6:7:6:17|Synthesizing work.linedecoder.structure.
+@N: CD630 :"D:\Lab8\Lab8\design4\src\decode3to8.vhd":5:7:5:16|Synthesizing work.decode3to8.behavior.
+Post processing for work.decode3to8.behavior
+Running optimization stage 1 on decode3to8 .......
+Finished optimization stage 1 on decode3to8 (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+@N: CD630 :"D:\Lab8\Lab8\design4\src\input_latches.vhd":5:7:5:19|Synthesizing work.input_latches.behavior.
+Post processing for work.input_latches.behavior
+Running optimization stage 1 on input_latches .......
+@W: CL117 :"D:\Lab8\Lab8\design4\src\input_latches.vhd":17:2:17:3|Latch generated from process for signal o(2 downto 0); possible missing assignment in an if or case statement.
+Finished optimization stage 1 on input_latches (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+Post processing for work.linedecoder.structure
+Running optimization stage 1 on linedecoder .......
+Finished optimization stage 1 on linedecoder (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+Running optimization stage 2 on input_latches .......
+Finished optimization stage 2 on input_latches (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+Running optimization stage 2 on decode3to8 .......
+Finished optimization stage 2 on decode3to8 (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+Running optimization stage 2 on linedecoder .......
+Finished optimization stage 2 on linedecoder (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\Lab8\syn\rev_1\synwork\layer0.rt.csv
+

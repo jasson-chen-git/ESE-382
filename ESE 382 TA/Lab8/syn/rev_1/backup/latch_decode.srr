@@ -1,0 +1,63 @@
+#Build: Synplify Pro (R) S-2021.09-SP2, Build 244R, Jun  1 2022
+#install: C:\Synopsys\fpga_S-2021.09-SP2
+#OS: Windows 10 or later
+#Hostname: DSRPLB01
+
+# Tue Mar 26 14:46:32 2024
+
+#Implementation: rev_1
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09-SP2
+Install: C:\Synopsys\fpga_S-2021.09-SP2
+OS: Windows 10 or later
+Hostname: DSRPLB01
+
+Implementation : rev_1
+Synopsys HDL Compiler, Version comp202109syn, Build 243R, Built Jun  1 2022 05:18:42, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09-SP2
+Install: C:\Synopsys\fpga_S-2021.09-SP2
+OS: Windows 10 or later
+Hostname: DSRPLB01
+
+Implementation : rev_1
+Synopsys VHDL Compiler, Version comp202109syn, Build 243R, Built Jun  1 2022 05:18:42, @
+
+@N|Running in 64-bit mode
+@N:"D:\Lab8\Lab8\design4\src\linedecoder.vhd":6:7:6:17|Top entity is set to linedecoder.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'D:\Lab8\Lab8\design4\src\input_latches.vhd'.
+@E: CG103 :"D:\Lab8\Lab8\design4\src\input_latches.vhd":15:16:15:18|Expecting expression
+@E: CD424 :"D:\Lab8\Lab8\design4\src\input_latches.vhd":21:16:21:16|Expecting architecture identifier
+2 errors parsing file D:\Lab8\Lab8\design4\src\input_latches.vhd
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'D:\Lab8\Lab8\design4\src\decode3to8.vhd'.
+@E: CG103 :"D:\Lab8\Lab8\design4\src\decode3to8.vhd":15:17:15:19|Expecting expression
+@E: CD424 :"D:\Lab8\Lab8\design4\src\decode3to8.vhd":31:16:31:16|Expecting architecture identifier
+4 errors parsing file D:\Lab8\Lab8\design4\src\decode3to8.vhd
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'D:\Lab8\Lab8\design4\src\linedecoder.vhd'.
+4 errors parsing file D:\Lab8\Lab8\design4\src\linedecoder.vhd
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Mar 26 14:46:33 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Mar 26 14:46:34 2024
+
+###########################################################]

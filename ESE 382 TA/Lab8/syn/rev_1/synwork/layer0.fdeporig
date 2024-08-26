@@ -1,0 +1,36 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\Lab8\\syn\\rev_1\\synwork\\latch_decode_comp.srs|-autotop|-prodtype|synplify_pro|-nostructver|-dfltencoding|sequential|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\bin64\\c_vhdl.exe":1654086372
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\location.map":1654084412
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\std.vhd":1654084412
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\snps_haps_pkg.vhd":1654084412
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\std1164.vhd":1654084412
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\numeric.vhd":1654084412
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\umr_capim.vhd":1654084412
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\arith.vhd":1654084412
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\unsigned.vhd":1654084412
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\hyperents.vhd":1654084412
+#CUR:"D:\\Lab8\\Lab8\\design4\\src\\input_latches.vhd":1711478966
+#CUR:"D:\\Lab8\\Lab8\\design4\\src\\decode3to8.vhd":1711478978
+#CUR:"D:\\Lab8\\Lab8\\design4\\src\\linedecoder.vhd":1711479084
+0 "D:\Lab8\Lab8\design4\src\input_latches.vhd" vhdl
+1 "D:\Lab8\Lab8\design4\src\decode3to8.vhd" vhdl
+2 "D:\Lab8\Lab8\design4\src\linedecoder.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 0 1 
+
+# Dependency Lists (Users Of)
+0 2 
+1 2 
+2 -1
+
+# Design Unit to File Association
+arch work input_latches behavior 0
+module work input_latches 0
+arch work decode3to8 behavior 1
+module work decode3to8 1
+arch work linedecoder structure 2
+module work linedecoder 2

@@ -1,0 +1,10 @@
+C:\Synopsys\fpga_S-2021.09-SP2\bin64\m_cpld.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  D:\Lab8\syn\rev_1   -part M4A5-64    -RWCheckOnRam 1 -areadelay 0 -minc -ovhdl "latch_decode.vhm" -summaryfile D:\Lab8\syn\rev_1\synlog\report\latch_decode_fpga_mapper.xml -merge_inferred_clocks 0  -implementation  rev_1  -multisrs  -oedif  D:\Lab8\syn\rev_1\latch_decode.edf   -freq 1.000   D:\Lab8\syn\rev_1\synwork\latch_decode_mult.srs  -devicelib  C:\Synopsys\fpga_S-2021.09-SP2\lib\cpld\mach.v  -ologparam  D:\Lab8\syn\rev_1\syntmp\latch_decode.plg  -osyn  D:\Lab8\syn\rev_1\latch_decode.srm  -prjdir  D:\Lab8\syn\  -prjname  lab8  -log  D:\Lab8\syn\rev_1\synlog\latch_decode_fpga_mapper.srr  -sn  2021.09  -jobname  "fpga_mapper" 
+relcom:C:\Synopsys\fpga_S-2021.09-SP2\bin64\m_cpld.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\rev_1 -part M4A5-64 -RWCheckOnRam 1 -areadelay 0 -minc -ovhdl "latch_decode.vhm" -summaryfile ..\synlog\report\latch_decode_fpga_mapper.xml -merge_inferred_clocks 0 -implementation rev_1 -multisrs -oedif ..\latch_decode.edf -freq 1.000 ..\synwork\latch_decode_mult.srs -devicelib C:\Synopsys\fpga_S-2021.09-SP2\lib\cpld\mach.v -ologparam latch_decode.plg -osyn ..\latch_decode.srm -prjdir ..\..\ -prjname lab8 -log ..\synlog\latch_decode_fpga_mapper.srr -sn 2021.09 -jobname "fpga_mapper"
+rc:0 success:1 runtime:6
+file:..\latch_decode.edf|io:o|time:1711479102|size:15276|exec:0|csum:
+file:..\synwork\latch_decode_mult.srs|io:i|time:1711479098|size:2262|exec:0|csum:B7596E7E2402863BF85D150A3D45ED2E
+file:C:\Synopsys\fpga_S-2021.09-SP2\lib\cpld\mach.v|io:i|time:1654084572|size:10867|exec:0|csum:B09F820C1C6530D62BE318CBF6A69084
+file:latch_decode.plg|io:o|time:1711479102|size:0|exec:0|csum:
+file:..\latch_decode.srm|io:o|time:1711479102|size:8996|exec:0|csum:
+file:..\synlog\latch_decode_fpga_mapper.srr|io:o|time:1711479104|size:1521|exec:0|csum:
+file:C:\Synopsys\fpga_S-2021.09-SP2\bin64\m_cpld.exe|io:i|time:1654086972|size:25899008|exec:1|csum:3276A01F336CDBD78257F2ED186E1B6A

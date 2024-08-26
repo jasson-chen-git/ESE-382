@@ -1,0 +1,2 @@
+@W: CL117 :"D:\Lab8\Lab8\design4\src\input_latches.vhd":17:2:17:3|Latch generated from process for signal o(2 downto 0); possible missing assignment in an if or case statement.
+

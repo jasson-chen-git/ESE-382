@@ -1,0 +1,7 @@
+C:\Synopsys\fpga_S-2021.09-SP2\bin64\syn_nfilter.exe  -link  -multisrs  D:\Lab8\syn\rev_1\synwork\latch_decode_comp.srs  -osyn  D:\Lab8\syn\rev_1\synwork\latch_decode_mult.srs  -log  D:\Lab8\syn\rev_1\synlog\latch_decode_multi_srs_gen.srr 
+relcom:C:\Synopsys\fpga_S-2021.09-SP2\bin64\syn_nfilter.exe -link -multisrs ..\synwork\latch_decode_comp.srs -osyn ..\synwork\latch_decode_mult.srs -log ..\synlog\latch_decode_multi_srs_gen.srr
+rc:0 success:1 runtime:3
+file:..\synwork\latch_decode_comp.srs|io:i|time:1711479094|size:3370|exec:0|csum:8DC585103B7790CFAADF8E6F87277076
+file:..\synwork\latch_decode_mult.srs|io:o|time:1711479098|size:2262|exec:0|csum:
+file:..\synlog\latch_decode_multi_srs_gen.srr|io:o|time:1711479098|size:1380|exec:0|csum:
+file:C:\Synopsys\fpga_S-2021.09-SP2\bin64\syn_nfilter.exe|io:i|time:1654086548|size:8736768|exec:1|csum:8DE049913141524B2CDFB82FB9120055

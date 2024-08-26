@@ -1,0 +1,6 @@
+@E: CG103 :"D:\Lab8\Lab8\design4\src\input_latches.vhd":15:16:15:18|Expecting expression
+@E: CD424 :"D:\Lab8\Lab8\design4\src\input_latches.vhd":21:16:21:16|Expecting architecture identifier
+@E: CG103 :"D:\Lab8\Lab8\design4\src\decode3to8.vhd":15:17:15:19|Expecting expression
+@E: CD424 :"D:\Lab8\Lab8\design4\src\decode3to8.vhd":31:16:31:16|Expecting architecture identifier
+@E: Parse errors encountered - exiting
+
