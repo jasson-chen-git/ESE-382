@@ -1,0 +1,47 @@
+Active-HDL 12.0.118.7745 2024-03-26 15:12:32
+
+Elaboration top modules:
+Architecture                  TB_ARCHITECTURE(linedecoder_tb)
+
+
+----------------------------------------------------------------------------------------------------
+Entity         | Architecture    | Library | Info | Compiler Version          | Compilation Options
+----------------------------------------------------------------------------------------------------
+linedecoder_tb | TB_ARCHITECTURE | design4 |      | 12.0.118.7745 (Windows64) | -dbg -2008
+linedecoder    | NetList         | design4 |      | 12.0.118.7745 (Windows64) | -dbg -2008
+ibuf           | vital           | mach    |      | 12.0.118.7745 (Windows64) | <unavailable>
+obuf           | vital           | mach    |      | 12.0.118.7745 (Windows64) | <unavailable>
+dlat           | vital           | mach    |      | 12.0.118.7745 (Windows64) | <unavailable>
+and3           | vital           | mach    |      | 12.0.118.7745 (Windows64) | <unavailable>
+inv            | vital           | mach    |      | 12.0.118.7745 (Windows64) | <unavailable>
+nor2           | vital           | mach    |      | 12.0.118.7745 (Windows64) | <unavailable>
+and2           | vital           | mach    |      | 12.0.118.7745 (Windows64) | <unavailable>
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+VHDL Package                     | Library | Info | Compiler Version          | Compilation Options
+----------------------------------------------------------------------------------------------------
+standard                         | std     |      |                           | <unavailable>
+TEXTIO                           | std     |      |                           | <unavailable>
+std_logic_1164                   | ieee    |      |                           | <unavailable>
+NUMERIC_STD                      | ieee    |      |                           | <unavailable>
+VITAL_Timing                     | ieee    |      |                           | <unavailable>
+Components                       | mach    |      |                           | <unavailable>
+VITAL_Primitives                 | ieee    |      |                           | <unavailable>
+VLOGTOVITAL_TABLES               | mach    |      |                           | <unavailable>
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Library                          | Comment
+----------------------------------------------------------------------------------------------------
+design4                          | None
+ieee                             | Standard IEEE packages library
+mach                             | LATTICE ispLEVER Classic 1.4, mach VHDL LIBRARY
+std                              | Standard VHDL library
+----------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -sdftyp /linedecoder_tb/UUT=D:\Lab8\Lab8\design4/src/latch_decode.sdf -O5 +access +r +m+linedecoder_tb linedecoder_tb TB_ARCHITECTURE
+
+
+The performance of simulation is reduced. Version EDU Edition

@@ -1,0 +1,4 @@
+.\src\input_latches.vhd
+.\src\decode3to8.vhd
+.\src\latch_decode.vho
+.\src\TestBench\linedecoder_TB.vhd

@@ -1,0 +1,1 @@
+-w -erf D:/Lab8/Lab8/design4/compile/design4.erf -d D:/Lab8/Lab8/design4/compile -s D:/Lab8/Lab8/library.cfg -j D:/Lab8/Lab8/design4/projlib.cfg -work design4 -dbg -e 100 -work design4 -2008 D:/Lab8/Lab8/design4/src/input_latches.vhd D:/Lab8/Lab8/design4/src/decode3to8.vhd D:/Lab8/Lab8/design4/src/latch_decode.vho D:/Lab8/Lab8/design4/src/TestBench/linedecoder_TB.vhd 

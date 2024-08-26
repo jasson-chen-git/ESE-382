@@ -1,0 +1,102 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=design4
+
+[Library]
+design4=.\design4\design4.lib
+
+[$LibMap$]
+design4=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=NONE
+REFRESH_FLOW=1
+FAMILY=
+fileopenfolder=D:\Lab8\lever
+NoWarningsSDF=0
+ChangeSDFErrorToWarning=0
+EnableSDFErrorLimit=0
+SDFErrorLimit=0
+DisableIEEEWarnings=0
+DisableVitalMsg=0
+VitalAccel=1
+UnboundError=0
+VitalGlitches=0
+WireDelay=2
+
+[LocalVhdlSets]
+NetlistCompilation=1
+EnableVHDL93Key=0
+EnableVHDL2002Key=0
+EnableVHDL2008Key=1
+EnableVHDL2019Key=0
+DisableVHDL87Key=0
+Syntax RelaxLRM=0
+MaxErrorsKey=100
+CompileWithDebug=1
+OptimizationLevel=3
+DisableRangeChecks=0
+ProtectLevel=0
+IncrementalCompilation=0
+AdditionalOptions=
+
+[SpecTracer]
+WindowVisible=0
+
+[sdf.ea.linedecoder-NetList]
+0=src\latch_decode.sdf| /linedecoder/UUT, Average, Yes
+
+[LocalVerilogSets]
+MonitoringOfEventsUDP=0
+DisablePulseError=0
+PulseErrorFilter=0
+ErrorLimit=100
+RejectionLimit=100
+SetErrorLimit=0
+SetRejectionLimit=0
+InitialRegsValue=X
+HasInitialRegsValue=0
+EnableSLP=1
+LibNames=
+PriorityLibNames=
+
+[LoadVHPI]
+Count=0
+
+[Groups]
+TestBench=1
+
+[Files]
+/input_latches.vhd=-1
+/decode3to8.vhd=-1
+/linedecoder.vhd=-1
+/latch_decode.sdf=-1
+/latch_decode.vho=-1
+/wf.asdb=-1
+/wf.awc=-1
+TestBench/linedecoder_TB.vhd=-1
+TestBench/linedecoder_TB_runtest.do=-1
+
+[Files.Data]
+.\src\input_latches.vhd=VHDL Source Code
+.\src\decode3to8.vhd=VHDL Source Code
+.\src\linedecoder.vhd=VHDL Source Code
+.\src\decode3to8_tb.vhd=VHDL Source Code
+.\src\latch_decode.sdf=SDF File
+.\src\latch_decode.vho=VHDL Source Code
+.\src\wf.asdb=Accelerated Waveform File
+.\src\wf.awc=Accelerated Waveform Configuration
+.\src\TestBench\linedecoder_TB.vhd=VHDL Test Bench
+.\src\TestBench\linedecoder_TB_runtest.do=Macro
+
+[sdf.ea.linedecoder_tb-TB_ARCHITECTURE]
+0=src\latch_decode.sdf| /linedecoder_tb/UUT, Average, Yes
+
