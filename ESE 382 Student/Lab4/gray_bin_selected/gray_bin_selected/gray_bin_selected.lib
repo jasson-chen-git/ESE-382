@@ -1,0 +1,46 @@
+timestamp=1677179345976
+
+[~A]
+ModifyID=29
+Version=74
+
+[~MFT]
+0=4|0gray_bin_selected.mgf|26168|20238
+1=4|1gray_bin_selected.mgf|58465|52755
+3=4|3gray_bin_selected.mgf|5457|4121
+
+[gray_bin]
+A/conditional_dc=+21|../src/gray_bin_conditional_dc.vhd|11|1*51032
+A/selected=+21|../src/gray_bin_selected.vhd|10|1*31418
+A/selected_dc=+21|../src/gray_bin_selected_dc.vhd|10|1*34490
+A/table_lookup_dc=21|../src/gray_bin_table_lookup_dc.vhd|11|1*58465
+BinW64/table_lookup_dc=3*5457
+I=0*24751
+I/table_lookup_dc=0*26168
+M=11|2|vef|1677179088466|../src/gray_bin_table_lookup_dc.vhd|0*24375*0x68f605925b3368f301b176cfe0a76c2ac866c699|0*24654*0xd986fd7175c8cf28cd774bcadde79966
+M/conditional_dc=21|2|vef|1677177893453|../src/gray_bin_conditional_dc.vhd|0*22760*0x2f86826c126f8cf731da887e37c4344566077840|0*23522*0x3666052002612506830c83371aef600f
+M/selected=21|2|vef|1677177013529|../src/gray_bin_selected.vhd|0*8758*0x081045caa50ff8fb1a2be0a27b2696146b28fed3|0*9460*0x3666052002612506830c83371aef600f
+M/selected_dc=21|2|vef|1677177013660|../src/gray_bin_selected_dc.vhd|0*10965*0x00349456a39d1e70a3dbbb0f5d8d6c3d5b936a4f|0*11731*0x3666052002612506830c83371aef600f
+M/table_lookup_dc=21|2|vef|1677179345955|../src/gray_bin_table_lookup_dc.vhd|0*24993*0xfda04f767a0b7fe3fa59b2f93c9173ee7451ea1d|0*25459*0x3666052002612506830c83371aef600f
+R=../src/gray_bin_table_lookup_dc.vhd|5
+Version=13.0.376.8320 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|33bc1f0135cdc64f35ce65aa6199de18257a08b95c9a80cfdbb2c82194e4e6f0ef431b56c61ec3a0bd46154bf0de324c
+Version/conditional_dc=13.0.376.8320 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|7c9e8f1af1dad4dd8181d0aa90fd0e306f3231059006901714a5ba7a7398b8cb0f4d1964d5341dd795d0d935669e86a6
+Version/selected=13.0.376.8320 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|727ef0f649e569d7cff98cbb92ddc865eaf190bca5f7b29ee504cb730d4c63eb9b1e6e1dc71de656c51e5f9d3b472583
+Version/selected_dc=13.0.376.8320 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|1b9111aa452c254aeda042fdc036d16b1698028877997b760031efd361aee71456a3cb6ad72f64d4d392210b557ea1da
+Version/table_lookup_dc=13.0.376.8320 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|9f3bc94c18391d04edd373fd3af054122890f78b4cd849f16beea35e7d48f0f9da0cf31ea1375bec8ef8633de1bb2e37
+
+[gray_bin_selfcheck_tb]
+A/tb_architecture=21|../src/gray_bin_vec_selfcheck_TB.vhd|11|1*56720
+BinW64/tb_architecture=3*4121
+I=0*3730
+I/tb_architecture=0*25833
+M=11|2|vef|1677159098475|../src/gray_bin_selfcheck_TB.vhd|0*3367*0xa3e84c9ac41945cd8ee50997d5dd1388377bf199|0*3623*0xd986fd7175c8cf28cd774bcadde79966
+M/tb_architecture=21|2|vef|1677179345906|../src/gray_bin_vec_selfcheck_TB.vhd|0*21537*0x504cc2ab2f1d48ccb51d2084f505c906a34834d0|0*22295*0x3666052002612506830c83371aef600f
+R=../src/gray_bin_selfcheck_TB.vhd|8
+Version=13.0.376.8320 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|11db9a309674361cf008c5a1dde47466c5639a0a2614d8f061fafcbefa90d5101659313fa3973bb6aaad92f19e14f0e3
+Version/tb_architecture=13.0.376.8320 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534beade332826b7ee298dc82b27413260fb6d
+
+[~U]
+gray_bin=11|0*24188|
+gray_bin_selfcheck_tb=11|0*3219|
+

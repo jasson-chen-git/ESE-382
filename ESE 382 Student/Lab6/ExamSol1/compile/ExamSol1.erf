@@ -1,0 +1,7 @@
+MESSAGE "File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus.vhd" 
+MESSAGE "Compile Entity "abacus"" 
+MESSAGE "Compile Architecture "cond" of Entity "abacus"" 
+MESSAGE "File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus_selfcheck_tb.vhd" 
+MESSAGE "Compile Entity "abacus_selfcheck_tb"" 
+MESSAGE "Compile Architecture "tb_architecture" of Entity "abacus_selfcheck_tb"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]" 

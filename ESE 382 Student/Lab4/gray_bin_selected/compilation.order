@@ -1,0 +1,6 @@
+.\src\gray_bin_selected.vhd
+.\src\gray_bin_selfcheck_TB.vhd
+.\src\gray_bin_selected_dc.vhd
+.\src\gray_bin_conditional_dc.vhd
+.\src\gray_bin_vec_selfcheck_TB.vhd
+.\src\gray_bin_table_lookup_dc.vhd

@@ -1,0 +1,14 @@
+62
+~E 1 "../src/abacus.vhd" 4 abacus
+~A 1 "../src/abacus.vhd" 11 cond
+~E 1 "../src/abacus_selfcheck_tb.vhd" 6 abacus_selfcheck_tb
+~A 1 "../src/abacus_selfcheck_tb.vhd" 36 tb_architecture
+~E 1 "../src/gray_bin_selfcheck_TB.vhd" 8 gray_bin_selfcheck_tb
+~E 1 "../src/led_driver.vhd" 4 led_driver
+~A 1 "../src/led_driver.vhd" 11 cond
+~E 1 "../src/led_driver_selfcheck_tb.vhd" 6 led_driver_selfcheck_tb
+~A 1 "../src/led_driver_selfcheck_tb.vhd" 31 tb_architecture
+~E 1 "../src/task1.vhd" 4 smpl_combo
+~A 1 "../src/smpl_combo.vhd" 11 dataflow
+~E 1 "../src/testbench1.vhd" 6 smpl_combo_selfcheck_tb
+~A 1 "../src/smpl_combo_selfcheck_tb.vhd" 30 tb_architecture

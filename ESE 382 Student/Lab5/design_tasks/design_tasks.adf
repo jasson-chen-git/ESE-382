@@ -1,0 +1,51 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=design_tasks
+[Library]
+design_tasks=.\design_tasks\design_tasks.lib
+[$LibMap$]
+design_tasks=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/task1.vhd=-1
+/gray_bin_selfcheck_TB.vhd=-1
+/task2.vhd=-1
+/gray_bin_vec_selfcheck_TB.vhd=-1
+/task3.vhd=-1
+/task4.vhd=-1
+[Files.Data]
+.\src\task1.vhd=VHDL Source Code
+.\src\gray_bin_selfcheck_TB.vhd=VHDL Source Code
+.\src\task2.vhd=VHDL Source Code
+.\src\gray_bin_vec_selfcheck_TB.vhd=VHDL Source Code
+.\src\task3.vhd=VHDL Source Code
+.\src\task4.vhd=VHDL Source Code
+[HierarchyViewer]
+HierarchyInformation=gray_bin_selfcheck_tb|tb_architecture|0
+ShowHide=ShowTopLevel
+Selected=
+[LocalVhdlSets]
+NetlistCompilation=1
+EnableVHDL93Key=0
+EnableVHDL2002Key=0
+EnableVHDL2008Key=1
+EnableVHDL2019Key=0
+DisableVHDL87Key=0
+Syntax RelaxLRM=0
+MaxErrorsKey=100
+CompileWithDebug=1
+OptimizationLevel=3
+DisableRangeChecks=0
+ProtectLevel=0
+IncrementalCompilation=0
+AdditionalOptions=

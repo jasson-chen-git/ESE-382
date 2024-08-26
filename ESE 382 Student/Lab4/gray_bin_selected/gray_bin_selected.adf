@@ -1,0 +1,52 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=gray_bin_selected
+[Library]
+gray_bin_selected=.\gray_bin_selected\gray_bin_selected.lib
+[$LibMap$]
+gray_bin_selected=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=C:\Users\Jason\Downloads
+[Files]
+/gray_bin_selected.vhd=-1
+/gray_bin_selfcheck_TB.vhd=-1
+/gray_bin_selected_dc.vhd=-1
+/gray_bin_conditional_dc.vhd=-1
+/gray_bin_vec_selfcheck_TB.vhd=-1
+/gray_bin_table_lookup_dc.vhd=-1
+[Files.Data]
+.\src\gray_bin_selected.vhd=VHDL Source Code
+.\src\gray_bin_selfcheck_TB.vhd=VHDL Source Code
+.\src\gray_bin_selected_dc.vhd=VHDL Source Code
+.\src\gray_bin_conditional_dc.vhd=VHDL Source Code
+.\src\gray_bin_vec_selfcheck_TB.vhd=VHDL Source Code
+.\src\gray_bin_table_lookup_dc.vhd=VHDL Source Code
+[LocalVhdlSets]
+NetlistCompilation=1
+EnableVHDL93Key=0
+EnableVHDL2002Key=0
+EnableVHDL2008Key=1
+EnableVHDL2019Key=0
+DisableVHDL87Key=0
+Syntax RelaxLRM=0
+MaxErrorsKey=100
+CompileWithDebug=1
+OptimizationLevel=3
+DisableRangeChecks=0
+ProtectLevel=0
+IncrementalCompilation=0
+AdditionalOptions=
+[HierarchyViewer]
+HierarchyInformation=gray_bin_selfcheck_tb|tb_architecture|0
+ShowHide=ShowTopLevel
+Selected=

@@ -1,0 +1,2035 @@
+# Design: Design ExamSol1 already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -O3 -e 100 -work ExamSol1 -2002  $dsn/src/task1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/task1.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/task1.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/task1.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/task1.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# Error: COMP96_0015: task1.vhd : (3, 12): ':' expected.
+# Error: COMP96_0056: task1.vhd : (8, 1): Cannot find referenced entity declaration "smpl_combo".
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -reorder -O3 -e 100 -work ExamSol1 -2002  $dsn/src/task1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/task1.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/task1.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/task1.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/task1.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# Error: COMP96_0015: task1.vhd : (6, 12): ':' expected.
+# Error: COMP96_0056: task1.vhd : (11, 1): Cannot find referenced entity declaration "smpl_combo".
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -reorder -O3 -e 100 -work ExamSol1 -2002  $dsn/src/task1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/task1.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/task1.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/task1.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/task1.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# Error: COMP96_0015: task1.vhd : (6, 12): ':' expected.
+# Error: COMP96_0056: task1.vhd : (11, 1): Cannot find referenced entity declaration "smpl_combo".
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -reorder -O3 -e 100 -work ExamSol1 -2002  $dsn/src/task1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/task1.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# Top-level unit(s) detected:
+# Entity => smpl_combo
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work ExamSol1 -2002  $dsn/src/task1.vhd $dsn/src/gray_bin_selfcheck_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/task1.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/gray_bin_selfcheck_TB.vhd
+# Compile Entity "gray_bin_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "gray_bin_selfcheck_tb"
+# Error: COMP96_0078: gray_bin_selfcheck_TB.vhd : (23, 15): Unknown identifier "gray_bin".
+# Error: COMP96_0056: gray_bin_selfcheck_TB.vhd : (23, 15): Cannot find referenced entity declaration "gray_bin".
+# Error: COMP96_0055: gray_bin_selfcheck_TB.vhd : (23, 15): Cannot find context item "gray_bin".
+# Error: COMP96_0078: gray_bin_selfcheck_TB.vhd : (37, 32): Unknown identifier "to_string".
+# Error: COMP96_0133: gray_bin_selfcheck_TB.vhd : (37, 32): Cannot find object declaration.
+# Error: COMP96_0289: gray_bin_selfcheck_TB.vhd : (37, 32): Prefix of index must be an array.
+# Error: COMP96_0086: gray_bin_selfcheck_TB.vhd : (37, 11): String expected.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work ExamSol1 -2002  $dsn/src/task1.vhd $dsn/src/testbench1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/task1.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/testbench1.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Error: COMP96_0015: testbench1.vhd : (31, 4): ')' expected.
+# Error: COMP96_0015: testbench1.vhd : (31, 11): ';' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work ExamSol1 -2002  $dsn/src/task1.vhd $dsn/src/testbench1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/task1.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/testbench1.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Error: COMP96_0015: testbench1.vhd : (31, 4): ')' expected.
+# Error: COMP96_0015: testbench1.vhd : (31, 11): ';' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work ExamSol1 -2002  $dsn/src/task1.vhd $dsn/src/testbench1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/task1.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/testbench1.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Error: COMP96_0753: testbench1.vhd : (28, 4): Cannot find the "or" operator with operands denoted with the "[BOOLEAN, STD_ULOGIC]" signature.
+# Error: COMP96_0077: testbench1.vhd : (27, 10): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: testbench1.vhd : (32, 32): Unknown identifier "to_string".
+# Error: COMP96_0133: testbench1.vhd : (32, 32): Cannot find object declaration.
+# Error: COMP96_0289: testbench1.vhd : (32, 32): Prefix of index must be an array.
+# Error: COMP96_0086: testbench1.vhd : (32, 11): String expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -e 100 -work ExamSol1 -2002  $dsn/src/task1.vhd $dsn/src/testbench1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/task1.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/testbench1.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Error: COMP96_0015: testbench1.vhd : (32, 4): ')' expected.
+# Error: COMP96_0015: testbench1.vhd : (32, 11): ';' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work ExamSol1 -2002  $dsn/src/task1.vhd $dsn/src/testbench1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/task1.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/testbench1.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Error: COMP96_0753: testbench1.vhd : (29, 6): Cannot find the "or" operator with operands denoted with the "[BOOLEAN, STD_ULOGIC]" signature.
+# Error: COMP96_0077: testbench1.vhd : (27, 10): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: testbench1.vhd : (34, 32): Unknown identifier "to_string".
+# Error: COMP96_0133: testbench1.vhd : (34, 32): Cannot find object declaration.
+# Error: COMP96_0289: testbench1.vhd : (34, 32): Prefix of index must be an array.
+# Error: COMP96_0086: testbench1.vhd : (34, 11): String expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/task1.vhd $dsn/src/testbench1.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/task1.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/testbench1.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Error: COMP96_0753: testbench1.vhd : (29, 6): Cannot find the "or" operator with operands denoted with the "[BOOLEAN, STD_ULOGIC]" signature.
+# Error: COMP96_0077: testbench1.vhd : (27, 10): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0756: testbench1.vhd : (34, 32): Subprogram call is ambiguous. At least two matching subprograms "ieee.NUMERIC_STD.TO_STRING(VALUE : UNRESOLVED_SIGNED) return STRING" and "ieee.NUMERIC_STD.TO_STRING(VALUE : UNRESOLVED_UNSIGNED) return STRING" were detected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/task1.vhd $dsn/src/testbench1.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/task1.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/testbench1.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Error: COMP96_0753: testbench1.vhd : (29, 6): Cannot find the "or" operator with operands denoted with the "[BOOLEAN, STD_ULOGIC]" signature.
+# Error: COMP96_0077: testbench1.vhd : (27, 10): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0131: testbench1.vhd : (34, 50): Illegal operand for type conversion.
+# Error: COMP96_0149: testbench1.vhd : (34, 57): Explicit type conversions are allowed between closely related types only.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/task1.vhd $dsn/src/testbench1.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/task1.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/testbench1.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Error: COMP96_0753: testbench1.vhd : (29, 6): Cannot find the "or" operator with operands denoted with the "[BOOLEAN, STD_ULOGIC]" signature.
+# Error: COMP96_0077: testbench1.vhd : (27, 10): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0756: testbench1.vhd : (34, 32): Subprogram call is ambiguous. At least two matching subprograms "ieee.NUMERIC_STD.TO_STRING(VALUE : UNRESOLVED_SIGNED) return STRING" and "ieee.NUMERIC_STD.TO_STRING(VALUE : UNRESOLVED_UNSIGNED) return STRING" were detected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/task1.vhd $dsn/src/testbench1.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/task1.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/testbench1.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Error: COMP96_0756: testbench1.vhd : (34, 32): Subprogram call is ambiguous. At least two matching subprograms "ieee.NUMERIC_STD.TO_STRING(VALUE : UNRESOLVED_SIGNED) return STRING" and "ieee.NUMERIC_STD.TO_STRING(VALUE : UNRESOLVED_UNSIGNED) return STRING" were detected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/task1.vhd $dsn/src/testbench1.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/task1.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/testbench1.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/smpl_combo.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/smpl_combo_selfcheck_tb.vhd $dsn/src/smpl_combo.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo_selfcheck_tb.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+smpl_combo_selfcheck_tb smpl_combo_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6466 kB (elbread=427 elab2=5900 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  5:22 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+smpl_combo_selfcheck_tb smpl_combo_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6466 kB (elbread=427 elab2=5900 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  5:22 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# add wave -noreg {/smpl_combo_selfcheck_tb/a}
+# add wave -noreg {/smpl_combo_selfcheck_tb/b}
+# add wave -noreg {/smpl_combo_selfcheck_tb/c}
+# add wave -noreg {/smpl_combo_selfcheck_tb/x}
+# add wave -noreg {/smpl_combo_selfcheck_tb/y}
+# VSIM: 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0142 smpl_combo_selfcheck_tb.vhd (37): finish called.
+# KERNEL: Time: 160 ns,  Iteration: 0,  Instance: /smpl_combo_selfcheck_tb,  Process: tb.
+# KERNEL: stopped at time: 160 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/smpl_combo.vhd $dsn/src/smpl_combo_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo_selfcheck_tb.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+smpl_combo_selfcheck_tb smpl_combo_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6466 kB (elbread=427 elab2=5899 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  5:40 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# add wave -noreg {/smpl_combo_selfcheck_tb/a}
+# add wave -noreg {/smpl_combo_selfcheck_tb/b}
+# add wave -noreg {/smpl_combo_selfcheck_tb/c}
+# add wave -noreg {/smpl_combo_selfcheck_tb/x}
+# add wave -noreg {/smpl_combo_selfcheck_tb/y}
+# VSIM: 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb'.
+run
+# EXECUTION:: ERROR  : Error for input 001.
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /smpl_combo_selfcheck_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error for input 100.
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /smpl_combo_selfcheck_tb,  Process: tb.
+# RUNTIME: Info: RUNTIME_0142 smpl_combo_selfcheck_tb.vhd (33): finish called.
+# KERNEL: Time: 160 ns,  Iteration: 0,  Instance: /smpl_combo_selfcheck_tb,  Process: tb.
+# KERNEL: stopped at time: 160 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/smpl_combo.vhd $dsn/src/smpl_combo_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo_selfcheck_tb.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver.vhd
+# Compile Entity "led_driver"
+# Error: COMP96_0018: led_driver.vhd : (10, 2): Identifier expected.
+# Compile Architecture "cond" of Entity "led_driver"
+# Error: COMP96_0056: led_driver.vhd : (13, 1): Cannot find referenced entity declaration "led_driver".
+# Compile failure 2 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver.vhd
+# Compile Entity "led_driver"
+# Error: COMP96_0078: led_driver.vhd : (2, 5): Unknown identifier "iee".
+# Error: COMP96_0078: led_driver.vhd : (6, 12): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: led_driver.vhd : (6, 12): Unknown type.
+# Error: COMP96_0078: led_driver.vhd : (7, 14): Unknown identifier "std_logic".
+# Error: COMP96_0064: led_driver.vhd : (7, 14): Unknown type.
+# Error: COMP96_0078: led_driver.vhd : (8, 16): Unknown identifier "std_logic".
+# Error: COMP96_0064: led_driver.vhd : (8, 16): Unknown type.
+# Error: COMP96_0078: led_driver.vhd : (9, 13): Unknown identifier "std_logic".
+# Error: COMP96_0064: led_driver.vhd : (9, 13): Unknown type.
+# Compile Architecture "cond" of Entity "led_driver"
+# Error: COMP96_0056: led_driver.vhd : (13, 1): Cannot find referenced entity declaration "led_driver".
+# Compile failure 10 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver.vhd
+# Compile Entity "led_driver"
+# Error: COMP96_0078: led_driver.vhd : (2, 5): Unknown identifier "iee".
+# Error: COMP96_0078: led_driver.vhd : (6, 12): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: led_driver.vhd : (6, 12): Unknown type.
+# Error: COMP96_0078: led_driver.vhd : (7, 14): Unknown identifier "std_logic".
+# Error: COMP96_0064: led_driver.vhd : (7, 14): Unknown type.
+# Error: COMP96_0078: led_driver.vhd : (8, 16): Unknown identifier "std_logic".
+# Error: COMP96_0064: led_driver.vhd : (8, 16): Unknown type.
+# Error: COMP96_0078: led_driver.vhd : (9, 13): Unknown identifier "std_logic".
+# Error: COMP96_0064: led_driver.vhd : (9, 13): Unknown type.
+# Compile Architecture "cond" of Entity "led_driver"
+# Error: COMP96_0056: led_driver.vhd : (13, 1): Cannot find referenced entity declaration "led_driver".
+# Compile failure 10 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver.vhd
+# Compile Entity "led_driver"
+# Compile Architecture "cond" of Entity "led_driver"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver.vhd
+# Compile Entity "led_driver"
+# Compile Architecture "cond" of Entity "led_driver"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver.vhd
+# Compile Entity "led_driver"
+# Error: COMP96_0018: led_driver.vhd : (8, 2): Identifier expected.
+# Compile Architecture "cond" of Entity "led_driver"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver.vhd
+# Compile Entity "led_driver"
+# Compile Architecture "cond" of Entity "led_driver"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0018: led_driver_selfcheck_tb.vhd : (11, 24): Identifier expected.
+# Error: COMP96_0018: led_driver_selfcheck_tb.vhd : (12, 28): Identifier expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (29, 4): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (29, 11): ')' expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver.vhd $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver.vhd
+# Compile Entity "led_driver"
+# Compile Architecture "cond" of Entity "led_driver"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0018: led_driver_selfcheck_tb.vhd : (11, 24): Identifier expected.
+# Error: COMP96_0018: led_driver_selfcheck_tb.vhd : (12, 28): Identifier expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (29, 4): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (29, 11): ')' expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0018: led_driver_selfcheck_tb.vhd : (11, 25): Identifier expected.
+# Error: COMP96_0018: led_driver_selfcheck_tb.vhd : (12, 28): Identifier expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+smpl_combo_selfcheck_tb smpl_combo_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6466 kB (elbread=427 elab2=5899 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  6:19 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+led_driver_selfcheck_tb led_driver_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5444 kB (elbread=427 elab2=4877 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  6:19 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# add wave -noreg {/led_driver_selfcheck_tb/a3}
+# add wave -noreg {/led_driver_selfcheck_tb/a2}
+# add wave -noreg {/led_driver_selfcheck_tb/a1}
+# add wave -noreg {/led_driver_selfcheck_tb/a0}
+# add wave -noreg {/led_driver_selfcheck_tb/cold}
+# add wave -noreg {/led_driver_selfcheck_tb/normal}
+# add wave -noreg {/led_driver_selfcheck_tb/hot}
+# VSIM: 7 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0142 led_driver_selfcheck_tb.vhd (33): finish called.
+# KERNEL: Time: 320 ns,  Iteration: 0,  Instance: /led_driver_selfcheck_tb,  Process: tb.
+# KERNEL: stopped at time: 320 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+led_driver_selfcheck_tb led_driver_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5444 kB (elbread=427 elab2=4877 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  6:22 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/led_driver_selfcheck_tb/a3" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/led_driver_selfcheck_tb/a2" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/led_driver_selfcheck_tb/a1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/led_driver_selfcheck_tb/a0" has already been traced.
+# WAVEFORM: 4 signal(s) inserted to virtual bus 'VBus0'.
+# VSIM: 1 object(s) traced.
+run
+# RUNTIME: Info: RUNTIME_0142 led_driver_selfcheck_tb.vhd (33): finish called.
+# KERNEL: Time: 320 ns,  Iteration: 0,  Instance: /led_driver_selfcheck_tb,  Process: tb.
+# KERNEL: stopped at time: 320 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+led_driver_selfcheck_tb led_driver_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (17, 21): Unknown identifier "a3".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (17, 25): Unknown identifier "a2".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (17, 29): Unknown identifier "a1".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (17, 33): Unknown identifier "a0".
+# Error: COMP96_0617: led_driver_selfcheck_tb.vhd : (23, 11): Assignment target incompatible with right side. Cannot convert 'UNRESOLVED_UNSIGNED' to 'STD_ULOGIC_VECTOR'.
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (29, 16): Unknown identifier "a3".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (29, 26): Unknown identifier "a2".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (29, 36): Unknown identifier "a1".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (29, 49): Unknown identifier "a3".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (29, 59): Unknown identifier "a2".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (29, 69): Unknown identifier "a0".
+# Error: COMP96_0133: led_driver_selfcheck_tb.vhd : (29, 69): Cannot find object declaration.
+# Error: COMP96_0133: led_driver_selfcheck_tb.vhd : (29, 16): Cannot find object declaration.
+# Error: COMP96_0077: led_driver_selfcheck_tb.vhd : (26, 10): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (30, 60): Unknown identifier "a3".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (30, 64): Unknown identifier "a2".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (30, 68): Unknown identifier "a1".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (30, 72): Unknown identifier "a0".
+# Error: COMP96_0133: led_driver_selfcheck_tb.vhd : (30, 60): Cannot find object declaration.
+# Compile failure 19 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0617: led_driver_selfcheck_tb.vhd : (23, 11): Assignment target incompatible with right side. Cannot convert 'UNRESOLVED_UNSIGNED' to 'STD_ULOGIC_VECTOR'.
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (29, 16): Unknown identifier "a3".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (29, 26): Unknown identifier "a2".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (29, 36): Unknown identifier "a1".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (29, 49): Unknown identifier "a3".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (29, 59): Unknown identifier "a2".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (29, 69): Unknown identifier "a0".
+# Error: COMP96_0133: led_driver_selfcheck_tb.vhd : (29, 69): Cannot find object declaration.
+# Error: COMP96_0133: led_driver_selfcheck_tb.vhd : (29, 16): Cannot find object declaration.
+# Error: COMP96_0077: led_driver_selfcheck_tb.vhd : (26, 10): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (30, 60): Unknown identifier "a3".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (30, 64): Unknown identifier "a2".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (30, 68): Unknown identifier "a1".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (30, 72): Unknown identifier "a0".
+# Error: COMP96_0133: led_driver_selfcheck_tb.vhd : (30, 60): Cannot find object declaration.
+# Compile failure 15 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0617: led_driver_selfcheck_tb.vhd : (23, 11): Assignment target incompatible with right side. Cannot convert 'UNRESOLVED_UNSIGNED' to 'STD_ULOGIC_VECTOR'.
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (29, 16): Unknown identifier "a3".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (29, 26): Unknown identifier "a2".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (29, 36): Unknown identifier "a1".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (29, 49): Unknown identifier "a3".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (29, 59): Unknown identifier "a2".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (29, 69): Unknown identifier "a0".
+# Error: COMP96_0133: led_driver_selfcheck_tb.vhd : (29, 69): Cannot find object declaration.
+# Error: COMP96_0133: led_driver_selfcheck_tb.vhd : (29, 16): Cannot find object declaration.
+# Error: COMP96_0077: led_driver_selfcheck_tb.vhd : (26, 10): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (30, 60): Unknown identifier "a3".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (30, 64): Unknown identifier "a2".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (30, 68): Unknown identifier "a1".
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (30, 72): Unknown identifier "a0".
+# Error: COMP96_0133: led_driver_selfcheck_tb.vhd : (30, 60): Cannot find object declaration.
+# Compile failure 15 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0617: led_driver_selfcheck_tb.vhd : (23, 11): Assignment target incompatible with right side. Cannot convert 'UNRESOLVED_UNSIGNED' to 'STD_ULOGIC_VECTOR'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0297: led_driver_selfcheck_tb.vhd : (23, 4): Target of a variable assignment can only be a name or an aggregate.
+# Error: COMP96_0617: led_driver_selfcheck_tb.vhd : (23, 5): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC_VECTOR' to 'STD_ULOGIC'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0142: led_driver_selfcheck_tb.vhd : (23, 11): Improper use of qualified expression value.
+# Error: COMP96_0077: led_driver_selfcheck_tb.vhd : (23, 11): Undefined type of expression. Expected type 'STD_ULOGIC_VECTOR'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (23, 8): ';' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (23, 8): Keyword 'end' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (33, 7): Keyword 'process' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (36, 6): ';' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (36, 13): Design unit declaration expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0617: led_driver_selfcheck_tb.vhd : (23, 11): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_ULOGIC_VECTOR'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0617: led_driver_selfcheck_tb.vhd : (23, 9): Assignment target incompatible with right side. Cannot convert 'UNRESOLVED_UNSIGNED' to 'STD_ULOGIC_VECTOR'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0617: led_driver_selfcheck_tb.vhd : (23, 9): Assignment target incompatible with right side. Cannot convert 'UNRESOLVED_UNSIGNED' to 'STD_ULOGIC_VECTOR'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim -O5 +access +r +m+led_driver_selfcheck_tb led_driver_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5443 kB (elbread=427 elab2=4876 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  6:30 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /led_driver_selfcheck_tb/a3 not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /led_driver_selfcheck_tb/a2 not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /led_driver_selfcheck_tb/a1 not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /led_driver_selfcheck_tb/a0 not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /led_driver_selfcheck_tb/a3 not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /led_driver_selfcheck_tb/a2 not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /led_driver_selfcheck_tb/a1 not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /led_driver_selfcheck_tb/a0 not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /led_driver_selfcheck_tb/~ANONYMOUS~0 not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# add wave -noreg {/led_driver_selfcheck_tb/a}
+# add wave -noreg {/led_driver_selfcheck_tb/cold}
+# add wave -noreg {/led_driver_selfcheck_tb/normal}
+# add wave -noreg {/led_driver_selfcheck_tb/hot}
+# KERNEL: Warning: KERNEL_0291 Object "/led_driver_selfcheck_tb/cold" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/led_driver_selfcheck_tb/normal" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/led_driver_selfcheck_tb/hot" has already been traced.
+# VSIM: 1 object(s) traced.
+# KERNEL: Warning: KERNEL_0291 Object "/led_driver_selfcheck_tb/a" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/led_driver_selfcheck_tb/cold" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/led_driver_selfcheck_tb/normal" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/led_driver_selfcheck_tb/hot" has already been traced.
+# VSIM: 0 object(s) traced.
+run
+# RUNTIME: Info: RUNTIME_0142 led_driver_selfcheck_tb.vhd (35): finish called.
+# KERNEL: Time: 320 ns,  Iteration: 0,  Instance: /led_driver_selfcheck_tb,  Process: tb.
+# KERNEL: stopped at time: 320 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/abacus.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus.vhd
+# Compile Entity "abacus"
+# Compile Architecture "cond" of Entity "abacus"
+# Error: COMP96_0015: abacus.vhd : (20, 28): ')' expected.
+# Error: COMP96_0019: abacus.vhd : (21, 1): Keyword 'when' expected.
+# Error: COMP96_0015: abacus.vhd : (21, 1): ';' expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/abacus.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus.vhd
+# Compile Entity "abacus"
+# Compile Architecture "cond" of Entity "abacus"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/abacus_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus_selfcheck_tb.vhd
+# Compile Entity "abacus_selfcheck_tb"
+# Error: COMP96_0078: abacus_selfcheck_tb.vhd : (3, 5): Unknown identifier "numeric_std".
+# Compile Architecture "tb_architecture" of Entity "abacus_selfcheck_tb"
+# Error: COMP96_0056: abacus_selfcheck_tb.vhd : (9, 1): Cannot find referenced entity declaration "abacus_selfcheck_tb".
+# Compile failure 2 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/abacus_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus_selfcheck_tb.vhd
+# Compile Entity "abacus_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "abacus_selfcheck_tb"
+# Error: COMP96_0131: abacus_selfcheck_tb.vhd : (42, 55): Illegal operand for type conversion.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/abacus_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus_selfcheck_tb.vhd
+# Compile Entity "abacus_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "abacus_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/abacus.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus.vhd
+# Compile Entity "abacus"
+# Compile Architecture "cond" of Entity "abacus"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+abacus_selfcheck_tb abacus_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6596 kB (elbread=427 elab2=6029 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  7:09 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# add wave -noreg {/abacus_selfcheck_tb/sp}
+# add wave -noreg {/abacus_selfcheck_tb/d}
+# add wave -noreg {/abacus_selfcheck_tb/c}
+# add wave -noreg {/abacus_selfcheck_tb/b}
+# add wave -noreg {/abacus_selfcheck_tb/a}
+# add wave -noreg {/abacus_selfcheck_tb/period}
+# VSIM: 6 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0142 abacus_selfcheck_tb.vhd (46): finish called.
+# KERNEL: Time: 200 ns,  Iteration: 0,  Instance: /abacus_selfcheck_tb,  Process: tb.
+# KERNEL: stopped at time: 200 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/abacus.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus.vhd
+# Compile Entity "abacus"
+# Compile Architecture "cond" of Entity "abacus"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/abacus.vhd $dsn/src/abacus_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus.vhd
+# Compile Entity "abacus"
+# Compile Architecture "cond" of Entity "abacus"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus_selfcheck_tb.vhd
+# Compile Entity "abacus_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "abacus_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver.vhd $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver.vhd
+# Compile Entity "led_driver"
+# Compile Architecture "cond" of Entity "led_driver"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 11): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 16): ';' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (28, 5): Keyword 'end' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (29, 5): Keyword 'end' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (30, 5): Keyword 'end' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (30, 10): Design unit declaration expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 18): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 23): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 24): ';' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (28, 5): Keyword 'end' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (29, 5): Keyword 'end' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (30, 5): Keyword 'end' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (30, 10): Design unit declaration expected.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 18): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 23): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 24): ';' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (28, 5): Keyword 'end' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (29, 5): Keyword 'end' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (30, 5): Keyword 'end' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (30, 10): Design unit declaration expected.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 18): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 23): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 24): ';' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (43, 9): Keyword 'loop' expected.
+# Error: COMP96_0029: led_driver_selfcheck_tb.vhd : (43, 13): Expression expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (43, 14): Keyword 'end' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (47, 7): ';' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (47, 11): Design unit declaration expected.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 18): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 23): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 24): ';' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (43, 9): Keyword 'loop' expected.
+# Error: COMP96_0029: led_driver_selfcheck_tb.vhd : (43, 13): Expression expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (47, 7): Keyword 'process' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (50, 6): ';' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (50, 13): Design unit declaration expected.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 18): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 23): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 24): ';' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (44, 9): Keyword 'loop' expected.
+# Error: COMP96_0029: led_driver_selfcheck_tb.vhd : (44, 13): Expression expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (48, 7): Keyword 'process' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (51, 6): ';' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (51, 13): Design unit declaration expected.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0049: led_driver_selfcheck_tb.vhd : (26, 17): Syntax error in expression.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 17): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 22): ';' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (44, 9): Keyword 'loop' expected.
+# Error: COMP96_0029: led_driver_selfcheck_tb.vhd : (45, 4): Expression expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (48, 7): Keyword 'process' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (51, 6): ';' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (51, 13): Design unit declaration expected.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0049: led_driver_selfcheck_tb.vhd : (26, 17): Syntax error in expression.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 17): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 22): ';' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (44, 9): Keyword 'loop' expected.
+# Error: COMP96_0029: led_driver_selfcheck_tb.vhd : (44, 13): Expression expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (45, 4): Keyword 'end' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (48, 7): ';' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (48, 11): Design unit declaration expected.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 18): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 23): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 24): ';' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (37, 9): Keyword 'loop' expected.
+# Error: COMP96_0029: led_driver_selfcheck_tb.vhd : (37, 13): Expression expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (37, 14): Keyword 'end' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (41, 7): ';' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (41, 11): Design unit declaration expected.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 18): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 23): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 24): ';' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (37, 9): Keyword 'loop' expected.
+# Error: COMP96_0029: led_driver_selfcheck_tb.vhd : (37, 13): Expression expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (37, 14): Keyword 'end' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (41, 7): ';' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (41, 11): Design unit declaration expected.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 18): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 23): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 24): ';' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (37, 9): Keyword 'loop' expected.
+# Error: COMP96_0029: led_driver_selfcheck_tb.vhd : (37, 13): Expression expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (37, 14): Keyword 'end' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (41, 7): ';' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (41, 11): Design unit declaration expected.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 18): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 23): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 27): ';' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (37, 9): Keyword 'loop' expected.
+# Error: COMP96_0029: led_driver_selfcheck_tb.vhd : (37, 13): Expression expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (37, 14): Keyword 'end' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (41, 7): ';' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (41, 11): Design unit declaration expected.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0049: led_driver_selfcheck_tb.vhd : (26, 17): Syntax error in expression.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 17): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 22): ';' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (37, 9): Keyword 'loop' expected.
+# Error: COMP96_0029: led_driver_selfcheck_tb.vhd : (37, 13): Expression expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (37, 14): Keyword 'end' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (41, 7): ';' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (41, 11): Design unit declaration expected.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0049: led_driver_selfcheck_tb.vhd : (26, 17): Syntax error in expression.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 17): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 22): ';' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (37, 9): Keyword 'loop' expected.
+# Error: COMP96_0029: led_driver_selfcheck_tb.vhd : (38, 4): Expression expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (41, 7): Keyword 'process' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (44, 6): ';' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (44, 13): Design unit declaration expected.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0049: led_driver_selfcheck_tb.vhd : (26, 17): Syntax error in expression.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 17): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 22): ';' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (28, 5): Keyword 'end' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (29, 5): Keyword 'end' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (30, 5): Keyword 'end' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (30, 10): Design unit declaration expected.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 11): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 16): ';' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (28, 5): Keyword 'end' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (29, 5): Keyword 'end' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (30, 5): Keyword 'end' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (30, 10): Design unit declaration expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0049: led_driver_selfcheck_tb.vhd : (26, 33): Syntax error in expression.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 33): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 38): ';' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (28, 5): Keyword 'end' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (29, 5): Keyword 'end' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (30, 5): Keyword 'end' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (30, 10): Design unit declaration expected.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 11): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 16): ';' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (28, 5): Keyword 'end' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (29, 5): Keyword 'end' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (30, 5): Keyword 'end' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (30, 10): Design unit declaration expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 11): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 16): ';' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (37, 9): Keyword 'loop' expected.
+# Error: COMP96_0029: led_driver_selfcheck_tb.vhd : (37, 13): Expression expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (38, 4): Keyword 'end' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (41, 7): ';' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (41, 11): Design unit declaration expected.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 11): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 16): ';' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (37, 9): Keyword 'loop' expected.
+# Error: COMP96_0029: led_driver_selfcheck_tb.vhd : (38, 4): Expression expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (41, 7): Keyword 'process' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (44, 6): ';' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (44, 13): Design unit declaration expected.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 11): ')' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (26, 16): ';' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (37, 9): Keyword 'loop' expected.
+# Error: COMP96_0029: led_driver_selfcheck_tb.vhd : (38, 4): Expression expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (41, 7): Keyword 'process' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (44, 6): ';' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (44, 13): Design unit declaration expected.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (29, 5): ';' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (31, 5): ';' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (32, 5): ';' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (33, 4): Keyword 'end' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (36, 7): Keyword 'process' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (39, 6): ';' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (39, 13): Design unit declaration expected.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (29, 5): ';' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (31, 5): ';' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (32, 5): ';' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (33, 4): ';' expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (33, 4): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (33, 4): Keyword 'end' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (36, 7): Keyword 'process' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (39, 6): ';' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (39, 13): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (33, 4): Keyword 'end' expected.
+# Error: COMP96_0019: led_driver_selfcheck_tb.vhd : (36, 7): Keyword 'process' expected.
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (39, 6): ';' expected.
+# Error: COMP96_0016: led_driver_selfcheck_tb.vhd : (39, 13): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0015: led_driver_selfcheck_tb.vhd : (33, 4): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Error: COMP96_0078: led_driver_selfcheck_tb.vhd : (26, 9): Unknown identifier "adc".
+# Error: COMP96_0133: led_driver_selfcheck_tb.vhd : (26, 9): Cannot find object declaration.
+# Error: COMP96_0584: led_driver_selfcheck_tb.vhd : (26, 9): Cannot determine the type of the case expression. Enumeration type, integer type, or one-dimensional array of characters expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+led_driver_selfcheck_tb led_driver_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5446 kB (elbread=427 elab2=4878 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  7:50 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# add wave -noreg {/led_driver_selfcheck_tb/a}
+# add wave -noreg {/led_driver_selfcheck_tb/cold}
+# add wave -noreg {/led_driver_selfcheck_tb/normal}
+# add wave -noreg {/led_driver_selfcheck_tb/hot}
+# add wave -noreg {/led_driver_selfcheck_tb/period}
+# VSIM: 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0142 led_driver_selfcheck_tb.vhd (41): finish called.
+# KERNEL: Time: 320 ns,  Iteration: 0,  Instance: /led_driver_selfcheck_tb,  Process: tb.
+# KERNEL: stopped at time: 320 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/smpl_combo.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim -O5 +access +r +m+led_driver_selfcheck_tb led_driver_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5446 kB (elbread=427 elab2=4878 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  8:02 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb'.
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/smpl_combo.vhd $dsn/src/smpl_combo_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo_selfcheck_tb.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver.vhd $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver.vhd
+# Compile Entity "led_driver"
+# Compile Architecture "cond" of Entity "led_driver"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+led_driver_selfcheck_tb led_driver_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5446 kB (elbread=427 elab2=4878 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  8:11 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+led_driver_selfcheck_tb led_driver_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5446 kB (elbread=427 elab2=4878 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  8:11 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0142 led_driver_selfcheck_tb.vhd (63): finish called.
+# KERNEL: Time: 320 ns,  Iteration: 0,  Instance: /led_driver_selfcheck_tb,  Process: tb.
+# KERNEL: stopped at time: 320 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/smpl_combo.vhd $dsn/src/smpl_combo_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo_selfcheck_tb.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+smpl_combo_selfcheck_tb smpl_combo_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6467 kB (elbread=427 elab2=5900 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  8:12 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /led_driver_selfcheck_tb/a not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /led_driver_selfcheck_tb/cold not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /led_driver_selfcheck_tb/normal not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /led_driver_selfcheck_tb/hot not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# VSIM: 5 object(s) traced.
+run
+# EXECUTION:: ERROR  : Error for input 001. Expected output 01.
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /smpl_combo_selfcheck_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error for input 100. Expected output 00.
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /smpl_combo_selfcheck_tb,  Process: tb.
+# RUNTIME: Info: RUNTIME_0142 smpl_combo_selfcheck_tb.vhd (54): finish called.
+# KERNEL: Time: 160 ns,  Iteration: 0,  Instance: /smpl_combo_selfcheck_tb,  Process: tb.
+# KERNEL: stopped at time: 160 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+smpl_combo_selfcheck_tb smpl_combo_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/smpl_combo.vhd $dsn/src/smpl_combo_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo_selfcheck_tb.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+asim -O5 +access +r +m+smpl_combo_selfcheck_tb smpl_combo_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6467 kB (elbread=427 elab2=5900 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  8:13 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/a" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/b" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/c" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/x" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/y" has already been traced.
+# WAVEFORM: 3 signal(s) inserted to virtual bus 'VBus1'.
+# WAVEFORM: 2 signal(s) inserted to virtual bus 'VBus0'.
+run
+# EXECUTION:: ERROR  : Error for input 001. Expected output 01.
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /smpl_combo_selfcheck_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error for input 100. Expected output 00.
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /smpl_combo_selfcheck_tb,  Process: tb.
+# RUNTIME: Info: RUNTIME_0142 smpl_combo_selfcheck_tb.vhd (54): finish called.
+# KERNEL: Time: 160 ns,  Iteration: 0,  Instance: /smpl_combo_selfcheck_tb,  Process: tb.
+# KERNEL: stopped at time: 160 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/smpl_combo.vhd $dsn/src/smpl_combo_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo_selfcheck_tb.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Error: COMP96_0753: smpl_combo_selfcheck_tb.vhd : (47, 37): Cannot find the "or" operator with operands denoted with the "[BOOLEAN, STD_ULOGIC]" signature.
+# Error: COMP96_0077: smpl_combo_selfcheck_tb.vhd : (47, 10): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/smpl_combo.vhd $dsn/src/smpl_combo_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo_selfcheck_tb.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim -O5 +access +r +m+smpl_combo_selfcheck_tb smpl_combo_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6467 kB (elbread=427 elab2=5900 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  8:17 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/a" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/b" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/c" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/x" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/y" has already been traced.
+# WAVEFORM: 3 signal(s) inserted to virtual bus 'VBus1'.
+# WAVEFORM: 2 signal(s) inserted to virtual bus 'VBus0'.
+run
+# EXECUTION:: ERROR  : Error for input 001. Expected output 01.
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /smpl_combo_selfcheck_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error for input 100. Expected output 00.
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /smpl_combo_selfcheck_tb,  Process: tb.
+# RUNTIME: Info: RUNTIME_0142 smpl_combo_selfcheck_tb.vhd (54): finish called.
+# KERNEL: Time: 160 ns,  Iteration: 0,  Instance: /smpl_combo_selfcheck_tb,  Process: tb.
+# KERNEL: stopped at time: 160 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/smpl_combo.vhd $dsn/src/smpl_combo_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo_selfcheck_tb.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+smpl_combo_selfcheck_tb smpl_combo_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6467 kB (elbread=427 elab2=5900 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  8:18 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/a" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/b" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/c" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/x" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/y" has already been traced.
+# WAVEFORM: 3 signal(s) inserted to virtual bus 'VBus1'.
+# WAVEFORM: 2 signal(s) inserted to virtual bus 'VBus0'.
+run
+# EXECUTION:: ERROR  : Error for input 001. Expected output 10.
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /smpl_combo_selfcheck_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error for input 100. Expected output 00.
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /smpl_combo_selfcheck_tb,  Process: tb.
+# RUNTIME: Info: RUNTIME_0142 smpl_combo_selfcheck_tb.vhd (54): finish called.
+# KERNEL: Time: 160 ns,  Iteration: 0,  Instance: /smpl_combo_selfcheck_tb,  Process: tb.
+# KERNEL: stopped at time: 160 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/smpl_combo.vhd $dsn/src/smpl_combo_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo_selfcheck_tb.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/smpl_combo.vhd $dsn/src/smpl_combo_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo_selfcheck_tb.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim -O5 +access +r +m+smpl_combo_selfcheck_tb smpl_combo_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6467 kB (elbread=427 elab2=5900 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  8:19 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/a" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/b" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/c" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/x" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/y" has already been traced.
+# WAVEFORM: 3 signal(s) inserted to virtual bus 'VBus1'.
+# WAVEFORM: 2 signal(s) inserted to virtual bus 'VBus0'.
+run
+# EXECUTION:: ERROR  : Error for input 001. Expected output 01.
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /smpl_combo_selfcheck_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error for input 100. Expected output 00.
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /smpl_combo_selfcheck_tb,  Process: tb.
+# RUNTIME: Info: RUNTIME_0142 smpl_combo_selfcheck_tb.vhd (54): finish called.
+# KERNEL: Time: 160 ns,  Iteration: 0,  Instance: /smpl_combo_selfcheck_tb,  Process: tb.
+# KERNEL: stopped at time: 160 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/smpl_combo.vhd $dsn/src/smpl_combo_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo_selfcheck_tb.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+smpl_combo_selfcheck_tb smpl_combo_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6467 kB (elbread=427 elab2=5900 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  8:20 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/a" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/b" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/c" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/x" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/smpl_combo_selfcheck_tb/y" has already been traced.
+# WAVEFORM: 3 signal(s) inserted to virtual bus 'VBus1'.
+# WAVEFORM: 2 signal(s) inserted to virtual bus 'VBus0'.
+run
+# RUNTIME: Info: RUNTIME_0142 smpl_combo_selfcheck_tb.vhd (54): finish called.
+# KERNEL: Time: 160 ns,  Iteration: 0,  Instance: /smpl_combo_selfcheck_tb,  Process: tb.
+# KERNEL: stopped at time: 160 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/smpl_combo.vhd $dsn/src/smpl_combo_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo_selfcheck_tb.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/smpl_combo.vhd $dsn/src/smpl_combo_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo_selfcheck_tb.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/smpl_combo.vhd $dsn/src/smpl_combo_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo_selfcheck_tb.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/smpl_combo.vhd $dsn/src/smpl_combo_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo.vhd
+# Compile Entity "smpl_combo"
+# Compile Architecture "dataflow" of Entity "smpl_combo"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/smpl_combo_selfcheck_tb.vhd
+# Compile Entity "smpl_combo_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "smpl_combo_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver.vhd $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver.vhd
+# Compile Entity "led_driver"
+# Compile Architecture "cond" of Entity "led_driver"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver.vhd $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver.vhd
+# Compile Entity "led_driver"
+# Compile Architecture "cond" of Entity "led_driver"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+led_driver_selfcheck_tb led_driver_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5446 kB (elbread=427 elab2=4878 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  8:23 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /smpl_combo_selfcheck_tb/a not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /smpl_combo_selfcheck_tb/b not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /smpl_combo_selfcheck_tb/c not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /smpl_combo_selfcheck_tb/x not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /smpl_combo_selfcheck_tb/y not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /smpl_combo_selfcheck_tb/a not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /smpl_combo_selfcheck_tb/b not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /smpl_combo_selfcheck_tb/c not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /smpl_combo_selfcheck_tb/x not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /smpl_combo_selfcheck_tb/y not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# VSIM: 4 object(s) traced.
+run
+# RUNTIME: Info: RUNTIME_0142 led_driver_selfcheck_tb.vhd (63): finish called.
+# KERNEL: Time: 320 ns,  Iteration: 0,  Instance: /led_driver_selfcheck_tb,  Process: tb.
+# KERNEL: stopped at time: 320 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver.vhd $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver.vhd
+# Compile Entity "led_driver"
+# Compile Architecture "cond" of Entity "led_driver"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+asim -O5 +access +r +m+led_driver_selfcheck_tb led_driver_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5446 kB (elbread=427 elab2=4879 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  8:27 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0142 led_driver_selfcheck_tb.vhd (66): finish called.
+# KERNEL: Time: 320 ns,  Iteration: 0,  Instance: /led_driver_selfcheck_tb,  Process: tb.
+# KERNEL: stopped at time: 320 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver.vhd $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver.vhd
+# Compile Entity "led_driver"
+# Compile Architecture "cond" of Entity "led_driver"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim -O5 +access +r +m+led_driver_selfcheck_tb led_driver_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5446 kB (elbread=427 elab2=4879 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  8:27 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb'.
+run
+# EXECUTION:: ERROR  : Error for input 1011. Expected output 101.
+# EXECUTION:: Time: 240 ns,  Iteration: 0,  Instance: /led_driver_selfcheck_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error for input 1111. Expected output 110.
+# EXECUTION:: Time: 320 ns,  Iteration: 0,  Instance: /led_driver_selfcheck_tb,  Process: tb.
+# RUNTIME: Info: RUNTIME_0142 led_driver_selfcheck_tb.vhd (66): finish called.
+# KERNEL: Time: 320 ns,  Iteration: 0,  Instance: /led_driver_selfcheck_tb,  Process: tb.
+# KERNEL: stopped at time: 320 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/led_driver.vhd $dsn/src/led_driver_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver.vhd
+# Compile Entity "led_driver"
+# Compile Architecture "cond" of Entity "led_driver"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/led_driver_selfcheck_tb.vhd
+# Compile Entity "led_driver_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "led_driver_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim -O5 +access +r +m+led_driver_selfcheck_tb led_driver_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5446 kB (elbread=427 elab2=4879 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  8:28 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0142 led_driver_selfcheck_tb.vhd (66): finish called.
+# KERNEL: Time: 320 ns,  Iteration: 0,  Instance: /led_driver_selfcheck_tb,  Process: tb.
+# KERNEL: stopped at time: 320 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/abacus.vhd $dsn/src/abacus_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus.vhd
+# Compile Entity "abacus"
+# Compile Architecture "cond" of Entity "abacus"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus_selfcheck_tb.vhd
+# Compile Entity "abacus_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "abacus_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/abacus.vhd $dsn/src/abacus_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus.vhd
+# Compile Entity "abacus"
+# Compile Architecture "cond" of Entity "abacus"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus_selfcheck_tb.vhd
+# Compile Entity "abacus_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "abacus_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim -O5 +access +r +m+abacus_selfcheck_tb abacus_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6596 kB (elbread=427 elab2=6029 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  8:29 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /led_driver_selfcheck_tb/a not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /led_driver_selfcheck_tb/cold not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /led_driver_selfcheck_tb/normal not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /led_driver_selfcheck_tb/hot not found in c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb.
+# VSIM: 5 object(s) traced.
+run
+# RUNTIME: Info: RUNTIME_0142 abacus_selfcheck_tb.vhd (73): finish called.
+# KERNEL: Time: 200 ns,  Iteration: 0,  Instance: /abacus_selfcheck_tb,  Process: tb.
+# KERNEL: stopped at time: 200 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/abacus.vhd $dsn/src/abacus_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus.vhd
+# Compile Entity "abacus"
+# Compile Architecture "cond" of Entity "abacus"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus_selfcheck_tb.vhd
+# Compile Entity "abacus_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "abacus_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+abacus_selfcheck_tb abacus_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6596 kB (elbread=427 elab2=6029 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  8:30 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb'.
+run
+# EXECUTION:: ERROR  : Error for input 110101111. Expected output 0001.
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /abacus_selfcheck_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error for input 110110111. Expected output 0010.
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /abacus_selfcheck_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error for input 101011111. Expected output 0101.
+# EXECUTION:: Time: 120 ns,  Iteration: 0,  Instance: /abacus_selfcheck_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error for input 101101111. Expected output 0110.
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /abacus_selfcheck_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error for input 101111101. Expected output 1001.
+# EXECUTION:: Time: 200 ns,  Iteration: 0,  Instance: /abacus_selfcheck_tb,  Process: tb.
+# RUNTIME: Info: RUNTIME_0142 abacus_selfcheck_tb.vhd (73): finish called.
+# KERNEL: Time: 200 ns,  Iteration: 0,  Instance: /abacus_selfcheck_tb,  Process: tb.
+# KERNEL: stopped at time: 200 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/abacus.vhd $dsn/src/abacus_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus.vhd
+# Compile Entity "abacus"
+# Compile Architecture "cond" of Entity "abacus"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus_selfcheck_tb.vhd
+# Compile Entity "abacus_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "abacus_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+asim -O5 +access +r +m+abacus_selfcheck_tb abacus_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6596 kB (elbread=427 elab2=6029 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  8:30 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0142 abacus_selfcheck_tb.vhd (73): finish called.
+# KERNEL: Time: 200 ns,  Iteration: 0,  Instance: /abacus_selfcheck_tb,  Process: tb.
+# KERNEL: stopped at time: 200 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/abacus.vhd $dsn/src/abacus_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus.vhd
+# Compile Entity "abacus"
+# Compile Architecture "cond" of Entity "abacus"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus_selfcheck_tb.vhd
+# Compile Entity "abacus_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "abacus_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/abacus.vhd $dsn/src/abacus_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus.vhd
+# Compile Entity "abacus"
+# Compile Architecture "cond" of Entity "abacus"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus_selfcheck_tb.vhd
+# Compile Entity "abacus_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "abacus_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+asim -O5 +access +r +m+abacus_selfcheck_tb abacus_selfcheck_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6596 kB (elbread=427 elab2=6029 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src\wave.asdb
+#  8:49 PM, Wednesday, March 22, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0142 abacus_selfcheck_tb.vhd (70): finish called.
+# KERNEL: Time: 200 ns,  Iteration: 0,  Instance: /abacus_selfcheck_tb,  Process: tb.
+# KERNEL: stopped at time: 200 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work ExamSol1 -2008  $dsn/src/abacus.vhd $dsn/src/abacus_selfcheck_tb.vhd
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus.vhd
+# Compile Entity "abacus"
+# Compile Architecture "cond" of Entity "abacus"
+# File: c:/Users/Jason/Documents/VHDL/Lab6/ExamSol1/src/abacus_selfcheck_tb.vhd
+# Compile Entity "abacus_selfcheck_tb"
+# Compile Architecture "tb_architecture" of Entity "abacus_selfcheck_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]

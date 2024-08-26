@@ -1,0 +1,4 @@
+MESSAGE "File: C:/Users/Jason/Documents/VHDL/Lab5/design_tasks/src/task4.vhd" 
+MESSAGE "Compile Entity "gray_bin"" 
+MESSAGE "Compile Architecture "gray_bin_loop" of Entity "gray_bin"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

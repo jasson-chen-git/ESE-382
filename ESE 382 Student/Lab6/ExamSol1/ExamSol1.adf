@@ -1,0 +1,44 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=ExamSol1
+[Library]
+ExamSol1=.\ExamSol1\ExamSol1.lib
+[$LibMap$]
+ExamSol1=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=C:\Users\Jason\Documents\VHDL\Lab6\ExamSol1\src
+[Files.Data]
+.\src\abacus.vhd=VHDL Source Code
+.\src\abacus_selfcheck_tb.vhd=VHDL Source Code
+[LocalVhdlSets]
+NetlistCompilation=1
+EnableVHDL93Key=0
+EnableVHDL2002Key=0
+EnableVHDL2008Key=1
+EnableVHDL2019Key=0
+DisableVHDL87Key=0
+Syntax RelaxLRM=0
+MaxErrorsKey=100
+CompileWithDebug=1
+OptimizationLevel=3
+DisableRangeChecks=0
+ProtectLevel=0
+IncrementalCompilation=0
+AdditionalOptions=
+[Files]
+/abacus.vhd=-1
+/abacus_selfcheck_tb.vhd=-1
+[HierarchyViewer]
+HierarchyInformation=abacus_selfcheck_tb|tb_architecture|0 led_driver_selfcheck_tb|tb_architecture|0 smpl_combo|dataflow|0 smpl_combo_selfcheck_tb|tb_architecture|0
+ShowHide=ShowTopLevel
+Selected=
