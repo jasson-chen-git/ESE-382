@@ -1,0 +1,32 @@
+|--------------------------------------------|
+|- ispLEVER Fitter Report File              -|
+|- Version 2.1.00.02.49.20                       -|
+|- (c)Copyright, Lattice Semiconductor 2002 -|
+|--------------------------------------------|
+
+
+; Source file latch_decode.tt4
+; FITTER-generated Placements.
+; DEVICE   mach463a
+; DATE     Tue Mar 26 14:53:13 2024
+
+
+Pin   2  a_2_
+Pin   43  y_7_ Comb ; S6=1  S9=1  Pair 117
+Pin   16  le_bar
+Pin   14  e1_bar
+Pin   15  e2
+Pin   3  a_1_
+Pin   4  a_0_
+Pin   42  y_6_ Comb ; S6=1  S9=1  Pair 135
+Pin   41  y_5_ Comb ; S6=1  S9=1  Pair 119
+Pin   40  y_4_ Comb ; S6=1  S9=1  Pair 129
+Pin   39  y_3_ Comb ; S6=1  S9=1  Pair 131
+Pin   38  y_2_ Comb ; S6=1  S9=1  Pair 123
+Pin   37  y_1_ Comb ; S6=1  S9=1  Pair 125
+Pin   36  y_0_ Comb ; S6=1  S9=1  Pair 120
+Node  93  UUT1_o_0_ Lat  ; S6=1  S9=0 
+Node  69  UUT1_o_1_ Lat  ; S6=1  S9=0 
+Node  45  UUT1_o_2_ Lat  ; S6=1  S9=0 
+; Unused Pins & Nodes
+; -> None Found.

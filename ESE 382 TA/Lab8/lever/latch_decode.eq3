@@ -1,0 +1,63 @@
+ ispLEVER Classic 2.1.00.02.49.20 Linked Equations File
+Copyright(C), 1992-2020, Lattice Semiconductor Corp.
+All Rights Reserved.
+
+Design linedecoder created  Tue Mar 26 14:53:07 2024
+
+
+ P-Terms   Fan-in  Fan-out  Type  Name (attributes)
+---------  ------  -------  ----  -----------------
+   1          5        1    Pin   y_7_ 
+   1          5        1    Pin   y_6_ 
+   1          5        1    Pin   y_5_ 
+   1          5        1    Pin   y_4_ 
+   1          5        1    Pin   y_3_ 
+   1          5        1    Pin   y_2_ 
+   1          5        1    Pin   y_1_ 
+   1          5        1    Pin   y_0_ 
+   1          1        1    Node  UUT1_o_0_.D 
+   1          1        1    Node  UUT1_o_0_.LH 
+   1          1        1    Node  UUT1_o_1_.D 
+   1          1        1    Node  UUT1_o_1_.LH 
+   1          1        1    Node  UUT1_o_2_.D 
+   1          1        1    Node  UUT1_o_2_.LH 
+=========
+  14                 P-Term Total: 14
+                       Total Pins: 14
+                      Total Nodes: 3
+            Average P-Term/Output: 1
+
+
+Equations:
+
+y_7_ = (!e1_bar & e2 & UUT1_o_0_.Q & UUT1_o_1_.Q & UUT1_o_2_.Q);
+
+y_6_ = (!e1_bar & e2 & !UUT1_o_0_.Q & UUT1_o_1_.Q & UUT1_o_2_.Q);
+
+y_5_ = (!e1_bar & e2 & UUT1_o_0_.Q & !UUT1_o_1_.Q & UUT1_o_2_.Q);
+
+y_4_ = (!e1_bar & e2 & !UUT1_o_0_.Q & !UUT1_o_1_.Q & UUT1_o_2_.Q);
+
+y_3_ = (!e1_bar & e2 & UUT1_o_0_.Q & UUT1_o_1_.Q & !UUT1_o_2_.Q);
+
+y_2_ = (!e1_bar & e2 & !UUT1_o_0_.Q & UUT1_o_1_.Q & !UUT1_o_2_.Q);
+
+y_1_ = (!e1_bar & e2 & UUT1_o_0_.Q & !UUT1_o_1_.Q & !UUT1_o_2_.Q);
+
+y_0_ = (!e1_bar & e2 & !UUT1_o_0_.Q & !UUT1_o_1_.Q & !UUT1_o_2_.Q);
+
+UUT1_o_0_.D = (a_0_);
+
+UUT1_o_0_.LH = (!le_bar);
+
+UUT1_o_1_.D = (a_1_);
+
+UUT1_o_1_.LH = (!le_bar);
+
+UUT1_o_2_.D = (a_2_);
+
+UUT1_o_2_.LH = (!le_bar);
+
+
+Reverse-Polarity Equations:
+

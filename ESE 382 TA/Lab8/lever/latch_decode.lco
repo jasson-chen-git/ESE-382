@@ -1,0 +1,176 @@
+
+[DEVICE]
+Family = M4A5;
+PartType = M4A5-64/32;
+Package = 44PLCC;
+PartNumber = M4A5-64/32-10JC;
+Speed = -10;
+Operating_condition = COM;
+EN_Segment = No;
+Pin_MC_1to1 = No;
+EN_PinReserve_IO = Yes;
+EN_PinReserve_BIDIR = Yes;
+Voltage = 5.0;
+
+[REVISION]
+RCS = "$Revision: 1.2 $";
+Parent = m4a5.lci;
+SDS_File = m4a5.sds;
+Design = latch_decode.tt4;
+DATE = 3/26/24;
+TIME = 14:53:13;
+Source_Format = EDIF;
+Type = TT2;
+Pre_Fit_Time = 1;
+
+[IGNORE ASSIGNMENTS]
+Pin_Assignments = No;
+Pin_Keep_Block = No;
+Pin_Keep_Segment = No;
+Group_Assignments = No;
+Macrocell_Assignments = No;
+Macrocell_Keep_Block = No;
+Macrocell_Keep_Segment = No;
+Pin_Reservation = No;
+Block_Reservation = No;
+Segment_Reservation = No;
+Timing_Constraints = No;
+
+[CLEAR ASSIGNMENTS]
+Pin_Assignments = No;
+Pin_Keep_Block = No;
+Pin_Keep_Segment = No;
+Group_Assignments = No;
+Macrocell_Assignments = No;
+Macrocell_Keep_Block = No;
+Macrocell_Keep_Segment = No;
+Pin_Reservation = No;
+Block_Reservation = No;
+Segment_Reservation = No;
+Timing_Constraints = No;
+
+[BACKANNOTATE ASSIGNMENTS]
+Pin_Block = No;
+Pin_Macrocell_Block = No;
+Routing = No;
+
+[GLOBAL CONSTRAINTS]
+Max_PTerm_Split = 16;
+Max_PTerm_Collapse = 16;
+Max_Pin_Percent = 100;
+Max_Macrocell_Percent = 100;
+Max_GLB_Input_Percent = 100;
+Max_Seg_In_Percent = 100;
+Logic_Reduction = Yes;
+XOR_Synthesis = Yes;
+DT_Synthesis = Yes;
+Node_Collapse = Yes;
+Run_Time = 0;
+Set_Reset_Dont_Care = No;
+Clock_Optimize = No;
+In_Reg_Optimize = Yes;
+Balanced_Partitioning = Yes;
+Device_max_fanin = 33;
+Device_max_pterms = 20;
+Usercode = 0;
+Usercode_Format = Hex;
+
+[LOCATION ASSIGNMENTS]
+layer = OFF;
+a_2_ = pin, 2, -, A, -;
+y_7_ = pin, 43, -, D, -;
+le_bar = pin, 16, -, B, -;
+e1_bar = pin, 14, -, B, -;
+e2 = pin, 15, -, B, -;
+a_1_ = pin, 3, -, A, -;
+a_0_ = pin, 4, -, A, -;
+y_6_ = pin, 42, -, D, -;
+y_5_ = pin, 41, -, D, -;
+y_4_ = pin, 40, -, D, -;
+y_3_ = pin, 39, -, D, -;
+y_2_ = pin, 38, -, D, -;
+y_1_ = pin, 37, -, D, -;
+y_0_ = pin, 36, -, D, -;
+UUT1_o_0_ = node, -, -, C, 0;
+UUT1_o_1_ = node, -, -, B, 0;
+UUT1_o_2_ = node, -, -, A, 0;
+
+[GROUP ASSIGNMENTS]
+layer = OFF;
+
+[RESOURCE RESERVATIONS]
+layer = OFF;
+
+[SLEWRATE]
+Default = FAST;
+
+[PULLUP]
+Default = Hold;
+
+[NETLIST/DELAY FORMAT]
+Delay_File = SDF;
+Netlist = VERILOG;
+
+[OSM BYPASS]
+
+[FITTER REPORT FORMAT]
+Fitter_Options = Yes;
+Pinout_Diagram = No;
+Pinout_Listing = Yes;
+Detailed_Block_Segment_Summary = Yes;
+Input_Signal_List = Yes;
+Output_Signal_List = Yes;
+Bidir_Signal_List = Yes;
+Node_Signal_List = Yes;
+Signal_Fanout_List = Yes;
+Block_Segment_Fanin_List = Yes;
+Postfit_Eqn = Yes;
+Prefit_Eqn = Yes;
+Page_Break = Yes;
+
+[POWER]
+Powerlevel = Low, High;
+Default = High;
+Type = GLB;
+
+[SOURCE CONSTRAINT OPTION]
+
+[TIMING ANALYZER]
+Last_source = ;
+Last_source_type = Fmax;
+
+[Pin attributes list]
+
+[LOCATION ASSIGNMENTS LIST]
+
+[RESOURCE RESERVATIONS LIST]
+
+[global constraints list]
+
+[opt global constraints list]
+
+[Global Constraints Process Update]
+
+[Explorer Results]
+
+[Explorer User Settings]
+
+[VHDL synplify constraints]
+
+[VHDL spectrum constraints]
+
+[verilog synplify constraints]
+
+[verilog spectrum constraints]
+
+[VHDL synplify constraints list]
+
+[VHDL spectrum constraints list]
+
+[verilog synplify constraints list]
+
+[verilog spectrum constraints list]
+
+[Timing Results]
+Tpd = 10.00;
+Logic_level = 1;

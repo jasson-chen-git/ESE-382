@@ -1,0 +1,113 @@
+Section Type   Array Num   Name                     Real Name          Base     Number     Increment
+// -------------------------------------------------------------------------------------------------
+      Port          1      a(2:0)                        a                  2          3            -1
+      Port          2      y(7:0)                        y                  7          8            -1
+End
+Section Member   Rename                   Array-Notation          Array Number     Index
+// -------------------------------------------------------------------------------------
+        Port      a_2_                        a[2]                       1            0            
+        Port      a_1_                        a[1]                       1            1            
+        Port      a_0_                        a[0]                       1            2            
+        Port      y_7_                        y[7]                       2            0            
+        Port      y_6_                        y[6]                       2            1            
+        Port      y_5_                        y[5]                       2            2            
+        Port      y_4_                        y[4]                       2            3            
+        Port      y_3_                        y[3]                       2            4            
+        Port      y_2_                        y[2]                       2            5            
+        Port      y_1_                        y[1]                       2            6            
+        Port      y_0_                        y[0]                       2            7            
+End
+Section Cross Reference File
+Design 'linedecoder' created Tue Mar 26 14:53:07 2024
+   Type              New Name                               Original Name
+// ----------------------------------------------------------------------
+   Inst                   a_0_                                      a[0]
+   Inst                   a_1_                                      a[1]
+   Inst                   a_2_                                      a[2]
+   Inst                   y_0_                                      y[0]
+   Inst                   y_1_                                      y[1]
+   Inst                   y_2_                                      y[2]
+   Inst                   y_3_                                      y[3]
+   Inst                   y_4_                                      y[4]
+   Inst                   y_5_                                      y[5]
+   Inst                   y_6_                                      y[6]
+   Inst                   y_7_                                      y[7]
+   Inst       UUT2_y_0_a2_1_2_                          UUT2.y_0_a2_1[2]
+   Inst         UUT2_y_0_a2_2_                            UUT2.y_0_a2[2]
+   Inst       UUT2_y_0_a2_1_3_                          UUT2.y_0_a2_1[3]
+   Inst         UUT2_y_0_a2_3_                            UUT2.y_0_a2[3]
+   Inst       UUT2_y_0_a2_1_4_                          UUT2.y_0_a2_1[4]
+   Inst         UUT2_y_0_a2_4_                            UUT2.y_0_a2[4]
+   Inst       UUT2_y_0_a2_1_5_                          UUT2.y_0_a2_1[5]
+   Inst         UUT2_y_0_a2_5_                            UUT2.y_0_a2[5]
+   Inst       UUT2_y_0_a2_1_6_                          UUT2.y_0_a2_1[6]
+   Inst         UUT2_y_0_a2_6_                            UUT2.y_0_a2[6]
+   Inst       UUT2_y_0_a2_1_7_                          UUT2.y_0_a2_1[7]
+   Inst         UUT2_y_0_a2_7_                            UUT2.y_0_a2[7]
+   Inst       UUT2_y_0_a2_1_0_                          UUT2.y_0_a2_1[0]
+   Inst         UUT2_y_0_a2_0_                            UUT2.y_0_a2[0]
+   Inst       UUT2_y_0_a2_1_1_                          UUT2.y_0_a2_1[1]
+   Inst         UUT2_y_0_a2_1_                            UUT2.y_0_a2[1]
+   Inst            UUT1_s_i_0_                               UUT1.s_i[0]
+   Inst            UUT1_s_i_2_                               UUT1.s_i[2]
+   Inst            UUT1_s_i_1_                               UUT1.s_i[1]
+   Inst       UUT2_y_0_a2_0_5_                          UUT2.y_0_a2_0[5]
+   Inst       UUT2_y_0_a2_0_7_                          UUT2.y_0_a2_0[7]
+   Inst              UUT1_o_0_                                 UUT1.o[0]
+   Inst              UUT1_o_1_                                 UUT1.o[1]
+   Inst          UUT1_le_bar_i                             UUT1.le_bar_i
+   Inst              UUT1_o_2_                                 UUT1.o[2]
+   Net                  s_0__n                                      s[0]
+   Net                  s_1__n                                      s[1]
+   Net                  s_2__n                                      s[2]
+   Net             uut2_n_27_n                                 UUT2.N_27
+   Net             uut2_n_28_n                                 UUT2.N_28
+   Net                s_i_1__n                                    s_i[1]
+   Net                s_i_0__n                                    s_i[0]
+   Net                s_i_2__n                                    s_i[2]
+   Net                a_c_0__n                                    a_c[0]
+   Net                  a_0__n                                      a[0]
+   Net                a_c_1__n                                    a_c[1]
+   Net                  a_1__n                                      a[1]
+   Net                a_c_2__n                                    a_c[2]
+   Net                y_c_0__n                                    y_c[0]
+   Net                  y_0__n                                      y[0]
+   Net                y_c_1__n                                    y_c[1]
+   Net                  y_1__n                                      y[1]
+   Net                y_c_2__n                                    y_c[2]
+   Net                  y_2__n                                      y[2]
+   Net                y_c_3__n                                    y_c[3]
+   Net                  y_3__n                                      y[3]
+   Net                y_c_4__n                                    y_c[4]
+   Net                  y_4__n                                      y[4]
+   Net                y_c_5__n                                    y_c[5]
+   Net                  y_5__n                                      y[5]
+   Net                y_c_6__n                                    y_c[6]
+   Net                  y_6__n                                      y[6]
+   Net                y_c_7__n                                    y_c[7]
+   Net              y_c_1_0__n                                  y_c_1[0]
+   Net              y_c_1_1__n                                  y_c_1[1]
+   Net              y_c_1_2__n                                  y_c_1[2]
+   Net              y_c_1_3__n                                  y_c_1[3]
+   Net              y_c_1_4__n                                  y_c_1[4]
+   Net              y_c_1_5__n                                  y_c_1[5]
+   Net              y_c_1_6__n                                  y_c_1[6]
+   Net              y_c_1_7__n                                  y_c_1[7]
+End
+Section Type      Name
+// ----------------------------------------------------------------------
+        Input     a_2_
+        Input     le_bar
+        Input     e1_bar
+        Input     e2
+        Input     a_1_
+        Input     a_0_
+        Output     y_7_
+        Output     y_6_
+        Output     y_5_
+        Output     y_4_
+        Output     y_3_
+        Output     y_2_
+        Output     y_1_
+        Output     y_0_
+End

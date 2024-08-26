@@ -1,0 +1,5 @@
+
+GROUP MACH_SEG_A UUT1_o_2_ 
+GROUP MACH_SEG_B UUT1_o_1_ 
+GROUP MACH_SEG_C UUT1_o_0_ 
+GROUP MACH_SEG_D y_0_ y_1_ y_2_ y_3_ y_4_ y_5_ y_6_ y_7_ 

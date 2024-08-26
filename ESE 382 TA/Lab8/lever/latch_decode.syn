@@ -1,0 +1,11 @@
+JDF B
+// Created by Version 2.1 
+PROJECT latch_decode
+DESIGN latch_decode Normal
+DEVKIT M4A5-64/32-10JC
+ENTRY EDIF
+MODULE ..\syn\rev_1\latch_decode.edf
+MODSTYLE linedecoder Normal
+SYNTHESIS_TOOL Synplify
+SIMULATOR_TOOL ModelSim
+TOPMODULE linedecoder

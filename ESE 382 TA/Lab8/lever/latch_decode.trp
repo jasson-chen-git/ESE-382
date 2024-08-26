@@ -1,0 +1,117 @@
+
+Timing Report for STAMP
+
+//  Project = latch_decode
+//  Family  = mach4a
+//  Device  = M4A5-64/32
+//  Speed   = -10
+//  Voltage = 5.0
+//  Operating Condition = COM
+//  Data sheet version  = RevD-8/2000
+
+//  Pass Bidirection = OFF
+//  Pass S/R = OFF
+//  Pass Latch = OFF
+//  T_SU Endpoints D/T inputs = ON
+//  T_SU Endpoints CE inputs = OFF
+//  T_SU Endpoints S/R inputs = OFF
+//  T_SU Endpoints RAM gated = ON
+//  Fmax of CE = ON
+//  Fmax of RAM = ON
+
+//  Location(From => To)
+//    Pin number: numeric number preceded by "p", BGA number as is
+//    Macrocell number: Segment#,GLB#,Macrocell#
+//                      Segment#: starts from 0 (if applicable)
+//                      GLB#: starts from A..Z, AA..ZZ
+//                      Macrocell#: starts from 0 to 31
+
+
+Section IO
+  //DESTINATION NODES;
+  y[0] [out]
+  y[1] [out]
+  y[2] [out]
+  y[3] [out]
+  y[4] [out]
+  y[5] [out]
+  y[6] [out]
+  y[7] [out]
+  UUT1_o_0_.LH [reg]
+  UUT1_o_1_.LH [reg]
+  UUT1_o_2_.LH [reg]
+  UUT1_o_0_.D [reg]
+  UUT1_o_1_.D [reg]
+  UUT1_o_2_.D [reg]
+
+  //SOURCE NODES;
+  a[0] [in]
+  a[1] [in]
+  a[2] [in]
+  e1_bar [in]
+  e2 [in]
+  le_bar [in]
+  UUT1_o_0_.Q [reg]
+  UUT1_o_1_.Q [reg]
+  UUT1_o_2_.Q [reg]
+
+
+Section tSU
+
+   tSU,    tHD   Level   Location(From => To)    Source                        Destination                   Reference_Clock
+  ===========   =====   ====================    ======                        ===========                   ===============
+   4.0,   4.0     1     p4        =>  C0        a[0]                          UUT1_o_0_.D                   le_bar
+   4.0,   4.0     1     p3        =>  B0        a[1]                          UUT1_o_1_.D                   le_bar
+   4.0,   4.0     1     p2        =>  A0        a[2]                          UUT1_o_2_.D                   le_bar
+
+
+Section tPD
+
+   Delay         Level   Location(From => To)    Source                        Destination
+  =====         =====   ====================    ======                        ===========
+   10.0           1     p14       => p36        e1_bar                        y[0]
+   10.0           1     p14       => p37        e1_bar                        y[1]
+   10.0           1     p14       => p38        e1_bar                        y[2]
+   10.0           1     p14       => p39        e1_bar                        y[3]
+   10.0           1     p14       => p40        e1_bar                        y[4]
+   10.0           1     p14       => p41        e1_bar                        y[5]
+   10.0           1     p14       => p42        e1_bar                        y[6]
+   10.0           1     p14       => p43        e1_bar                        y[7]
+   10.0           1     p15       => p36        e2                            y[0]
+   10.0           1     p15       => p37        e2                            y[1]
+   10.0           1     p15       => p38        e2                            y[2]
+   10.0           1     p15       => p39        e2                            y[3]
+   10.0           1     p15       => p40        e2                            y[4]
+   10.0           1     p15       => p41        e2                            y[5]
+   10.0           1     p15       => p42        e2                            y[6]
+   10.0           1     p15       => p43        e2                            y[7]
+
+
+Section tCO
+
+     tCO         Level   Location(From => To)    Source                        Destination                   Register_Clock
+    ===         =====   ====================    ======                        ===========                   ==============
+   20.0           2     p16       => p36        le_bar                        y[0]                          UUT1_o_2_.LH
+   20.0           2     p16       => p36        le_bar                        y[0]                          UUT1_o_0_.LH
+   20.0           2     p16       => p36        le_bar                        y[0]                          UUT1_o_1_.LH
+   20.0           2     p16       => p37        le_bar                        y[1]                          UUT1_o_0_.LH
+   20.0           2     p16       => p37        le_bar                        y[1]                          UUT1_o_2_.LH
+   20.0           2     p16       => p37        le_bar                        y[1]                          UUT1_o_1_.LH
+   20.0           2     p16       => p38        le_bar                        y[2]                          UUT1_o_0_.LH
+   20.0           2     p16       => p38        le_bar                        y[2]                          UUT1_o_2_.LH
+   20.0           2     p16       => p38        le_bar                        y[2]                          UUT1_o_1_.LH
+   20.0           2     p16       => p39        le_bar                        y[3]                          UUT1_o_0_.LH
+   20.0           2     p16       => p39        le_bar                        y[3]                          UUT1_o_2_.LH
+   20.0           2     p16       => p39        le_bar                        y[3]                          UUT1_o_1_.LH
+   20.0           2     p16       => p40        le_bar                        y[4]                          UUT1_o_0_.LH
+   20.0           2     p16       => p40        le_bar                        y[4]                          UUT1_o_1_.LH
+   20.0           2     p16       => p40        le_bar                        y[4]                          UUT1_o_2_.LH
+   20.0           2     p16       => p41        le_bar                        y[5]                          UUT1_o_0_.LH
+   20.0           2     p16       => p41        le_bar                        y[5]                          UUT1_o_1_.LH
+   20.0           2     p16       => p41        le_bar                        y[5]                          UUT1_o_2_.LH
+   20.0           2     p16       => p42        le_bar                        y[6]                          UUT1_o_0_.LH
+   20.0           2     p16       => p42        le_bar                        y[6]                          UUT1_o_1_.LH
+   20.0           2     p16       => p42        le_bar                        y[6]                          UUT1_o_2_.LH
+   20.0           2     p16       => p43        le_bar                        y[7]                          UUT1_o_1_.LH
+   20.0           2     p16       => p43        le_bar                        y[7]                          UUT1_o_0_.LH
+   20.0           2     p16       => p43        le_bar                        y[7]                          UUT1_o_2_.LH
