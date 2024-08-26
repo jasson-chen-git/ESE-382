@@ -1,0 +1,70 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=four_digit_driver
+
+[Library]
+four_digit_driver=.\four_digit_driver\four_digit_driver.lib
+
+[$LibMap$]
+four_digit_driver=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=NONE
+REFRESH_FLOW=1
+FAMILY=
+NoWarningsSDF=0
+ChangeSDFErrorToWarning=0
+EnableSDFErrorLimit=0
+SDFErrorLimit=0
+
+[SpecTracer]
+WindowVisible=0
+
+[LocalVhdlSets]
+NetlistCompilation=1
+EnableVHDL93Key=0
+EnableVHDL2002Key=0
+EnableVHDL2008Key=1
+EnableVHDL2019Key=0
+DisableVHDL87Key=0
+Syntax RelaxLRM=0
+MaxErrorsKey=100
+CompileWithDebug=1
+OptimizationLevel=3
+DisableRangeChecks=0
+ProtectLevel=0
+IncrementalCompilation=0
+AdditionalOptions=
+
+[Files]
+/edge_det.vhd=-1
+/slv_spi_rx_shifter.vhd=-1
+/rx_buff_reg.vhd=-1
+/decoder_2to4.vhd=-1
+/hex_digit_reg.vhd=-1
+/hex_dig_mux.vhd=-1
+/hex_seven.vhd=-1
+/load_digit_fsm.vhd=-1
+/multidigit_muxed_seven_seg_spi.vhd=-1
+/spi_mux_digit_driver_TB.vhd=-1
+
+[Files.Data]
+.\src\edge_det.vhd=VHDL Source Code
+.\src\slv_spi_rx_shifter.vhd=VHDL Source Code
+.\src\rx_buff_reg.vhd=VHDL Source Code
+.\src\decoder_2to4.vhd=VHDL Source Code
+.\src\hex_digit_reg.vhd=VHDL Source Code
+.\src\hex_dig_mux.vhd=VHDL Source Code
+.\src\hex_seven.vhd=VHDL Source Code
+.\src\load_digit_fsm.vhd=VHDL Source Code
+.\src\multidigit_muxed_seven_seg_spi.vhd=VHDL Source Code
+.\src\spi_mux_digit_driver_TB.vhd=VHDL Source Code
+

@@ -1,0 +1,10 @@
+i<>.\src\edge_det.vhd
+i<>.\src\slv_spi_rx_shifter.vhd
+i<>.\src\rx_buff_reg.vhd
+i<>.\src\decoder_2to4.vhd
+i<>.\src\hex_digit_reg.vhd
+i<>.\src\hex_dig_mux.vhd
+i<>.\src\hex_seven.vhd
+i<>.\src\load_digit_fsm.vhd
+i<>.\src\multidigit_muxed_seven_seg_spi.vhd
+i<>.\src\spi_mux_digit_driver_TB.vhd

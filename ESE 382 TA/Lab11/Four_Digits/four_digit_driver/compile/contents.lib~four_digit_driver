@@ -1,0 +1,25 @@
+41
+~E 1 "../src/decoder_2to4.vhd" 33 decoder_2to4
+~A 1 "../src/decoder_2to4.vhd" 42 decoder_2to4
+~E 1 "../src/edge_det.vhd" 34 edge_det
+~A 1 "../src/edge_det.vhd" 41 Behavioral
+~E 1 "../src/edge_det.vhd" 34 edge_detector
+~A 1 "../src/edge_det.vhd" 41 Behavioral
+~E 1 "../src/hex_dig_mux.vhd" 33 hex_dig_mux
+~A 1 "../src/hex_dig_mux.vhd" 43 hex_dig_mux
+~E 1 "../src/hex_digit_reg.vhd" 33 hex_digit_reg
+~A 1 "../src/hex_digit_reg.vhd" 43 hex_digit_reg
+~E 1 "../src/hex_seven.vhd" 34 hex_driver
+~A 1 "../src/hex_seven.vhd" 41 Behavioral
+~E 1 "../src/hex_seven.vhd" 34 hex_seven
+~A 1 "../src/hex_seven.vhd" 41 Behavioral
+~E 1 "../src/load_digit_fsm.vhd" 34 load_digit_fsm
+~A 1 "../src/load_digit_fsm.vhd" 43 load_digit_fsm
+~E 1 "../src/multidigit_muxed_seven_seg_spi.vhd" 34 multidigit_muxed_seven_seg_spi
+~A 1 "../src/multidigit_muxed_seven_seg_spi.vhd" 44 multidigit_muxed_seven_seg_spi
+~E 1 "../src/rx_buff_reg.vhd" 34 rx_buff_reg
+~A 1 "../src/rx_buff_reg.vhd" 44 rx_buff_reg
+~E 1 "../src/slv_spi_rx_shifter.vhd" 34 slv_spi_rx_shifter
+~A 1 "../src/slv_spi_rx_shifter.vhd" 41 Behavioral
+~E 1 "../src/spi_mux_digit_driver_TB.vhd" 11 spi_mux_digit_driver_tb
+~A 1 "../src/spi_mux_digit_driver_TB.vhd" 14 TB_ARCHITECTURE

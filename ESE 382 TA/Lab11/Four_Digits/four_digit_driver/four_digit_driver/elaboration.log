@@ -1,0 +1,38 @@
+Active-HDL 12.0.118.7745 2024-04-30 16:01:00
+
+Elaboration top modules:
+Architecture                  TB_ARCHITECTURE(spi_mux_digit_driver_tb)
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+Entity                         | Architecture                   | Library           | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------------------------------------------------------
+spi_mux_digit_driver_tb        | TB_ARCHITECTURE                | four_digit_driver |      | 12.0.118.7745 (Windows64) | -dbg -2008
+multidigit_muxed_seven_seg_spi | multidigit_muxed_seven_seg_spi | four_digit_driver |      | 12.0.118.7745 (Windows64) | -dbg -2008
+edge_det                       | Behavioral                     | four_digit_driver |      | 12.0.118.7745 (Windows64) | -dbg -2008
+slv_spi_rx_shifter             | Behavioral                     | four_digit_driver |      | 12.0.118.7745 (Windows64) | -dbg -2008
+rx_buff_reg                    | rx_buff_reg                    | four_digit_driver |      | 12.0.118.7745 (Windows64) | -dbg -2008
+decoder_2to4                   | decoder_2to4                   | four_digit_driver |      | 12.0.118.7745 (Windows64) | -dbg -2008
+load_digit_fsm                 | load_digit_fsm                 | four_digit_driver |      | 12.0.118.7745 (Windows64) | -dbg -2008
+hex_digit_reg                  | hex_digit_reg                  | four_digit_driver |      | 12.0.118.7745 (Windows64) | -dbg -2008
+hex_dig_mux                    | hex_dig_mux                    | four_digit_driver |      | 12.0.118.7745 (Windows64) | -dbg -2008
+hex_seven                      | Behavioral                     | four_digit_driver |      | 12.0.118.7745 (Windows64) | -dbg -2008
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+VHDL Package                                                    | Library           | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------------------------------------------------------
+standard                                                        | std               |      |                           | <unavailable>
+TEXTIO                                                          | std               |      |                           | <unavailable>
+std_logic_1164                                                  | ieee              |      |                           | <unavailable>
+ENV                                                             | std               |      |                           | <unavailable>
+NUMERIC_STD                                                     | ieee              |      |                           | <unavailable>
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+Library                                                         | Comment
+---------------------------------------------------------------------------------------------------------------------------------------------
+four_digit_driver                                               | None
+ieee                                                            | Standard IEEE packages library
+std                                                             | Standard VHDL library
+---------------------------------------------------------------------------------------------------------------------------------------------

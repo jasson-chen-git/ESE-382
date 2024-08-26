@@ -1,0 +1,1611 @@
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_detector"
+# Compile Architecture "Behavioral" of Entity "edge_detector"
+# Top-level unit(s) detected:
+# Entity => edge_detector
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_detector"
+# Compile Architecture "Behavioral" of Entity "edge_detector"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_detector"
+# Compile Architecture "Behavioral" of Entity "edge_detector"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Error: COMP96_0078: rx_buff_reg.vhd : (29, 28): Unknown identifier "std_logic".
+# Error: COMP96_0064: rx_buff_reg.vhd : (29, 28): Unknown type.
+# Error: COMP96_0078: rx_buff_reg.vhd : (30, 17): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: rx_buff_reg.vhd : (30, 17): Unknown type.
+# Error: COMP96_0078: rx_buff_reg.vhd : (31, 19): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: rx_buff_reg.vhd : (31, 19): Unknown type.
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# Error: COMP96_0056: rx_buff_reg.vhd : (37, 1): Cannot find referenced entity declaration "rx_buff_reg".
+# Compile failure 7 Errors 0 Warnings  Analysis time :  0.6 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_detector"
+# Compile Architecture "Behavioral" of Entity "edge_detector"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_detector"
+# Compile Architecture "Behavioral" of Entity "edge_detector"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# Error: COMP96_0015: decoder_2to4.vhd : (50, 1): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.5 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_detector"
+# Compile Architecture "Behavioral" of Entity "edge_detector"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_detector"
+# Compile Architecture "Behavioral" of Entity "edge_detector"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# Error: COMP96_0078: hex_digit_reg.vhd : (49, 30): Unknown identifier "load_en".
+# Error: COMP96_0133: hex_digit_reg.vhd : (49, 30): Cannot find object declaration.
+# Error: COMP96_0077: hex_digit_reg.vhd : (49, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_detector"
+# Compile Architecture "Behavioral" of Entity "edge_detector"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_detector"
+# Compile Architecture "Behavioral" of Entity "edge_detector"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Error: COMP96_0015: hex_dig_mux.vhd : (35, 27): ':' expected.
+# Error: COMP96_0018: hex_dig_mux.vhd : (35, 27): Identifier expected.
+# Error: COMP96_0016: hex_dig_mux.vhd : (35, 28): Design unit declaration expected.
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# Error: COMP96_0056: hex_dig_mux.vhd : (43, 1): Cannot find referenced entity declaration "hex_dig_mux".
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_detector"
+# Compile Architecture "Behavioral" of Entity "edge_detector"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# Error: COMP96_0319: hex_dig_mux.vhd : (47, 17): Each choice in a selected assignment can be represented only once.
+# Error: COMP96_0319: hex_dig_mux.vhd : (48, 17): Each choice in a selected assignment can be represented only once.
+# Error: COMP96_0319: hex_dig_mux.vhd : (49, 17): Each choice in a selected assignment can be represented only once.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_detector"
+# Compile Architecture "Behavioral" of Entity "edge_detector"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_detector"
+# Compile Architecture "Behavioral" of Entity "edge_detector"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.9 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_detector"
+# Compile Architecture "Behavioral" of Entity "edge_detector"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_driver"
+# Compile Architecture "Behavioral" of Entity "hex_driver"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.6 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_detector"
+# Compile Architecture "Behavioral" of Entity "edge_detector"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Error: COMP96_0111: hex_seven.vhd : (39, 5): Labels do not match.
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# Error: COMP96_0056: hex_seven.vhd : (41, 1): Cannot find referenced entity declaration "hex_seven".
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.7 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_detector"
+# Compile Architecture "Behavioral" of Entity "edge_detector"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_detector"
+# Compile Architecture "Behavioral" of Entity "edge_detector"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# Error: COMP96_0078: load_digit_fsm.vhd : (60, 29): Unknown identifier "sig_edge".
+# Error: COMP96_0133: load_digit_fsm.vhd : (60, 29): Cannot find object declaration.
+# Error: COMP96_0078: load_digit_fsm.vhd : (61, 39): Unknown identifier "sig_edge".
+# Error: COMP96_0133: load_digit_fsm.vhd : (61, 39): Cannot find object declaration.
+# Error: COMP96_0078: load_digit_fsm.vhd : (65, 50): Unknown identifier "ld_cmnd".
+# Error: COMP96_0348: load_digit_fsm.vhd : (65, 50): Name on sensitivity list must denote a signal.
+# Error: COMP96_0078: load_digit_fsm.vhd : (75, 20): Unknown identifier "ld_cmnd".
+# Error: COMP96_0133: load_digit_fsm.vhd : (75, 20): Cannot find object declaration.
+# Error: COMP96_0077: load_digit_fsm.vhd : (75, 20): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 9 Errors 0 Warnings  Analysis time :  0.7 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_detector"
+# Compile Architecture "Behavioral" of Entity "edge_detector"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# Error: COMP96_0078: load_digit_fsm.vhd : (65, 50): Unknown identifier "ld_cmnd".
+# Error: COMP96_0348: load_digit_fsm.vhd : (65, 50): Name on sensitivity list must denote a signal.
+# Error: COMP96_0078: load_digit_fsm.vhd : (75, 20): Unknown identifier "ld_cmnd".
+# Error: COMP96_0133: load_digit_fsm.vhd : (75, 20): Cannot find object declaration.
+# Error: COMP96_0077: load_digit_fsm.vhd : (75, 20): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_detector"
+# Compile Architecture "Behavioral" of Entity "edge_detector"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd $dsn/src/multidigit_muxed_seven_seg_spi.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_detector"
+# Compile Architecture "Behavioral" of Entity "edge_detector"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/multidigit_muxed_seven_seg_spi.vhd
+# Compile Entity "multidigit_muxed_seven_seg_spi"
+# Error: COMP96_0078: multidigit_muxed_seven_seg_spi.vhd : (29, 38): Unknown identifier "std_logic".
+# Error: COMP96_0064: multidigit_muxed_seven_seg_spi.vhd : (29, 38): Unknown type.
+# Error: COMP96_0078: multidigit_muxed_seven_seg_spi.vhd : (30, 10): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: multidigit_muxed_seven_seg_spi.vhd : (30, 10): Unknown type.
+# Error: COMP96_0078: multidigit_muxed_seven_seg_spi.vhd : (31, 17): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: multidigit_muxed_seven_seg_spi.vhd : (31, 17): Unknown type.
+# Compile Architecture "multidigit_muxed_seven_seg_spi" of Entity "multidigit_muxed_seven_seg_spi"
+# Error: COMP96_0015: multidigit_muxed_seven_seg_spi.vhd : (40, 9): ':' expected.
+# Error: COMP96_0015: multidigit_muxed_seven_seg_spi.vhd : (40, 20): ';' expected.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  0.6 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd $dsn/src/multidigit_muxed_seven_seg_spi.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_detector"
+# Compile Architecture "Behavioral" of Entity "edge_detector"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/multidigit_muxed_seven_seg_spi.vhd
+# Compile Entity "multidigit_muxed_seven_seg_spi"
+# Compile Architecture "multidigit_muxed_seven_seg_spi" of Entity "multidigit_muxed_seven_seg_spi"
+# Error: COMP96_0015: multidigit_muxed_seven_seg_spi.vhd : (46, 9): ':' expected.
+# Error: COMP96_0015: multidigit_muxed_seven_seg_spi.vhd : (46, 20): ';' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.6 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd $dsn/src/multidigit_muxed_seven_seg_spi.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_detector"
+# Compile Architecture "Behavioral" of Entity "edge_detector"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/multidigit_muxed_seven_seg_spi.vhd
+# Compile Entity "multidigit_muxed_seven_seg_spi"
+# Compile Architecture "multidigit_muxed_seven_seg_spi" of Entity "multidigit_muxed_seven_seg_spi"
+# Error: COMP96_0015: multidigit_muxed_seven_seg_spi.vhd : (46, 9): ':' expected.
+# Error: COMP96_0015: multidigit_muxed_seven_seg_spi.vhd : (46, 20): ';' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd $dsn/src/multidigit_muxed_seven_seg_spi.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_detector"
+# Compile Architecture "Behavioral" of Entity "edge_detector"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/multidigit_muxed_seven_seg_spi.vhd
+# Compile Entity "multidigit_muxed_seven_seg_spi"
+# Compile Architecture "multidigit_muxed_seven_seg_spi" of Entity "multidigit_muxed_seven_seg_spi"
+# Error: COMP96_0078: multidigit_muxed_seven_seg_spi.vhd : (50, 13): Unknown identifier "edge_det".
+# Error: COMP96_0056: multidigit_muxed_seven_seg_spi.vhd : (50, 13): Cannot find referenced entity declaration "edge_det".
+# Error: COMP96_0055: multidigit_muxed_seven_seg_spi.vhd : (50, 13): Cannot find context item "edge_det".
+# Error: COMP96_0078: multidigit_muxed_seven_seg_spi.vhd : (57, 13): Unknown identifier "slv_spi_rx_shifter".
+# Error: COMP96_0056: multidigit_muxed_seven_seg_spi.vhd : (57, 13): Cannot find referenced entity declaration "slv_spi_rx_shifter".
+# Error: COMP96_0055: multidigit_muxed_seven_seg_spi.vhd : (57, 13): Cannot find context item "slv_spi_rx_shifter".
+# Error: COMP96_0078: multidigit_muxed_seven_seg_spi.vhd : (65, 13): Unknown identifier "edge_det".
+# Error: COMP96_0056: multidigit_muxed_seven_seg_spi.vhd : (65, 13): Cannot find referenced entity declaration "edge_det".
+# Error: COMP96_0055: multidigit_muxed_seven_seg_spi.vhd : (65, 13): Cannot find context item "edge_det".
+# Error: COMP96_0078: multidigit_muxed_seven_seg_spi.vhd : (72, 13): Unknown identifier "rx_buff_reg".
+# Error: COMP96_0056: multidigit_muxed_seven_seg_spi.vhd : (72, 13): Cannot find referenced entity declaration "rx_buff_reg".
+# Error: COMP96_0055: multidigit_muxed_seven_seg_spi.vhd : (72, 13): Cannot find context item "rx_buff_reg".
+# Error: COMP96_0078: multidigit_muxed_seven_seg_spi.vhd : (79, 13): Unknown identifier "decoder_2to4".
+# Error: COMP96_0056: multidigit_muxed_seven_seg_spi.vhd : (79, 13): Cannot find referenced entity declaration "decoder_2to4".
+# Error: COMP96_0055: multidigit_muxed_seven_seg_spi.vhd : (79, 13): Cannot find context item "decoder_2to4".
+# Error: COMP96_0078: multidigit_muxed_seven_seg_spi.vhd : (84, 14): Unknown identifier "load_digit_fsm".
+# Error: COMP96_0056: multidigit_muxed_seven_seg_spi.vhd : (84, 14): Cannot find referenced entity declaration "load_digit_fsm".
+# Error: COMP96_0055: multidigit_muxed_seven_seg_spi.vhd : (84, 14): Cannot find context item "load_digit_fsm".
+# Error: COMP96_0078: multidigit_muxed_seven_seg_spi.vhd : (91, 13): Unknown identifier "hex_digit_reg".
+# Error: COMP96_0056: multidigit_muxed_seven_seg_spi.vhd : (91, 13): Cannot find referenced entity declaration "hex_digit_reg".
+# Error: COMP96_0055: multidigit_muxed_seven_seg_spi.vhd : (91, 13): Cannot find context item "hex_digit_reg".
+# Error: COMP96_0078: multidigit_muxed_seven_seg_spi.vhd : (99, 13): Unknown identifier "hex_digit_reg".
+# Error: COMP96_0056: multidigit_muxed_seven_seg_spi.vhd : (99, 13): Cannot find referenced entity declaration "hex_digit_reg".
+# Error: COMP96_0055: multidigit_muxed_seven_seg_spi.vhd : (99, 13): Cannot find context item "hex_digit_reg".
+# Error: COMP96_0078: multidigit_muxed_seven_seg_spi.vhd : (107, 13): Unknown identifier "hex_digit_reg".
+# Error: COMP96_0056: multidigit_muxed_seven_seg_spi.vhd : (107, 13): Cannot find referenced entity declaration "hex_digit_reg".
+# Error: COMP96_0055: multidigit_muxed_seven_seg_spi.vhd : (107, 13): Cannot find context item "hex_digit_reg".
+# Error: COMP96_0078: multidigit_muxed_seven_seg_spi.vhd : (115, 13): Unknown identifier "hex_digit_reg".
+# Error: COMP96_0056: multidigit_muxed_seven_seg_spi.vhd : (115, 13): Cannot find referenced entity declaration "hex_digit_reg".
+# Error: COMP96_0055: multidigit_muxed_seven_seg_spi.vhd : (115, 13): Cannot find context item "hex_digit_reg".
+# Error: COMP96_0078: multidigit_muxed_seven_seg_spi.vhd : (123, 14): Unknown identifier "hex_dig_mux".
+# Error: COMP96_0056: multidigit_muxed_seven_seg_spi.vhd : (123, 14): Cannot find referenced entity declaration "hex_dig_mux".
+# Error: COMP96_0055: multidigit_muxed_seven_seg_spi.vhd : (123, 14): Cannot find context item "hex_dig_mux".
+# Error: COMP96_0078: multidigit_muxed_seven_seg_spi.vhd : (131, 14): Unknown identifier "hex_seven".
+# Error: COMP96_0056: multidigit_muxed_seven_seg_spi.vhd : (131, 14): Cannot find referenced entity declaration "hex_seven".
+# Error: COMP96_0055: multidigit_muxed_seven_seg_spi.vhd : (131, 14): Cannot find context item "hex_seven".
+# Compile failure 36 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd $dsn/src/multidigit_muxed_seven_seg_spi.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_detector"
+# Compile Architecture "Behavioral" of Entity "edge_detector"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/multidigit_muxed_seven_seg_spi.vhd
+# Compile Entity "multidigit_muxed_seven_seg_spi"
+# Compile Architecture "multidigit_muxed_seven_seg_spi" of Entity "multidigit_muxed_seven_seg_spi"
+# Error: COMP96_0078: multidigit_muxed_seven_seg_spi.vhd : (51, 13): Unknown identifier "edge_det".
+# Error: COMP96_0056: multidigit_muxed_seven_seg_spi.vhd : (51, 13): Cannot find referenced entity declaration "edge_det".
+# Error: COMP96_0055: multidigit_muxed_seven_seg_spi.vhd : (51, 13): Cannot find context item "edge_det".
+# Error: COMP96_0078: multidigit_muxed_seven_seg_spi.vhd : (66, 13): Unknown identifier "edge_det".
+# Error: COMP96_0056: multidigit_muxed_seven_seg_spi.vhd : (66, 13): Cannot find referenced entity declaration "edge_det".
+# Error: COMP96_0055: multidigit_muxed_seven_seg_spi.vhd : (66, 13): Cannot find context item "edge_det".
+# Error: COMP96_0219: multidigit_muxed_seven_seg_spi.vhd : (128, 4): Port "hex_dig_0" is already assigned.
+# Error: COMP96_0207: multidigit_muxed_seven_seg_spi.vhd : (124, 2): No actual specified for local port "hex_dig_1".
+# Error: COMP96_0207: multidigit_muxed_seven_seg_spi.vhd : (124, 2): No actual specified for local port "hex_dig_2".
+# Error: COMP96_0207: multidigit_muxed_seven_seg_spi.vhd : (124, 2): No actual specified for local port "hex_dig_3".
+# Compile failure 10 Errors 0 Warnings  Analysis time :  0.6 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd $dsn/src/multidigit_muxed_seven_seg_spi.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_det"
+# Compile Architecture "Behavioral" of Entity "edge_det"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/multidigit_muxed_seven_seg_spi.vhd
+# Compile Entity "multidigit_muxed_seven_seg_spi"
+# Compile Architecture "multidigit_muxed_seven_seg_spi" of Entity "multidigit_muxed_seven_seg_spi"
+# Error: COMP96_0078: multidigit_muxed_seven_seg_spi.vhd : (56, 16): Unknown identifier "sck_pulse".
+# Error: COMP96_0219: multidigit_muxed_seven_seg_spi.vhd : (128, 4): Port "hex_dig_0" is already assigned.
+# Error: COMP96_0207: multidigit_muxed_seven_seg_spi.vhd : (124, 2): No actual specified for local port "hex_dig_1".
+# Error: COMP96_0207: multidigit_muxed_seven_seg_spi.vhd : (124, 2): No actual specified for local port "hex_dig_2".
+# Error: COMP96_0207: multidigit_muxed_seven_seg_spi.vhd : (124, 2): No actual specified for local port "hex_dig_3".
+# Compile failure 5 Errors 0 Warnings  Analysis time :  0.8 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd $dsn/src/multidigit_muxed_seven_seg_spi.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_det"
+# Compile Architecture "Behavioral" of Entity "edge_det"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/multidigit_muxed_seven_seg_spi.vhd
+# Compile Entity "multidigit_muxed_seven_seg_spi"
+# Compile Architecture "multidigit_muxed_seven_seg_spi" of Entity "multidigit_muxed_seven_seg_spi"
+# Error: COMP96_0219: multidigit_muxed_seven_seg_spi.vhd : (128, 4): Port "hex_dig_0" is already assigned.
+# Error: COMP96_0207: multidigit_muxed_seven_seg_spi.vhd : (124, 2): No actual specified for local port "hex_dig_1".
+# Error: COMP96_0207: multidigit_muxed_seven_seg_spi.vhd : (124, 2): No actual specified for local port "hex_dig_2".
+# Error: COMP96_0207: multidigit_muxed_seven_seg_spi.vhd : (124, 2): No actual specified for local port "hex_dig_3".
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd $dsn/src/multidigit_muxed_seven_seg_spi.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_det"
+# Compile Architecture "Behavioral" of Entity "edge_det"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/multidigit_muxed_seven_seg_spi.vhd
+# Compile Entity "multidigit_muxed_seven_seg_spi"
+# Compile Architecture "multidigit_muxed_seven_seg_spi" of Entity "multidigit_muxed_seven_seg_spi"
+# Compile success 0 Errors 0 Warnings  Analysis time :  3.0 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd $dsn/src/multidigit_muxed_seven_seg_spi.vhd $dsn/src/spi_mux_digit_driver_TB.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_det"
+# Compile Architecture "Behavioral" of Entity "edge_det"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/multidigit_muxed_seven_seg_spi.vhd
+# Compile Entity "multidigit_muxed_seven_seg_spi"
+# Compile Architecture "multidigit_muxed_seven_seg_spi" of Entity "multidigit_muxed_seven_seg_spi"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/spi_mux_digit_driver_TB.vhd
+# Compile Entity "spi_mux_digit_driver_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spi_mux_digit_driver_tb"
+# Error: COMP96_0078: spi_mux_digit_driver_TB.vhd : (38, 15): Unknown identifier "spi_mux_digit_driver".
+# Error: COMP96_0056: spi_mux_digit_driver_TB.vhd : (38, 15): Cannot find referenced entity declaration "spi_mux_digit_driver".
+# Error: COMP96_0055: spi_mux_digit_driver_TB.vhd : (38, 15): Cannot find context item "spi_mux_digit_driver".
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.6 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd $dsn/src/multidigit_muxed_seven_seg_spi.vhd $dsn/src/spi_mux_digit_driver_TB.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_det"
+# Compile Architecture "Behavioral" of Entity "edge_det"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/multidigit_muxed_seven_seg_spi.vhd
+# Compile Entity "multidigit_muxed_seven_seg_spi"
+# Compile Architecture "multidigit_muxed_seven_seg_spi" of Entity "multidigit_muxed_seven_seg_spi"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/spi_mux_digit_driver_TB.vhd
+# Compile Entity "spi_mux_digit_driver_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spi_mux_digit_driver_tb"
+# Error: COMP96_0078: spi_mux_digit_driver_TB.vhd : (38, 15): Unknown identifier "multidigit_muxed_seve_seg_spi".
+# Error: COMP96_0056: spi_mux_digit_driver_TB.vhd : (38, 15): Cannot find referenced entity declaration "multidigit_muxed_seve_seg_spi".
+# Error: COMP96_0055: spi_mux_digit_driver_TB.vhd : (38, 15): Cannot find context item "multidigit_muxed_seve_seg_spi".
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.6 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd $dsn/src/multidigit_muxed_seven_seg_spi.vhd $dsn/src/spi_mux_digit_driver_TB.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_det"
+# Compile Architecture "Behavioral" of Entity "edge_det"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/multidigit_muxed_seven_seg_spi.vhd
+# Compile Entity "multidigit_muxed_seven_seg_spi"
+# Compile Architecture "multidigit_muxed_seven_seg_spi" of Entity "multidigit_muxed_seven_seg_spi"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/spi_mux_digit_driver_TB.vhd
+# Compile Entity "spi_mux_digit_driver_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spi_mux_digit_driver_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+spi_mux_digit_driver_tb spi_mux_digit_driver_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6626 kB (elbread=427 elab2=6053 kernel=146 sdf=0)
+# KERNEL: ASDB file was created in location E:\Lab11\Four_Digits\four_digit_driver\src\wave.asdb
+#  3:33 PM, Tuesday, April 30, 2024
+#  Simulation has been initialized
+# add wave -noreg {/spi_mux_digit_driver_tb/rst_bar}
+# add wave -noreg {/spi_mux_digit_driver_tb/clk}
+# add wave -noreg {/spi_mux_digit_driver_tb/mosi}
+# add wave -noreg {/spi_mux_digit_driver_tb/sck}
+# add wave -noreg {/spi_mux_digit_driver_tb/ss_bar}
+# add wave -noreg {/spi_mux_digit_driver_tb/sel}
+# add wave -noreg {/spi_mux_digit_driver_tb/seg_drive}
+# add wave -noreg {/spi_mux_digit_driver_tb/end_sim}
+# 8 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'E:/Lab11/Four_Digits/four_digit_driver/src/wave.asdb'.
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb/UUT/u11,  Process: line__50.
+# RUNTIME: Info: RUNTIME_0142 spi_mux_digit_driver_TB.vhd (100): finish called.
+# KERNEL: Time: 3328 us,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb,  Process: send_spi_byte.
+# KERNEL: stopped at time: 3328 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# 7 object(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6626 kB (elbread=427 elab2=6053 kernel=146 sdf=0)
+# KERNEL: ASDB file was created in location E:\Lab11\Four_Digits\four_digit_driver\src\wave.asdb
+#  3:38 PM, Tuesday, April 30, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/Lab11/Four_Digits/four_digit_driver/src/wave.asdb'.
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb/UUT/u11,  Process: line__50.
+# RUNTIME: Info: RUNTIME_0142 spi_mux_digit_driver_TB.vhd (100): finish called.
+# KERNEL: Time: 3328 us,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb,  Process: send_spi_byte.
+# KERNEL: stopped at time: 3328 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# 1 object(s) traced.
+# 1 object(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6626 kB (elbread=427 elab2=6053 kernel=146 sdf=0)
+# KERNEL: ASDB file was created in location E:\Lab11\Four_Digits\four_digit_driver\src\wave.asdb
+#  3:39 PM, Tuesday, April 30, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/Lab11/Four_Digits/four_digit_driver/src/wave.asdb'.
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb/UUT/u11,  Process: line__50.
+# RUNTIME: Info: RUNTIME_0142 spi_mux_digit_driver_TB.vhd (100): finish called.
+# KERNEL: Time: 3328 us,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb,  Process: send_spi_byte.
+# KERNEL: stopped at time: 3328 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.3 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6626 kB (elbread=427 elab2=6053 kernel=146 sdf=0)
+# KERNEL: ASDB file was created in location E:\Lab11\Four_Digits\four_digit_driver\src\wave.asdb
+#  3:42 PM, Tuesday, April 30, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/Lab11/Four_Digits/four_digit_driver/src/wave.asdb'.
+run
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/load_digit_fsm.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.3 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6626 kB (elbread=427 elab2=6053 kernel=146 sdf=0)
+# KERNEL: ASDB file was created in location E:\Lab11\Four_Digits\four_digit_driver\src\wave.asdb
+#  3:42 PM, Tuesday, April 30, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/Lab11/Four_Digits/four_digit_driver/src/wave.asdb'.
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb/UUT/u11,  Process: line__50.
+# RUNTIME: Info: RUNTIME_0142 spi_mux_digit_driver_TB.vhd (100): finish called.
+# KERNEL: Time: 3328 us,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb,  Process: send_spi_byte.
+# KERNEL: stopped at time: 3328 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd $dsn/src/multidigit_muxed_seven_seg_spi.vhd $dsn/src/spi_mux_digit_driver_TB.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_det"
+# Compile Architecture "Behavioral" of Entity "edge_det"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# Error: COMP96_0078: load_digit_fsm.vhd : (84, 6): Unknown identifier "nex_state".
+# Error: COMP96_0133: load_digit_fsm.vhd : (84, 6): Cannot find object declaration.
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/multidigit_muxed_seven_seg_spi.vhd
+# Compile Entity "multidigit_muxed_seven_seg_spi"
+# Compile Architecture "multidigit_muxed_seven_seg_spi" of Entity "multidigit_muxed_seven_seg_spi"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/spi_mux_digit_driver_TB.vhd
+# Compile Entity "spi_mux_digit_driver_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spi_mux_digit_driver_tb"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.3 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6626 kB (elbread=427 elab2=6053 kernel=146 sdf=0)
+# KERNEL: ASDB file was created in location E:\Lab11\Four_Digits\four_digit_driver\src\wave.asdb
+#  3:43 PM, Tuesday, April 30, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/Lab11/Four_Digits/four_digit_driver/src/wave.asdb'.
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb/UUT/u11,  Process: line__50.
+# RUNTIME: Info: RUNTIME_0142 spi_mux_digit_driver_TB.vhd (100): finish called.
+# KERNEL: Time: 3328 us,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb,  Process: send_spi_byte.
+# KERNEL: stopped at time: 3328 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# 7 object(s) traced.
+# 2 object(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.4 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6626 kB (elbread=427 elab2=6053 kernel=146 sdf=0)
+# KERNEL: ASDB file was created in location E:\Lab11\Four_Digits\four_digit_driver\src\wave.asdb
+#  3:44 PM, Tuesday, April 30, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/Lab11/Four_Digits/four_digit_driver/src/wave.asdb'.
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb/UUT/u11,  Process: line__50.
+# RUNTIME: Info: RUNTIME_0142 spi_mux_digit_driver_TB.vhd (100): finish called.
+# KERNEL: Time: 3328 us,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb,  Process: send_spi_byte.
+# KERNEL: stopped at time: 3328 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# 1 object(s) traced.
+# 1 object(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6626 kB (elbread=427 elab2=6053 kernel=146 sdf=0)
+# KERNEL: ASDB file was created in location E:\Lab11\Four_Digits\four_digit_driver\src\wave.asdb
+#  3:45 PM, Tuesday, April 30, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/Lab11/Four_Digits/four_digit_driver/src/wave.asdb'.
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb/UUT/u11,  Process: line__50.
+# RUNTIME: Info: RUNTIME_0142 spi_mux_digit_driver_TB.vhd (100): finish called.
+# KERNEL: Time: 3328 us,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb,  Process: send_spi_byte.
+# KERNEL: stopped at time: 3328 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd $dsn/src/multidigit_muxed_seven_seg_spi.vhd $dsn/src/spi_mux_digit_driver_TB.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_det"
+# Compile Architecture "Behavioral" of Entity "edge_det"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# Error: COMP96_0078: load_digit_fsm.vhd : (84, 6): Unknown identifier "nex_state".
+# Error: COMP96_0133: load_digit_fsm.vhd : (84, 6): Cannot find object declaration.
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/multidigit_muxed_seven_seg_spi.vhd
+# Compile Entity "multidigit_muxed_seven_seg_spi"
+# Compile Architecture "multidigit_muxed_seven_seg_spi" of Entity "multidigit_muxed_seven_seg_spi"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/spi_mux_digit_driver_TB.vhd
+# Compile Entity "spi_mux_digit_driver_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spi_mux_digit_driver_tb"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.7 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.7 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6626 kB (elbread=427 elab2=6053 kernel=146 sdf=0)
+# KERNEL: ASDB file was created in location E:\Lab11\Four_Digits\four_digit_driver\src\wave.asdb
+#  3:47 PM, Tuesday, April 30, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/Lab11/Four_Digits/four_digit_driver/src/wave.asdb'.
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd $dsn/src/multidigit_muxed_seven_seg_spi.vhd $dsn/src/spi_mux_digit_driver_TB.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_det"
+# Compile Architecture "Behavioral" of Entity "edge_det"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/multidigit_muxed_seven_seg_spi.vhd
+# Compile Entity "multidigit_muxed_seven_seg_spi"
+# Compile Architecture "multidigit_muxed_seven_seg_spi" of Entity "multidigit_muxed_seven_seg_spi"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/spi_mux_digit_driver_TB.vhd
+# Compile Entity "spi_mux_digit_driver_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spi_mux_digit_driver_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  3.0 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd $dsn/src/multidigit_muxed_seven_seg_spi.vhd $dsn/src/spi_mux_digit_driver_TB.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_det"
+# Compile Architecture "Behavioral" of Entity "edge_det"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/multidigit_muxed_seven_seg_spi.vhd
+# Compile Entity "multidigit_muxed_seven_seg_spi"
+# Compile Architecture "multidigit_muxed_seven_seg_spi" of Entity "multidigit_muxed_seven_seg_spi"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/spi_mux_digit_driver_TB.vhd
+# Compile Entity "spi_mux_digit_driver_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spi_mux_digit_driver_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6626 kB (elbread=427 elab2=6053 kernel=146 sdf=0)
+# KERNEL: ASDB file was created in location E:\Lab11\Four_Digits\four_digit_driver\src\wave.asdb
+#  3:47 PM, Tuesday, April 30, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/Lab11/Four_Digits/four_digit_driver/src/wave.asdb'.
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb/UUT/u11,  Process: line__50.
+# RUNTIME: Info: RUNTIME_0142 spi_mux_digit_driver_TB.vhd (100): finish called.
+# KERNEL: Time: 3328 us,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb,  Process: send_spi_byte.
+# KERNEL: stopped at time: 3328 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd $dsn/src/multidigit_muxed_seven_seg_spi.vhd $dsn/src/spi_mux_digit_driver_TB.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_det"
+# Compile Architecture "Behavioral" of Entity "edge_det"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/multidigit_muxed_seven_seg_spi.vhd
+# Compile Entity "multidigit_muxed_seven_seg_spi"
+# Compile Architecture "multidigit_muxed_seven_seg_spi" of Entity "multidigit_muxed_seven_seg_spi"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/spi_mux_digit_driver_TB.vhd
+# Compile Entity "spi_mux_digit_driver_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spi_mux_digit_driver_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6626 kB (elbread=427 elab2=6053 kernel=146 sdf=0)
+# KERNEL: ASDB file was created in location E:\Lab11\Four_Digits\four_digit_driver\src\wave.asdb
+#  3:54 PM, Tuesday, April 30, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/Lab11/Four_Digits/four_digit_driver/src/wave.asdb'.
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb/UUT/u11,  Process: line__50.
+# RUNTIME: Info: RUNTIME_0142 spi_mux_digit_driver_TB.vhd (100): finish called.
+# KERNEL: Time: 3328 us,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb,  Process: send_spi_byte.
+# KERNEL: stopped at time: 3328 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd $dsn/src/multidigit_muxed_seven_seg_spi.vhd $dsn/src/spi_mux_digit_driver_TB.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_det"
+# Compile Architecture "Behavioral" of Entity "edge_det"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# Error: COMP96_0078: decoder_2to4.vhd : (44, 28): Unknown identifier "a".
+# Error: COMP96_0584: decoder_2to4.vhd : (44, 7): Cannot determine the type of the select expression. Enumeration type, integer type, or one-dimensional array of characters expected.
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/multidigit_muxed_seven_seg_spi.vhd
+# Compile Entity "multidigit_muxed_seven_seg_spi"
+# Compile Architecture "multidigit_muxed_seven_seg_spi" of Entity "multidigit_muxed_seven_seg_spi"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/spi_mux_digit_driver_TB.vhd
+# Compile Entity "spi_mux_digit_driver_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spi_mux_digit_driver_tb"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  2.0 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6626 kB (elbread=427 elab2=6053 kernel=146 sdf=0)
+# KERNEL: ASDB file was created in location E:\Lab11\Four_Digits\four_digit_driver\src\wave.asdb
+#  3:56 PM, Tuesday, April 30, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/Lab11/Four_Digits/four_digit_driver/src/wave.asdb'.
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb/UUT/u11,  Process: line__50.
+# RUNTIME: Info: RUNTIME_0142 spi_mux_digit_driver_TB.vhd (100): finish called.
+# KERNEL: Time: 3328 us,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb,  Process: send_spi_byte.
+# KERNEL: stopped at time: 3328 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6626 kB (elbread=427 elab2=6053 kernel=146 sdf=0)
+# KERNEL: ASDB file was created in location E:\Lab11\Four_Digits\four_digit_driver\src\wave.asdb
+#  3:57 PM, Tuesday, April 30, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/Lab11/Four_Digits/four_digit_driver/src/wave.asdb'.
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd $dsn/src/multidigit_muxed_seven_seg_spi.vhd $dsn/src/spi_mux_digit_driver_TB.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_det"
+# Compile Architecture "Behavioral" of Entity "edge_det"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/multidigit_muxed_seven_seg_spi.vhd
+# Compile Entity "multidigit_muxed_seven_seg_spi"
+# Compile Architecture "multidigit_muxed_seven_seg_spi" of Entity "multidigit_muxed_seven_seg_spi"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/spi_mux_digit_driver_TB.vhd
+# Compile Entity "spi_mux_digit_driver_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spi_mux_digit_driver_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd $dsn/src/multidigit_muxed_seven_seg_spi.vhd $dsn/src/spi_mux_digit_driver_TB.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_det"
+# Compile Architecture "Behavioral" of Entity "edge_det"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/multidigit_muxed_seven_seg_spi.vhd
+# Compile Entity "multidigit_muxed_seven_seg_spi"
+# Compile Architecture "multidigit_muxed_seven_seg_spi" of Entity "multidigit_muxed_seven_seg_spi"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/spi_mux_digit_driver_TB.vhd
+# Compile Entity "spi_mux_digit_driver_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spi_mux_digit_driver_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  2.0 [s]
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb/UUT/u11,  Process: line__50.
+# RUNTIME: Info: RUNTIME_0142 spi_mux_digit_driver_TB.vhd (100): finish called.
+# KERNEL: Time: 3328 us,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb,  Process: send_spi_byte.
+# KERNEL: stopped at time: 3328 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd $dsn/src/multidigit_muxed_seven_seg_spi.vhd $dsn/src/spi_mux_digit_driver_TB.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_det"
+# Compile Architecture "Behavioral" of Entity "edge_det"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/multidigit_muxed_seven_seg_spi.vhd
+# Compile Entity "multidigit_muxed_seven_seg_spi"
+# Compile Architecture "multidigit_muxed_seven_seg_spi" of Entity "multidigit_muxed_seven_seg_spi"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/spi_mux_digit_driver_TB.vhd
+# Compile Entity "spi_mux_digit_driver_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spi_mux_digit_driver_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.4 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6626 kB (elbread=427 elab2=6053 kernel=146 sdf=0)
+# KERNEL: ASDB file was created in location E:\Lab11\Four_Digits\four_digit_driver\src\wave.asdb
+#  3:59 PM, Tuesday, April 30, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/Lab11/Four_Digits/four_digit_driver/src/wave.asdb'.
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb/UUT/u11,  Process: line__50.
+# RUNTIME: Info: RUNTIME_0142 spi_mux_digit_driver_TB.vhd (100): finish called.
+# KERNEL: Time: 3328 us,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb,  Process: send_spi_byte.
+# KERNEL: stopped at time: 3328 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd $dsn/src/multidigit_muxed_seven_seg_spi.vhd $dsn/src/spi_mux_digit_driver_TB.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_det"
+# Compile Architecture "Behavioral" of Entity "edge_det"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/multidigit_muxed_seven_seg_spi.vhd
+# Compile Entity "multidigit_muxed_seven_seg_spi"
+# Compile Architecture "multidigit_muxed_seven_seg_spi" of Entity "multidigit_muxed_seven_seg_spi"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/spi_mux_digit_driver_TB.vhd
+# Compile Entity "spi_mux_digit_driver_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spi_mux_digit_driver_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6626 kB (elbread=427 elab2=6053 kernel=146 sdf=0)
+# KERNEL: ASDB file was created in location E:\Lab11\Four_Digits\four_digit_driver\src\wave.asdb
+#  3:59 PM, Tuesday, April 30, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/Lab11/Four_Digits/four_digit_driver/src/wave.asdb'.
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb/UUT/u11,  Process: line__50.
+# RUNTIME: Info: RUNTIME_0142 spi_mux_digit_driver_TB.vhd (100): finish called.
+# KERNEL: Time: 3328 us,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb,  Process: send_spi_byte.
+# KERNEL: stopped at time: 3328 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6626 kB (elbread=427 elab2=6053 kernel=146 sdf=0)
+# KERNEL: ASDB file was created in location E:\Lab11\Four_Digits\four_digit_driver\src\wave.asdb
+#  4:01 PM, Tuesday, April 30, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/Lab11/Four_Digits/four_digit_driver/src/wave.asdb'.
+acom -dbg -e 100 -work four_digit_driver -2008  $dsn/src/edge_det.vhd $dsn/src/slv_spi_rx_shifter.vhd $dsn/src/rx_buff_reg.vhd $dsn/src/decoder_2to4.vhd $dsn/src/hex_digit_reg.vhd $dsn/src/hex_dig_mux.vhd $dsn/src/hex_seven.vhd $dsn/src/load_digit_fsm.vhd $dsn/src/multidigit_muxed_seven_seg_spi.vhd $dsn/src/spi_mux_digit_driver_TB.vhd
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/edge_det.vhd
+# Compile Entity "edge_det"
+# Compile Architecture "Behavioral" of Entity "edge_det"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/slv_spi_rx_shifter.vhd
+# Compile Entity "slv_spi_rx_shifter"
+# Compile Architecture "Behavioral" of Entity "slv_spi_rx_shifter"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/rx_buff_reg.vhd
+# Compile Entity "rx_buff_reg"
+# Compile Architecture "rx_buff_reg" of Entity "rx_buff_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/decoder_2to4.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "decoder_2to4" of Entity "decoder_2to4"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_digit_reg.vhd
+# Compile Entity "hex_digit_reg"
+# Compile Architecture "hex_digit_reg" of Entity "hex_digit_reg"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_dig_mux.vhd
+# Compile Entity "hex_dig_mux"
+# Compile Architecture "hex_dig_mux" of Entity "hex_dig_mux"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/hex_seven.vhd
+# Compile Entity "hex_seven"
+# Compile Architecture "Behavioral" of Entity "hex_seven"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/load_digit_fsm.vhd
+# Compile Entity "load_digit_fsm"
+# Compile Architecture "load_digit_fsm" of Entity "load_digit_fsm"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/multidigit_muxed_seven_seg_spi.vhd
+# Compile Entity "multidigit_muxed_seven_seg_spi"
+# Compile Architecture "multidigit_muxed_seven_seg_spi" of Entity "multidigit_muxed_seven_seg_spi"
+# File: E:/Lab11/Four_Digits/four_digit_driver/src/spi_mux_digit_driver_TB.vhd
+# Compile Entity "spi_mux_digit_driver_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spi_mux_digit_driver_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /spi_mux_digit_driver_tb/UUT/u11,  Process: l

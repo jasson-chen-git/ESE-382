@@ -1,0 +1,18 @@
+[Files List]
+C:\Program Files\Aldec\Active-HDL-12-x64\vlib\std/src/standard.vhd=S
+C:\Program Files\Aldec\Active-HDL-12-x64\vlib\std/src/textio.vhd=S
+C:\Program Files\Aldec\Active-HDL-12-x64\vlib\ieee/src/std_logic_1164.vhdl=S
+C:\Program Files\Aldec\Active-HDL-12-x64\vlib\ieee/src/std_logic_1164-body.vhdl=S
+C:\Program Files\Aldec\Active-HDL-12-x64\vlib\std/src/env.vhd=S
+C:\Program Files\Aldec\Active-HDL-12-x64\vlib\ieee/src/numeric_std.vhdl=S
+C:\Program Files\Aldec\Active-HDL-12-x64\vlib\ieee/src/numeric_std-body.vhdl=S
+E:\Lab11\Four_Digits\four_digit_driver/src/hex_seven.vhd=S
+E:\Lab11\Four_Digits\four_digit_driver/src/hex_dig_mux.vhd=S
+E:\Lab11\Four_Digits\four_digit_driver/src/hex_digit_reg.vhd=S
+E:\Lab11\Four_Digits\four_digit_driver/src/load_digit_fsm.vhd=S
+E:\Lab11\Four_Digits\four_digit_driver/src/decoder_2to4.vhd=S
+E:\Lab11\Four_Digits\four_digit_driver/src/rx_buff_reg.vhd=S
+E:\Lab11\Four_Digits\four_digit_driver/src/edge_det.vhd=S
+E:\Lab11\Four_Digits\four_digit_driver/src/slv_spi_rx_shifter.vhd=S
+E:\Lab11\Four_Digits\four_digit_driver/src/multidigit_muxed_seven_seg_spi.vhd=S
+E:\Lab11\Four_Digits\four_digit_driver/src/spi_mux_digit_driver_TB.vhd=S

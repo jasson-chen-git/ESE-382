@@ -1,0 +1,15 @@
+[Version]
+Version=12.0
+[Designs]
+four_digit_driver=.\four_digit_driver\four_digit_driver.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+edge_det=0
+four_digit_driver=1
+[Settings]
+Active=four_digit_driver
